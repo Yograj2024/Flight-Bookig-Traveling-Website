@@ -2,7 +2,7 @@ import { aboutDiv, experience, experienceRight, iconCss } from "../../utils/css"
 import { aboutData } from "../../utils/data";
 
 const About = () => {
-    const hello ="change ho gaya bhai"
+    
     return (
         <>
             <section className={`${experience}`}>
