@@ -5,11 +5,11 @@ const AboutPage = () => {
     return (
         <>
             <section>
-                <div className={`max-w-[1440px] relative lg:h-[500px] w-full lg:mx-auto flex 
+                <div className={`max-w-[1440px] relative lg:h-[550px] w-full lg:mx-auto flex 
                     items-center justify-center flex-col h-[300px] bg-black bg-opacity-25
                     before:content-[" "] before:h-full before:w-full before:absolute before:z-[-1] 
-                    before:bg-[url('https://images.unsplash.com/photo-1602557089158-f91c696af5fd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]
-                    before:bg-cover lg:before:bg-[0_-90px]`}>
+                    before:bg-[url('https://assets.nicepagecdn.com/d2cc3eaa/50578/images/landscape-wajag-island-surrounded-by-sea-cloudy-sky-indonesia4.jpg')]
+                    before:bg-cover lg:before:bg-[0_66%]`}>
                         <h5 className={`lg:text-[2.5rem] font-semibold text-white`}>About Us</h5>
                         <h6 className={`text-white lg:text-[2.8rem]`}>Why We Do What We Do</h6>
                 </div>
