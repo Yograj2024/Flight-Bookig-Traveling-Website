@@ -8,6 +8,7 @@ import Service from "./components/ServicePage";
 import DestinationPage from "./components/DestinationPage"
 import "./index.css";
 import DealPage from "./components/DealPage";
+import ContactPage from "./components/ContactPage";
 
 const root=createRoot(document.getElementById("root"));
 
@@ -42,7 +43,7 @@ const Rout=createBrowserRouter([
            },
            { 
                 path:"/Contact Us",
-                element:""
+                element:<ContactPage/>
            },
         ]
     }
