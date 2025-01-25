@@ -45,6 +45,10 @@ const Rout=createBrowserRouter([
                 path:"/Contact Us",
                 element:<ContactPage/>
            },
+           { 
+                path:"/FAQs",
+                element:<ContactPage/>
+           },
         ]
     }
 ])

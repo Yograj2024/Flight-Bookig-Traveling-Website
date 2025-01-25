@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const ContactPage = () => {
   const [ countryCode, setCountryCode ] = useState(91);
@@ -47,7 +47,7 @@ const ContactPage = () => {
                 </div>
                 <input type="email" className={`h-[50px] w-full rounded-[30px] pl-[20px] focus:outline-none`} placeholder='Your email'/>
                 <div className={`flex items-center`}>
-                  <input className={`h-[50px] w-[75px] rounded-l-[30px] border-r border-r-slate-400 font-bold pl-[15px] focus:outline-none`} value={countryCode} onChange={ (e) => setCountryCode(e.target.value) }/>
+                  <input type='number' className={`h-[50px] w-[75px] rounded-l-[30px] border-r border-r-slate-400 font-bold pl-[15px] focus:outline-none`} value={countryCode} onChange={ (e) => setCountryCode(e.target.value) }/>
                   <input type="number" className={`h-[50px] w-full rounded-r-[30px] pl-[20px] focus:outline-none appearance-none`} placeholder='Phone number'/>
                 </div>
                 <textarea name="" id="" className={`w-full rounded-[20px]  min-h-[180px] p-[20px] focus:outline-none`} placeholder='Your message'></textarea>
@@ -86,9 +86,20 @@ const ContactPage = () => {
 
       {/* FAQ  */}
       <section>
-        <div className = {`  `}>
-          <div></div>
-          <div></div>
+        <div className = {`lg:max-w-[1400px] flex flex-wrap justify-between p-[30px_20px] lg:h-[500px]`}>
+          <div className={`h-full w-[42%] bg-slate-200 pl-[4rem]`}>
+            <h3>FAQ</h3>
+            <h2>Do you have any question for us...?</h2>
+            <p>If there are question you want to ask. We will answer all your question</p>
+            <div className={`flex items-center gap-x-[20px] h-[45px]`}>
+              <div className={` h-full w-[65%] flex items-center rounded-[30px] px-[18px] bg-[white]`}>
+                <i className="fa-regular fa-envelope text-[1.5rem] " /> 
+                <input type="email" placeholder='Enter your email' className={`bg-transparent pl-[20px]`}/>
+              </div>
+              <button className={`h-full w-[130px] bg-red-400 rounded-[30px]`}>submit</button>
+            </div>
+          </div>
+          <div className={`h-full w-[56%] bg-slate-200`}></div>
         </div>
       </section>
     </>
