@@ -478,7 +478,110 @@ export const bestDealsPage2 = [
                 "rating": 4.5
             }
         ]
-    }
-];
+    },
+   /* 
+    {
+        "id":"deal-5",
+        "country_name":"mexico ",
+        "title":"",
+        "description":"",
+        "locations": [
+            {
+                "image_url": "",
+                "city_name": "cancun",
+                "place_name": "cancun under water museum (MUSUM)",
+                "rating":
+            },
+            {
+                "image_url": "",
+                "city_name": "mexico",
+                "place_name": "Zocalo plaza( plaza de la constitucion)",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "chichen",
+                "place_name": "EI castillo (Temple of kaukulcan)",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "tulum",
+                "place_name": "Tulum Runis (Tulum A r) ",
+                "rating": ,
+            }
+        ]
+    }, 
+    {
+        "id":"deal-6",
+        "country_name":" ",
+        "title":"",
+        "description":"",
+        "locations": [
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": ,
+            }
+        ]
+    } ,
+    {
+        "id":"deal-6",
+        "country_name":" ",
+        "title":"",
+        "description":"",
+        "locations": [
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url":"",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url": "",
+                "city_name": "",
+                "place_name": "",
+                "rating": 
+            },
+            {
+                "image_url":"",
+                "city_name": "",
+                "place_name": "",
+                "rating": ,
+            }
+        ]
+    } 
+        
+    */
+]
+       
+        
+      
+
 
 
