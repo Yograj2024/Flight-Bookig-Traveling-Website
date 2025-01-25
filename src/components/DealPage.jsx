@@ -99,7 +99,7 @@ const DealPage = () => {
   return (
     <>
       <section>
-        <div className={`relative h-[350px] md:h-[500px] w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://ld-wp73.template-help.com/wordpress/prod_18709/v4/wp-content/uploads/2017/04/background-39-1920x900-1.jpg')] before:bg-cover before:bg-[18%_0] md:before:bg-[0%_-130px] bg-black bg-opacity-10`}></div>
+        <div className={`relative h-[350px] md:h-[500px] w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/ed19afe9ba5d52cba632ef09/bnnnbn.jpg')] before:bg-cover md:before:bg-[0%_100%] bg-black bg-opacity-10`}></div>
       </section>
 
       <section>
