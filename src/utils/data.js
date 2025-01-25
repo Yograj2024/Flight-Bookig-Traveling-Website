@@ -483,69 +483,103 @@ export const bestDealsPage2 = [
     {
         "id":"deal-5",
         "country_name":"mexico ",
-        "title":"",
-        "description":"",
+        "title":"Explore maxico:A vibrant Tapestry of culture,history and natural beauty",
+        "description":"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
         "locations": [
             {
                 "image_url": "",
                 "city_name": "cancun",
+                
                 "place_name": "cancun under water museum (MUSUM)",
-                "rating":
+                "rating":3
             },
             {
                 "image_url": "",
                 "city_name": "mexico",
                 "place_name": "Zocalo plaza( plaza de la constitucion)",
-                "rating": 
+                "rating": 3.5
             },
             {
                 "image_url": "",
                 "city_name": "chichen",
                 "place_name": "EI castillo (Temple of kaukulcan)",
-                "rating": 
+                "rating": 4
             },
             {
                 "image_url": "",
                 "city_name": "tulum",
-                "place_name": "Tulum Runis (Tulum A r) ",
-                "rating": ,
+                "place_name": "Tulum Runis (Tulum Archaeological zone) ",
+                "rating": 5
             }
         ]
     }, 
     {
         "id":"deal-6",
-        "country_name":" ",
-        "title":"",
-        "description":"",
+        "country_name":"Brazil ",
+        "title":""Experience the Enchanting Beauty of Brazil: Where Nature, Culture, and Celebration Unite"",
+        "description":"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
         "locations": [
             {
                 "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "city_name": "Rio de janerio",
+                "place_name": "christ the redeemer (Cristo Redentor)",
+                "rating": 4.5
             },
             {
                 "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "city_name": "sao paulo",
+                "place_name": "sao paulo museum of Art (MASP)"
+                "rating":4
             },
             {
                 "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "city_name": "Salvador",
+                "place_name": "pelourinho"
+                "rating":4
             },
             {
                 "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": ,
+                "city_url":"Foz do lguacu",
+                "place_name":"lguacu falls (Cataratas do lguacu)",
+                "rating":4.5
             }
         ]
-    } ,
+     },
+     {
+           
+         "id":"deal-7"       
+        "country_name":"Nigeria ",
+        "title":""Discover Nigeria: A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage"",
+        "description":"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
+        "locations": [
+            {
+                "image_url": "",
+                "city_name": "Lagos",
+                "place_name": "nike art gellery ",
+                "rating": 5
+            },
+            {
+                "image_url": "",
+                "city_name": "Abuja",
+                "place_name": "millennium",
+                "rating": 3.5
+            },
+            {
+                "image_url": "",
+                "city_name": "Yankari Game Reserve",
+                "place_name": "wikki warm springs",
+                "rating":4
+            },
+            {
+                "image_url": "",
+                "city_name": "Olumo Rock",
+                "place_name": "oumo rock tourist complex",
+                "rating": 4.5
+            }
+        ]
+    },        
     {
-        "id":"deal-6",
+        "id":"deal-7",
         "country_name":" ",
         "title":"",
         "description":"",
@@ -581,7 +615,3 @@ export const bestDealsPage2 = [
 ]
        
         
-      
-
-
-
