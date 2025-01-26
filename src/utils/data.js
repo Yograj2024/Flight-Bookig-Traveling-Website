@@ -612,6 +612,27 @@ export const bestDealsPage2 = [
     } 
         
     */
+];
+
+export const FAQs = [
+    {
+        "questino":"How can I get a refund for a cancelled flight...?",
+        "answer":"If eligible, refunds will be processed automatically to your original payment method within 7-10 business days."
+    },
+    {
+        "questino":"What should I do if I miss my flight...?",
+        "answer":"If you miss your flight, contact our customer support team immediately for assistance. Charges and rebooking options depend on the airline's policy.",
+    },
+    {
+        "questino":"How do I contact customer support...?",
+        "answer":"You can reach our customer support team via email, phone, or live chat available on our website. We're here to help 24/7.",
+    },
+    {
+        "questino":"How can I check my flight status...?",
+        "answer":"You can check your flight status by entering your flight number on our website or app. We also send real-time updates to your registered email or phone number.",
+    },
+    {
+        "questino":"Can I cancel or change my booking...?",
+        "answer":"Yes, you can cancel or change your booking through your account dashboard. Fees may apply depending on the airline's policy.",
+    },
 ]
-       
-        

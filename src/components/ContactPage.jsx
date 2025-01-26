@@ -10,8 +10,7 @@ const ContactPage = () => {
 
       <section className={`bg-[#E0FFFF] p-[50px_20px]`}>
         <div className={`lg:max-w-[1400px] lg:m-auto`}>
-          {/* contact ingo and form */}
-          <div className = {` h-[700px] lg:flex lg:justify-between`}>
+          <div className = {` h-[700px] lg:flex lg:justify-between`}>  {/* contact ingo and form */}
             <div className={`w-[63%] p-[60px_20px_20px_30px]`}>
               <div className={` h-[42%] w-full lg:flex lg:flex-col gap-y-[15px]`}>
                 <h2 className={`text-[3rem] font-semibold`}>Contact Us</h2>
@@ -35,9 +34,7 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-
-            {/* contact form */}
-            <div className={`bg-[#87CEFA] bg-opacity-20 lg:w-[35%] rounded-[35px]`}>
+            <div className={`bg-[#87CEFA] bg-opacity-20 lg:w-[35%] rounded-[35px]`}>  {/* contact form */}
               <form className={` p-[30px_20px_20px_30px] lg:flex lg:flex-col gap-y-[20px]`}>
                 <h2 className={`text-[2rem] font-semibold`}>Get in Touch</h2>
                 <h3 className={`text-[1.2rem] pl-[5px] font-semibold`}>You can reach us anytime</h3>
@@ -55,9 +52,7 @@ const ContactPage = () => {
               </form>
             </div>
           </div>
-
-          {/* map */}
-          <div className={`mt-[120px] flex justify-between`}>
+          <div className={`mt-[120px] flex justify-between`}>   {/* map */}
             <div className={`h-[500px] w-[50%]`}>
               <iframe 
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1229.0215628263354!2d79.12322580379391!3d29.39376552517714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a139d4332809b%3A0x1a0fcc5855dfbca2!2sFitness%20point%20the%20gym!5e0!3m2!1sen!2sin!4v1737780632096!5m2!1sen!2sin" 
@@ -84,8 +79,7 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* FAQ  */}
-      <section>
+      <section>     {/* FAQ  */}
         <div className = {`lg:max-w-[1400px] lg:m-auto flex flex-wrap justify-between p-[30px_20px] lg:h-[500px]`}>
           <div className={`h-full w-[42%] pl-[4rem] pt-[3rem]`}>
             <h3 className={`text-[1.8rem] font-semibold`}>FAQ</h3>

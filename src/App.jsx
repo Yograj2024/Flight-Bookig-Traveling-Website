@@ -18,36 +18,36 @@ const Rout=createBrowserRouter([
         element:<Body/>,
         children:[
             { 
-                 path:"/",
-                 element:<Main/>
+               path:"/",
+               element:<Main/>
             },
            { 
-                path:"/Home",
-                element:<Main/>
+               path:"/Home",
+               element:<Main/>
            },
            { 
-                path:"/About Us",
-                element:<About/>
+               path:"/About Us",
+               element:<About/>
            },
            { 
-                path:"/Services",
-                element:<Service/>
+               path:"/Services",
+               element:<Service/>
            },
            { 
-                path:"/Best Deals",
-                element:<DealPage/>
+               path:"/Best Deals",
+               element:<DealPage/>
            },
            { 
-                path:"/Destination",
-                element:<DestinationPage/>
+               path:"/Destination",
+               element:<DestinationPage/>
            },
            { 
-                path:"/Contact Us",
-                element:<ContactPage/>
+               path:"/Contact Us",
+               element:<ContactPage/>
            },
            { 
-                path:"/FAQs",
-                element:<ContactPage/>
+               path:"/FAQs",
+               element:<ContactPage/>
            },
         ]
     }
