@@ -9,6 +9,7 @@ import DestinationPage from "./components/DestinationPage"
 import "./index.css";
 import DealPage from "./components/DealPage";
 import ContactPage from "./components/ContactPage";
+import Tailwind from "./components/Tailwind";
 
 const root=createRoot(document.getElementById("root"));
 
@@ -48,6 +49,10 @@ const Rout=createBrowserRouter([
            { 
                path:"/FAQs",
                element:<ContactPage/>
+           },
+           { 
+               path:"/tailwind",
+               element:<Tailwind/>
            },
         ]
     }

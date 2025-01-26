@@ -487,20 +487,20 @@ export const bestDealsPage2 = [
         "description":"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
         "locations": [
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "cancun",
                 
                 "place_name": "cancun under water museum (MUSUM)",
                 "rating":3
             },
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1560685925-a0d13a02750a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "mexico",
                 "place_name": "Zocalo plaza( plaza de la constitucion)",
                 "rating": 3.5
             },
             {
-                "image_url": "",
+                "image_url": "https://plus.unsplash.com/premium_photo-1697730116501-72f5749dffce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "chichen",
                 "place_name": "EI castillo (Temple of kaukulcan)",
                 "rating": 4
@@ -553,7 +553,7 @@ export const bestDealsPage2 = [
         "description":"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
         "locations": [
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "Lagos",
                 "place_name": "nike art gellery ",
                 "rating": 5
@@ -579,7 +579,7 @@ export const bestDealsPage2 = [
         ]
     },        
     {
-        "id":"deal-7",
+        "id":"deal-8",
         "country_name":" ",
         "title":"",
         "description":"",

@@ -22,6 +22,7 @@ const Navbar = ({listContainer,setListContainer}) => {
                                     hover:text-orange-500 `}> {heading} </NavLink>
                     </li>)})
             }
+            <li> <NavLink to={"/tailwind"}>Tailwind</NavLink> </li>
         </ul>
 
         <div className ={`${menuIconcss} ${listContainer ? "scale-[-0.6]" : ""}`}>

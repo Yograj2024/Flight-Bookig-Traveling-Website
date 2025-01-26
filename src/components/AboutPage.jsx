@@ -1,5 +1,6 @@
 import About from "./Home_Page_Sections/About";
 import Testimonial from "./Home_Page_Sections/Testimonial";
+import Tailwind from "./Tailwind";
 
 const AboutPage = () => {
     return (
@@ -32,9 +33,6 @@ const AboutPage = () => {
 
             <About/>
             <Testimonial/>
-            
-           
-
         </>
     )
 };
