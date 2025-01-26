@@ -33,7 +33,8 @@ const DealPage = () => {
               { image_url:img2 },
               { image_url:img3 },
               { image_url:img4 }
-            ] } = data;
+            ] 
+          } = data;
 
     return { id, countyr_name, title, description, img1, img2, img3, img4 }
   }
@@ -45,7 +46,7 @@ const DealPage = () => {
       <div className={`h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-black before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`}>
         <div className={`bg-slate-40 grid grid-cols-2 gap-x-[5px]`} style={{gridTemplateColumns:"43% 56%"}}>
           <div className={`bg-red-400 rounded-tl-[25px] bg-cover bg-center`} 
-               style={{backgroundImage:`url(${img4})`}}></div>
+               style={{backgroundImage:`url(${img4})`}}> </div>
           <div className={`bg-red-400 rounded-tr-[25px] bg-cover bg-center`} 
                style={{backgroundImage:`url(${img2})`}}></div>
         </div>

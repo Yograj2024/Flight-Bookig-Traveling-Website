@@ -82,19 +82,19 @@ const ContactPage = () => {
 
       <section>     {/* FAQ  */}
         <div className = {`lg:max-w-[1400px] lg:m-auto md:flex md:flex-wrap justify-between p-[30px_20px] lg:h-[500px] lg:max-h-[700px]`}>
-          <div className={`h-full lg:w-[42%] pl-[10px] lg:pl-[4rem] pt-[3rem]`}> {/* heading */}
-            <h3 className={`text-[1.8rem] font-semibold`}>FAQ</h3>
-            <h2 className={`text-[2.5rem] font-bold leading-[3rem] m-[10px_0_40px]`}>Do you have any question for us...?</h2>
+          <div className={`h-full lg:w-[42%] lg:pl-[4rem] pt-[3rem]`}> {/* heading */}
+            <h3 className={`text-[1.5rem] lg:text-[1.8rem] font-semibold`}>FAQ</h3>
+            <h2 className={`text-[1.8rem] lg:text-[2.5rem] font-bold leading-[2.2rem] lg:leading-[3rem] m-[10px_0_40px]`}>Do you have any question for us...?</h2>
             <p className={`text-[1rem] pr-[70px]`}>If there are question you want to ask. We will answer all your question</p>
-            <div className={`flex items-center gap-x-[20px] h-[45px] mt-[20px]`}>
-              <div className={` h-full lg:w-[55%] flex items-center rounded-[30px] lg:px-[18px] bg-[white] border`}>
+            <div className={`flex flex-col lg:flex-row items-center gap-x-[20px] lg:h-[100px] mt-[20px]`}>
+              <div className={`h-[50px] w-full lg:w-[55%] flex items-center  rounded-[30px] lg:px-[18px] bg-[white] border`}>
                 <i className="fa-regular fa-envelope text-[1.5rem] text-slate-500 " /> 
                 <input type="email" placeholder='Enter your email' className={`bg-transparent pl-[20px] outline-none`}/>
               </div>
-              <button className={`h-[90%] w-[110px] bg-[#CEF5FE] rounded-[30px] font-bold text-[1rem] flex items-center justify-center`}>submit</button>
+              <button className={`h-[50px] mt-[20px] lg:mt-0 w-full lg:w-[110px] bg-[#CEF5FE] rounded-[30px] font-bold text-[1rem] flex items-center justify-center`}>submit</button>
             </div>
           </div>
-          <div className={`h-full w-[56%] pt-[70px] pl-[50px]`}> {/* question and answer */}
+          <div className={`h-full lg:w-[56%] pt-[70px] pl-[20px] lg:pl-[50px]`}> {/* question and answer */}
               {
                 FAQs.map( ( item ) => {
                    return (

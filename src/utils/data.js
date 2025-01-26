@@ -479,7 +479,6 @@ export const bestDealsPage2 = [
             }
         ]
     },
-   /* 
     {
         "id":"deal-5",
         "country_name":"mexico ",
@@ -489,7 +488,6 @@ export const bestDealsPage2 = [
             {
                 "image_url": "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "cancun",
-                
                 "place_name": "cancun under water museum (MUSUM)",
                 "rating":3
             },
@@ -506,7 +504,7 @@ export const bestDealsPage2 = [
                 "rating": 4
             },
             {
-                "image_url": "",
+                "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/62/60/caption.jpg?w=300&h=300&s=1",
                 "city_name": "tulum",
                 "place_name": "Tulum Runis (Tulum Archaeological zone) ",
                 "rating": 5
@@ -516,29 +514,29 @@ export const bestDealsPage2 = [
     {
         "id":"deal-6",
         "country_name":"Brazil ",
-        "title":""Experience the Enchanting Beauty of Brazil: Where Nature, Culture, and Celebration Unite"",
+        "title":"Experience the Enchanting Beauty of Brazil: Where Nature, Culture, and Celebration Unite",
         "description":"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
         "locations": [
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1551529489-5c97b567c760?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "Rio de janerio",
                 "place_name": "christ the redeemer (Cristo Redentor)",
                 "rating": 4.5
             },
             {
-                "image_url": "",
+                "image_url": "https://media.istockphoto.com/id/878377556/photo/sao-paulo.jpg?s=612x612&w=0&k=20&c=YIIn27eI1l_iNx-IOn48w93ZLpfki2akZhFeBljU6LA=",
                 "city_name": "sao paulo",
-                "place_name": "sao paulo museum of Art (MASP)"
+                "place_name": "sao paulo museum of Art (MASP)",
                 "rating":4
             },
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1633971289469-dfa875d96f8c?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "Salvador",
-                "place_name": "pelourinho"
+                "place_name": "pelourinho",
                 "rating":4
             },
             {
-                "image_url": "",
+                "image_url": "https://media.istockphoto.com/id/488388458/photo/tourists-at-iguazu-falls-foz-do-iguacu-brazil.jpg?s=612x612&w=0&k=20&c=frw5k9SXBn5vVfc7GQe5QqbWO5RXegF-4gpqrDFknFg=",
                 "city_url":"Foz do lguacu",
                 "place_name":"lguacu falls (Cataratas do lguacu)",
                 "rating":4.5
@@ -547,9 +545,9 @@ export const bestDealsPage2 = [
      },
      {
            
-         "id":"deal-7"       
+         "id":"deal-7",      
         "country_name":"Nigeria ",
-        "title":""Discover Nigeria: A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage"",
+        "title":"Discover Nigeria: A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
         "description":"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
         "locations": [
             {
@@ -559,19 +557,19 @@ export const bestDealsPage2 = [
                 "rating": 5
             },
             {
-                "image_url": "",
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Newlea.jpg/250px-Newlea.jpg",
                 "city_name": "Abuja",
                 "place_name": "millennium",
                 "rating": 3.5
             },
             {
-                "image_url": "",
+                "image_url": "https://images.unsplash.com/photo-1736890729709-4443ac5b6bf0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "city_name": "Yankari Game Reserve",
                 "place_name": "wikki warm springs",
                 "rating":4
             },
             {
-                "image_url": "",
+                "image_url": "https://media.istockphoto.com/id/1145890295/photo/olumo-rock-abeokuta-nigeria.jpg?s=612x612&w=0&k=20&c=Sz1Nx4WPRfbPhDWDphZBRzTN5BVkt14TENMtrPo2OV0=",
                 "city_name": "Olumo Rock",
                 "place_name": "oumo rock tourist complex",
                 "rating": 4.5
@@ -580,38 +578,36 @@ export const bestDealsPage2 = [
     },        
     {
         "id":"deal-8",
-        "country_name":" ",
-        "title":"",
-        "description":"",
+        "country_name":"maldives ",
+        "title":"Discover the Maldives: A Paradise of Pristine Beaches and Exotic Marine Life",
+        "description":"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
         "locations": [
             {
-                "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "image_url": "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "city_name": "male",
+                "place_name": "hukuru miskiy(old friday mosque)",
+                "rating": 4
             },
             {
-                "image_url":"",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "image_url":"https://images.unsplash.com/photo-1697172514695-795d72fd9115?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "city_name": "maafushi island",
+                "place_name": "Bikini Beach",
+                "rating": 5
             },
             {
-                "image_url": "",
-                "city_name": "",
-                "place_name": "",
-                "rating": 
+                "image_url": "https://images.unsplash.com/photo-1491738726357-683388052ea6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "city_name": "ari atoll",
+                "place_name": "Maaya Thila",
+                "rating": 3.5
             },
             {
-                "image_url":"",
-                "city_name": "",
-                "place_name": "",
-                "rating": ,
+                "image_url":"https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "city_name": "addu atoll",
+                "place_name": "addu nature park",
+                "rating": 5
             }
         ]
     } 
-        
-    */
 ];
 
 export const FAQs = [
