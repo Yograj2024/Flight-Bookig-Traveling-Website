@@ -27,21 +27,25 @@ const DealPage = () => {
   };
 
   function getCountryData ( data ) {
+
     const { countyr_name, title, description, id,
             locations:[
-              { image_url:img1 },
-              { image_url:img2 },
-              { image_url:img3 },
-              { image_url:img4 }
-            ] 
+              { image_url:img1, city_name:city1 },
+              { image_url:img2, city_name:city2 },
+              { image_url:img3, city_name:city3 },
+              { image_url:img4, city_name:city4 }
+            ]
           } = data;
 
-    return { id, countyr_name, title, description, img1, img2, img3, img4 }
+    return { id, countyr_name, title, description, img1, img2, img3, img4, city1, city2, city3, city4 }
   }
 
   const Layout_1 = ( { data } ) => {
 
-    const { id, countyr_name, title, description, img1, img2, img3, img4 } = getCountryData (data);
+    const { id, countyr_name, title, description, 
+            img1, img2, img3, img4, 
+            city1, city2, city3, city4 } = getCountryData (data);
+
     return (
       <div className={`h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-black before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`}>
         <div className={`bg-slate-40 grid grid-cols-2 gap-x-[5px]`} style={{gridTemplateColumns:"43% 56%"}}>
@@ -65,7 +69,9 @@ const DealPage = () => {
 
   const Layout_2 = ( { data } ) => {
 
-    const { countyr_name, title, description, img1, img2, img3, img4 } = getCountryData (data);
+    const { countyr_name, title, description, 
+            img1, img2, img3, img4, 
+            city1, city2, city3, city4 } = getCountryData (data);
     return (
         <div className={`h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] relative before:absolute before:w-full before:bg-black before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}}>
 
@@ -107,7 +113,7 @@ const DealPage = () => {
         <div className={`max-w-[1440px] mx-auto my-[30px] md:flex flex-wrap`}>
          { bestDealsPage2.map( (data,index) => {   /* aagar aapko only index value chahiye to  _,index (data,index) only one parameater byDefault is array's element */
             return (isNumberInSeries(index) == true) ? 
-            ( ( deviceSize > 430 ) ? (<Layout_1 data ={data} key={data.id}/>) : 
+            ( ( deviceSize > 430 ) ? (<Layout_1 data = {data} key = {data.id}/>) : 
             ("you are in mobile device " + deviceSize)) : (<Layout_2 data={data} key={data.id} />)
           }) }
         </div>
@@ -115,7 +121,5 @@ const DealPage = () => {
     </>
   )
 };
-
-
 
 export default DealPage;
