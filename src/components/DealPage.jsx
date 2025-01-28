@@ -56,10 +56,10 @@ const DealPage = () => {
 
     return (
       <div className={`group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-opacity- before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`}>
-        <div className={`hidden group-hover:block flex-col items-start justify-end absolute w-full rounded-[25px] group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
-          <h2 className={`text-[2rem] text-red-600 text-center`}> { country_name } </h2>
-          <p>dklfjdiu</p>
-          <p></p>
+        <div className={`absolute w-full rounded-[25px] flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+          <h2 className={`text-[2rem] text-red-600 absolute top-4 left-4`}> { country_name } </h2>
+          <p>vivek</p>
+          <p>singh</p>
         </div>
         <div className={`bg-slate-40 grid grid-cols-2 gap-x-[5px]`} style={{gridTemplateColumns:"43% 56%"}}>
           <div className={`bg-red-400 rounded-tl-[25px] bg-cover bg-center`} 
@@ -88,8 +88,8 @@ const DealPage = () => {
             city1, city2, city3, city4 } = getCountryData (data);
     return (
         <div className={`group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] relative before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} onMouseEnter = { () => {  } } >
-          <div className={`absolute w-full rounded-[25px] group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
-            <h2 > { country_name } </h2>
+          <div className={`absolute w-full rounded-[25px] flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+            <h2  className={`text-[2rem] text-white`}> { country_name } </h2>
           </div>
           <div className='bg-slate-400 rounded-t-[25px] bg-cover bg-center' 
                style={{backgroundImage:`url(${img2})`}}></div>
