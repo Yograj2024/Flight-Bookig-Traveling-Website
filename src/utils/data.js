@@ -354,8 +354,15 @@ export const bestDealsPage2 = [
     {
         "id":" deal-1 Vietnam",
         "country_name":" Vietnam.",
+        "rating":4.5,
         "title":"BEAUTY OF VIETNAM",
         "description":"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
+        "hoverContent":{
+            "image_url":"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
+            "price":156,
+            "guide":true,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1531737212413-667205e1cda7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -386,8 +393,15 @@ export const bestDealsPage2 = [
     {
         "id": " deal-2 india",
         "country_name": "India",
+        "rating":4.8,
         "title": "A Journey of India through its splendid Destination",
         "description": "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
+        "hoverContent":{
+            "image_url":"https://static.toiimg.com/thumb/71598959/jatayu_adventure_centre.jpg?width=636&height=358&resize=4",
+            "price":123,
+            "guide":true,
+            "package":1,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -418,8 +432,15 @@ export const bestDealsPage2 = [
     {
         "id": " deal-3 switzerland",
         "country_name": "Switzerland",
+        "rating":4.7,
         "title": "Discover the Enchanting beauty of Switzerland. A Symphony of nature and culture",
         "description": "If you are searching for the greatest beauty of Switzerland, you will find enchanting landscapes in places like the pristine shores of Lake Geneva, the majestic peaks of the Matterhorn, vibrant flower fields in Interlaken, and charming villages like Zermatt. Each locale offers a unique glimpse into Switzerland's breathtaking allure.",
+        "hoverContent":{
+            "image_url":"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
+            "price":456,
+            "guide":true,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1573137749616-d842e78e69f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -449,41 +470,55 @@ export const bestDealsPage2 = [
     },
     {
         "id":"deal-4 ",
-        "country_name":" Vietnam.",
-        "title":"BEAUTY OF VIETNAM",
-        "description":"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
+        "country_name":"Italy",
+        "rating":4.4,
+        "title":"Italy, A Timeless Journey Through Art, History, and Culinary Delights7",
+        "description":"Italy is a beautiful country in Europe, known for its rich history, stunning architecture, delicious cuisine, and vibrant culture. If you want to know more about Italy or any other country, just let me know...!",
+        "hoverContent":{
+            "image_url":"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
+            "price":456,
+            "guide":false,
+            "package":3,
+        },
         "locations": [
             {
-                "image_url": "https://images.unsplash.com/photo-1531737212413-667205e1cda7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hanoi",
-                "place_name": "Hoan Kiem Lake",
+                "image_url": "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
+                "city_name": "Rome",
+                "place_name": "Colosseum",
                 "rating": 3
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1503539680555-732099a55a56?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-                "city_name": "Ho Chi Minh (Saigon)",
-                "place_name": "Ben Thanh Market",
+                "image_url": "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
+                "city_name": "Florence",
+                "place_name": "Uffizi Gallery",
                 "rating": 4
             },
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1678693021625-9a6bad59c340?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hoi An",
-                "place_name": "Hoi An Ancient Town",
+                "image_url": "https://colosseumandvaticantours.com/wp-content/uploads/2024/01/stmark-campanile-venice.jpeg",
+                "city_name": "Venice",
+                "place_name": "St. Mark's Basilica",
                 "rating": 4
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1526139334526-f591a54b477c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hue",
-                "place_name": "Imperial City (Hoang Thanh)",
+                "image_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/57/ae.jpg",
+                "city_name": "Milan",
+                "place_name": "Duomo di Milano (Milan Cathedral)",
                 "rating": 4.5
             }
         ]
     },
     {
         "id":"deal-5",
-        "country_name":"mexico ",
-        "title":"Explore maxico:A vibrant Tapestry of culture,history and natural beauty",
+        "country_name":"mexico",
+        "rating":4.3,
+        "title":"Explore maxico, A vibrant Tapestry of culture,history and natural beauty",
         "description":"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
+        "hoverContent":{
+            "image_url":"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
+            "price":456,
+            "guide":true,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -514,8 +549,15 @@ export const bestDealsPage2 = [
     {
         "id":"deal-6",
         "country_name":"Brazil ",
-        "title":"Experience the Enchanting Beauty of Brazil: Where Nature, Culture, and Celebration Unite",
+        "rating":4.4,
+        "title":"Experience the Enchanting Beauty of Brazil, Where Nature, Culture, and Celebration Unite",
         "description":"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
+        "hoverContent":{
+            "image_url":"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
+            "price":678,
+            "guide":false,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1551529489-5c97b567c760?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -547,8 +589,15 @@ export const bestDealsPage2 = [
            
          "id":"deal-7",      
         "country_name":"Nigeria ",
-        "title":"Discover Nigeria: A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
+        "rating":4,
+        "title":"Awesome Nigeria, A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
         "description":"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
+        "hoverContent":{
+            "image_url":"https://images.unsplash.com/photo-1618828665347-d870c38c95c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
+            "price":456,
+            "guide":true,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -579,8 +628,15 @@ export const bestDealsPage2 = [
     {
         "id":"deal-8",
         "country_name":"maldives ",
-        "title":"Discover the Maldives: A Paradise of Pristine Beaches and Exotic Marine Life",
+        "rating":4.5,
+        "title":"Discover the Maldives, A Paradise of Pristine Beaches and Exotic Marine Life",
         "description":"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
+        "hoverContent":{
+            "image_url":"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",
+            "price":786,
+            "guide":true,
+            "package":3,
+        },
         "locations": [
             {
                 "image_url": "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

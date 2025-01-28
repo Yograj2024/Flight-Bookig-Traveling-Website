@@ -1,3 +1,5 @@
+import { contact } from "./data";
+
 export const nav=`
 flex w-full flex-col
 items-center bg-white

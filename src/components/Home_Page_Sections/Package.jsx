@@ -12,7 +12,6 @@ export const Package = () => {
                 </h1> 
             </div>
             <div className={`sm:grid sm:grid-cols-2 md:p-[0_20px] md:gap-x-[15px] lg:flex`} >
-
                 {
                     packageData.map((data)=>{
                         return  <div className={`${packageDiv}`}

@@ -88,7 +88,7 @@ const ContactPage = () => {
             <p className={`text-[1rem] pr-[70px]`}>If there are question you want to ask. We will answer all your question</p>
             <div className={`flex flex-col lg:flex-row items-center gap-x-[20px] lg:h-[100px] mt-[20px]`}>
               <div className={`h-[50px] w-full lg:w-[55%] flex items-center  rounded-[30px] lg:px-[18px] bg-[white] border`}>
-                <i className="fa-regular fa-envelope text-[1.5rem] text-slate-500 " /> 
+                <i className="fa-regular fa-envelope text-[1.5rem] text-slate-500 pl-[20px] md:pl-0 " /> 
                 <input type="email" placeholder='Enter your email' className={`bg-transparent pl-[20px] outline-none`}/>
               </div>
               <button className={`h-[50px] mt-[20px] lg:mt-0 w-full lg:w-[110px] bg-[#CEF5FE] rounded-[30px] font-bold text-[1rem] flex items-center justify-center`}>submit</button>
