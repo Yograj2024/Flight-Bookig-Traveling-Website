@@ -352,315 +352,299 @@ export const destinationPageData = [
 
 export const bestDealsPage2 = [
     {
-        "id":" deal-1 Vietnam",
-        "country_name":" Vietnam.",
-        "rating":4.5,
-        "title":"BEAUTY OF VIETNAM",
-        "description":"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
-        "hoverContent":{
-            "image_url":"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
-            "price":156,
-            "guide":true,
-            "package":3,
+        id:" deal-1 Vietnam",
+        country_name:" Vietnam.",
+        rating:4.5,
+        title:"BEAUTY OF VIETNAM",
+        description:"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
+        hoverContent:{
+            image_url:"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
+            price:156,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1531737212413-667205e1cda7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hanoi",
-                "place_name": "Hoan Kiem Lake",
-                "rating": 3
+                image_url: "https://images.unsplash.com/photo-1531737212413-667205e1cda7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Hanoi",
+                place_name: "Hoan Kiem Lake",
+                rating: 3
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1503539680555-732099a55a56?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-                "city_name": "Ho Chi Minh (Saigon)",
-                "place_name": "Ben Thanh Market",
-                "rating": 4
+                image_url: "https://images.unsplash.com/photo-1503539680555-732099a55a56?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+                city_name: "Ho Chi Minh (Saigon)",
+                place_name: "Ben Thanh Market",
+                rating: 4
             },
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1678693021625-9a6bad59c340?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hoi An",
-                "place_name": "Hoi An Ancient Town",
-                "rating": 4
+                image_url: "https://plus.unsplash.com/premium_photo-1678693021625-9a6bad59c340?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Hoi An",
+                place_name: "Hoi An Ancient Town",
+                rating: 4
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1526139334526-f591a54b477c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hue",
-                "place_name": "Imperial City (Hoang Thanh)",
-                "rating": 4.5
+                image_url: "https://images.unsplash.com/photo-1526139334526-f591a54b477c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Hue",
+                place_name: "Imperial City (Hoang Thanh)",
+                rating: 4.5
             }
         ]
     },
     {
-        "id": " deal-2 india",
-        "country_name": "India",
-        "rating":4.8,
-        "title": "A Journey of India through its splendid Destination",
-        "description": "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
-        "hoverContent":{
-            "image_url":"https://static.toiimg.com/thumb/71598959/jatayu_adventure_centre.jpg?width=636&height=358&resize=4",
-            "price":123,
-            "guide":true,
-            "package":1,
+        id: " deal-2 india",
+        country_name: "India",
+        rating:4.8,
+        title: "A Journey of India through its splendid Destination",
+        description: "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
+        hoverContent:{
+            image_url:"https://static.toiimg.com/thumb/71598959/jatayu_adventure_centre.jpg?width=636&height=358&resize=4",
+            price:123,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Jaipur",
-                "place_name": "Amber Palace",
-                "rating": 3.5
+                image_url: "https://images.unsplash.com/photo-1599661046289-e31897846e41?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Jaipur",
+                place_name: "Amber Palace",
+                rating: 3.5
             },
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1697730504977-26847b1f1f91?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Hospet",
-                "place_name": "Hampi",
-                "rating": 4
+                image_url: "https://plus.unsplash.com/premium_photo-1697730504977-26847b1f1f91?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Hospet",
+                place_name: "Hampi",
+                rating: 4
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1642841819300-20ed449c02a1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Kevadia, Gujarat",
-                "place_name": "Statue of Unity",
-                "rating": 5
+                image_url: "https://images.unsplash.com/photo-1642841819300-20ed449c02a1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Kevadia, Gujarat",
+                place_name: "Statue of Unity",
+                rating: 5
             },
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1697730373510-51b7fcf2ff52?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Delhi",
-                "place_name": "Lal Kila",
-                "rating": 3
+                image_url: "https://plus.unsplash.com/premium_photo-1697730373510-51b7fcf2ff52?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Delhi",
+                place_name: "Lal Kila",
+                rating: 3
             }
         ]
     },
     {
-        "id": " deal-3 switzerland",
-        "country_name": "Switzerland",
-        "rating":4.7,
-        "title": "Discover the Enchanting beauty of Switzerland. A Symphony of nature and culture",
-        "description": "If you are searching for the greatest beauty of Switzerland, you will find enchanting landscapes in places like the pristine shores of Lake Geneva, the majestic peaks of the Matterhorn, vibrant flower fields in Interlaken, and charming villages like Zermatt. Each locale offers a unique glimpse into Switzerland's breathtaking allure.",
-        "hoverContent":{
-            "image_url":"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
-            "price":456,
-            "guide":true,
-            "package":3,
+        id: " deal-3 switzerland",
+        country_name: "Switzerland",
+        rating:4.7,
+        title: "Discover the Enchanting beauty of Switzerland. A Symphony of nature and culture",
+        description: "If you are searching for the greatest beauty of Switzerland, you will find enchanting landscapes in places like the pristine shores of Lake Geneva, the majestic peaks of the Matterhorn, vibrant flower fields in Interlaken, and charming villages like Zermatt. Each locale offers a unique glimpse into Switzerland's breathtaking allure.",
+        hoverContent:{
+            image_url:"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
+            price:456,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1573137749616-d842e78e69f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Zurich",
-                "place_name": "Zurich River",
-                "rating": 3
+                image_url: "https://images.unsplash.com/photo-1573137749616-d842e78e69f6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Zurich",
+                place_name: "Zurich River",
+                rating: 3
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1643981670720-eef07ebdb179?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Southeast of Zurich",
-                "place_name": "Lake Zurich",
-                "rating": 4
+                image_url: "https://images.unsplash.com/photo-1643981670720-eef07ebdb179?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Southeast of Zurich",
+                place_name: "Lake Zurich",
+                rating: 4
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1722269917188-836434d57299?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Zermatt, Canton of Valais",
-                "place_name": "The Matterhorn",
-                "rating": 4.5
+                image_url: "https://images.unsplash.com/photo-1722269917188-836434d57299?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Zermatt, Canton of Valais",
+                place_name: "The Matterhorn",
+                rating: 4.5
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1504218727796-db522606b16f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "The Alpine region of Switzerland",
-                "place_name": "Monte Rosa",
-                "rating": 3
+                image_url: "https://images.unsplash.com/photo-1504218727796-db522606b16f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "The Alpine region of Switzerland",
+                place_name: "Monte Rosa",
+                rating: 3
             }
         ]
     },
     {
-        "id":"deal-4 ",
-        "country_name":"Italy",
-        "rating":4.4,
-        "title":"Italy, A Timeless Journey Through Art, History, and Culinary Delights7",
-        "description":"Italy is a beautiful country in Europe, known for its rich history, stunning architecture, delicious cuisine, and vibrant culture. If you want to know more about Italy or any other country, just let me know...!",
-        "hoverContent":{
-            "image_url":"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
-            "price":456,
-            "guide":false,
-            "package":3,
+        id:"deal-4 ",
+        country_name:"Italy",
+        rating:4.4,
+        title:"Italy, A Timeless Journey Through Art, History, and Culinary Delights7",
+        description:"Italy is a beautiful country in Europe, known for its rich history, stunning architecture, delicious cuisine, and vibrant culture. If you want to know more about Italy or any other country, just let me know...!",
+        hoverContent:{
+            image_url:"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
+            price:456,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
-                "city_name": "Rome",
-                "place_name": "Colosseum",
-                "rating": 3
+                image_url: "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
+                city_name: "Rome",
+                place_name: "Colosseum",
+                rating: 3
             },
             {
-                "image_url": "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
-                "city_name": "Florence",
-                "place_name": "Uffizi Gallery",
-                "rating": 4
+                image_url: "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
+                city_name: "Florence",
+                place_name: "Uffizi Gallery",
+                rating: 4
             },
             {
-                "image_url": "https://colosseumandvaticantours.com/wp-content/uploads/2024/01/stmark-campanile-venice.jpeg",
-                "city_name": "Venice",
-                "place_name": "St. Mark's Basilica",
-                "rating": 4
+                image_url: "https://colosseumandvaticantours.com/wp-content/uploads/2024/01/stmark-campanile-venice.jpeg",
+                city_name: "Venice",
+                place_name: "St. Mark's Basilica",
+                rating: 4
             },
             {
-                "image_url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/57/ae.jpg",
-                "city_name": "Milan",
-                "place_name": "Duomo di Milano (Milan Cathedral)",
-                "rating": 4.5
+                image_url: "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/57/ae.jpg",
+                city_name: "Milan",
+                place_name: "Duomo di Milano (Milan Cathedral)",
+                rating: 4.5
             }
         ]
     },
     {
-        "id":"deal-5",
-        "country_name":"mexico",
-        "rating":4.3,
-        "title":"Explore maxico, A vibrant Tapestry of culture,history and natural beauty",
-        "description":"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
-        "hoverContent":{
-            "image_url":"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
-            "price":456,
-            "guide":true,
-            "package":3,
+        id:"deal-5",
+        country_name:"mexico",
+        rating:4.3,
+        title:"Explore mexico, A vibrant Tapestry of culture,history and natural beauty",
+        description:"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
+        hoverContent:{
+            image_url:"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
+            price:456,
+             type: "couple"
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "cancun",
-                "place_name": "cancun under water museum (MUSUM)",
-                "rating":3
+                image_url: "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "cancun",
+                place_name: "cancun under water museum (MUSEUM)",
+                rating:3
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1560685925-a0d13a02750a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "mexico",
-                "place_name": "Zocalo plaza( plaza de la constitucion)",
-                "rating": 3.5
+                image_url: "https://images.unsplash.com/photo-1560685925-a0d13a02750a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "mexico",
+                place_name: "Zocalo plaza( plaza de la constitucion)",
+                rating: 3.5
             },
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1697730116501-72f5749dffce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "chichen",
-                "place_name": "EI castillo (Temple of kaukulcan)",
-                "rating": 4
+                image_url: "https://plus.unsplash.com/premium_photo-1697730116501-72f5749dffce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "chichen",
+                place_name: "EI castillo (Temple of kaukulcan)",
+                rating: 4
             },
             {
-                "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/62/60/caption.jpg?w=300&h=300&s=1",
-                "city_name": "tulum",
-                "place_name": "Tulum Runis (Tulum Archaeological zone) ",
-                "rating": 5
+                image_url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/62/60/caption.jpg?w=300&h=300&s=1",
+                city_name: "tulum",
+                place_name: "Tulum Runis (Tulum Archaeological zone) ",
+                rating: 5
             }
         ]
     }, 
     {
-        "id":"deal-6",
-        "country_name":"Brazil ",
-        "rating":4.4,
-        "title":"Experience the Enchanting Beauty of Brazil, Where Nature, Culture, and Celebration Unite",
-        "description":"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
-        "hoverContent":{
-            "image_url":"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
-            "price":678,
-            "guide":false,
-            "package":3,
+        id:"deal-6",
+        country_name:"Brazil ",
+        rating:4.4,
+        title:"Experience the Enchanting Beauty of Brazil, Where Nature, Culture, and Celebration Unite",
+        description:"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
+        hoverContent:{
+            image_url:"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
+            price:678,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1551529489-5c97b567c760?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Rio de janerio",
-                "place_name": "christ the redeemer (Cristo Redentor)",
-                "rating": 4.5
+                image_url: "https://images.unsplash.com/photo-1551529489-5c97b567c760?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Rio de janerio",
+                place_name: "christ the redeemer (Cristo Redentor)",
+                rating: 4.5
             },
             {
-                "image_url": "https://media.istockphoto.com/id/878377556/photo/sao-paulo.jpg?s=612x612&w=0&k=20&c=YIIn27eI1l_iNx-IOn48w93ZLpfki2akZhFeBljU6LA=",
-                "city_name": "sao paulo",
-                "place_name": "sao paulo museum of Art (MASP)",
-                "rating":4
+                image_url: "https://media.istockphoto.com/id/878377556/photo/sao-paulo.jpg?s=612x612&w=0&k=20&c=YIIn27eI1l_iNx-IOn48w93ZLpfki2akZhFeBljU6LA=",
+                city_name: "sao paulo",
+                place_name: "sao paulo museum of Art (MASP)",
+                rating:4
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1633971289469-dfa875d96f8c?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Salvador",
-                "place_name": "pelourinho",
-                "rating":4
+                image_url: "https://images.unsplash.com/photo-1633971289469-dfa875d96f8c?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Salvador",
+                place_name: "pelourinho",
+                rating:4
             },
             {
-                "image_url": "https://media.istockphoto.com/id/488388458/photo/tourists-at-iguazu-falls-foz-do-iguacu-brazil.jpg?s=612x612&w=0&k=20&c=frw5k9SXBn5vVfc7GQe5QqbWO5RXegF-4gpqrDFknFg=",
-                "city_url":"Foz do lguacu",
-                "place_name":"lguacu falls (Cataratas do lguacu)",
-                "rating":4.5
+                image_url: "https://media.istockphoto.com/id/488388458/photo/tourists-at-iguazu-falls-foz-do-iguacu-brazil.jpg?s=612x612&w=0&k=20&c=frw5k9SXBn5vVfc7GQe5QqbWO5RXegF-4gpqrDFknFg=",
+                city_url:"Foz do lguacu",
+                place_name:"lguacu falls (Cataratas do lguacu)",
+                rating:4.5
             }
         ]
      },
-     {
-           
-         "id":"deal-7",      
-        "country_name":"Nigeria ",
-        "rating":4,
-        "title":"Awesome Nigeria, A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
-        "description":"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
-        "hoverContent":{
-            "image_url":"https://images.unsplash.com/photo-1618828665347-d870c38c95c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
-            "price":456,
-            "guide":true,
-            "package":3,
-        },
-        "locations": [
+     {   
+        id:"deal-7",      
+        country_name:"Nigeria ",
+        rating:4,
+        title:"Awesome Nigeria, A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
+        description:"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
+        hoverContent:{
+            image_url:"https://images.unsplash.com/photo-1618828665347-d870c38c95c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
+            price:456,
+        locations: [
             {
-                "image_url": "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Lagos",
-                "place_name": "nike art gellery ",
-                "rating": 5
+                image_url: "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Lagos",
+                place_name: "nike art gallery ",
+                rating: 5
             },
             {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Newlea.jpg/250px-Newlea.jpg",
-                "city_name": "Abuja",
-                "place_name": "millennium",
-                "rating": 3.5
+                image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Newlea.jpg/250px-Newlea.jpg",
+                city_name: "Abuja",
+                place_name: "millennium",
+                rating: 3.5
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1736890729709-4443ac5b6bf0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "Yankari Game Reserve",
-                "place_name": "wikki warm springs",
-                "rating":4
+                image_url: "https://images.unsplash.com/photo-1736890729709-4443ac5b6bf0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "Yankari Game Reserve",
+                place_name: "wikki warm springs",
+                rating:4
             },
             {
-                "image_url": "https://media.istockphoto.com/id/1145890295/photo/olumo-rock-abeokuta-nigeria.jpg?s=612x612&w=0&k=20&c=Sz1Nx4WPRfbPhDWDphZBRzTN5BVkt14TENMtrPo2OV0=",
-                "city_name": "Olumo Rock",
-                "place_name": "oumo rock tourist complex",
-                "rating": 4.5
+                image_url: "https://media.istockphoto.com/id/1145890295/photo/olumo-rock-abeokuta-nigeria.jpg?s=612x612&w=0&k=20&c=Sz1Nx4WPRfbPhDWDphZBRzTN5BVkt14TENMtrPo2OV0=",
+                city_name: "Olumo Rock",
+                place_name: "oumo rock tourist complex",
+                ratin: 4.5
             }
         ]
-    },        
+    }
+    },          
     {
-        "id":"deal-8",
-        "country_name":"maldives ",
-        "rating":4.5,
-        "title":"Discover the Maldives, A Paradise of Pristine Beaches and Exotic Marine Life",
-        "description":"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
-        "hoverContent":{
-            "image_url":"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",
-            "price":786,
-            "guide":true,
-            "package":3,
+        id:"deal-8",
+        country_name:"maldives ",
+        rating:4.5,
+        title:"Discover the Maldives, A Paradise of Pristine Beaches and Exotic Marine Life",
+        description:"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
+        hoverContent:{
+            image_url:"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",
+            price:786,
         },
-        "locations": [
+        locations: [
             {
-                "image_url": "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "male",
-                "place_name": "hukuru miskiy(old friday mosque)",
-                "rating": 4
+                image_url: "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "male",
+                place_name: "hukuru miskiy(old friday mosque)",
+                rating: 4
             },
             {
-                "image_url":"https://images.unsplash.com/photo-1697172514695-795d72fd9115?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "maafushi island",
-                "place_name": "Bikini Beach",
-                "rating": 5
+                image_url:"https://images.unsplash.com/photo-1697172514695-795d72fd9115?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "maafushi island",
+                place_name: "Bikini Beach",
+                rating: 5
             },
             {
-                "image_url": "https://images.unsplash.com/photo-1491738726357-683388052ea6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "ari atoll",
-                "place_name": "Maaya Thila",
-                "rating": 3.5
+                image_url: "https://images.unsplash.com/photo-1491738726357-683388052ea6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "ari atoll",
+                place_name: "Maaya Thila",
+                rating: 3.5
             },
             {
-                "image_url":"https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "city_name": "addu atoll",
-                "place_name": "addu nature park",
-                "rating": 5
+                image_url:"https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                city_name: "addu atoll",
+                place_name: "addu nature park",
+                rating: 5
             }
         ]
     } 
@@ -668,23 +652,23 @@ export const bestDealsPage2 = [
 
 export const FAQs = [
     {
-        "questino":"How can I get a refund for a cancelled flight...?",
+        "question":"How can I get a refund for a cancelled flight...?",
         "answer":"If eligible, refunds will be processed automatically to your original payment method within 7-10 business days."
     },
     {
-        "questino":"What should I do if I miss my flight...?",
+        "question":"What should I do if I miss my flight...?",
         "answer":"If you miss your flight, contact our customer support team immediately for assistance. Charges and rebooking options depend on the airline's policy.",
     },
     {
-        "questino":"How do I contact customer support...?",
+        "question":"How do I contact customer support...?",
         "answer":"You can reach our customer support team via email, phone, or live chat available on our website. We're here to help 24/7.",
     },
     {
-        "questino":"How can I check my flight status...?",
+        "question":"How can I check my flight status...?",
         "answer":"You can check your flight status by entering your flight number on our website or app. We also send real-time updates to your registered email or phone number.",
     },
     {
-        "questino":"Can I cancel or change my booking...?",
+        "question":"Can I cancel or change my booking...?",
         "answer":"Yes, you can cancel or change your booking through your account dashboard. Fees may apply depending on the airline's policy.",
     },
 ]

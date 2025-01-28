@@ -28,11 +28,10 @@ const DealPage = () => {
 
   function getCountryData ( data ) {
 
-    const { country_name, title, description, id,
+    const { country_name, title, description, id,rating,
             hoverContent:{
+              price,
               image_url:hoverImg,
-              guide:guide,
-              price:price,
             },
             locations:[
               { image_url:img1, city_name:city1 },
@@ -44,22 +43,27 @@ const DealPage = () => {
 
     return { id, country_name, title, description, 
              img1, img2, img3, img4, city1, city2, city3, city4,
-             hoverImg,guide,price }
+             hoverImg}
   }
 
   const Layout_1 = ( { data } ) => {
 
     const { id, country_name, title, description,
-            hoverImg,guide,price, 
+            hoverImg,
             img1, img2, img3, img4,
-            city1, city2, city3, city4 } = getCountryData (data);
-
+            city1, city2, city3, city4 } = getCountryData (data)
     return (
       <div className={`group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-opacity- before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`}>
-        <div className={`absolute w-full rounded-[25px] flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
-          <h2 className={`text-[2rem] text-red-600 absolute top-4 left-4`}> { country_name } </h2>
-          <p>vivek</p>
-          <p>singh</p>
+        <div className={`hidden absolute w-full rounded-[25px] group-hover:flex flex-col group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+          <div>
+              {/* <span> { days }Days </span> */}
+              {/* <span> <i className="fa-solid fa-star"></i> { rating } </span> */}
+          </div>
+          <div>
+            <h2 className={`text-[2rem] text-white`}> { country_name } </h2>
+            {/* <p> { price } </p> */}
+            {/* <p> { (guide) ? ("we provide gue") : ("") } </p> */}
+          </div>
         </div>
         <div className={`bg-slate-40 grid grid-cols-2 gap-x-[5px]`} style={{gridTemplateColumns:"43% 56%"}}>
           <div className={`bg-red-400 rounded-tl-[25px] bg-cover bg-center`} 
@@ -82,13 +86,13 @@ const DealPage = () => {
 
   const Layout_2 = ( { data } ) => {
 
-    const { country_name, title, description, 
+    const { id, country_name, title, description,
+            hoverImg,
             img1, img2, img3, img4,
-            hoverImg,guide,price,
-            city1, city2, city3, city4 } = getCountryData (data);
+            city1, city2, city3, city4 } = getCountryData (data)
     return (
-        <div className={`group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] relative before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} onMouseEnter = { () => {  } } >
-          <div className={`absolute w-full rounded-[25px] flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+        <div className={`relative group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} onMouseEnter = { () => {  } } >
+          <div className={`hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
             <h2  className={`text-[2rem] text-white`}> { country_name } </h2>
           </div>
           <div className='bg-slate-400 rounded-t-[25px] bg-cover bg-center' 
@@ -119,6 +123,7 @@ const DealPage = () => {
 
   },[]);
 
+  console.log(bestDealsPage2)
   return (
     <>  
       <section>
