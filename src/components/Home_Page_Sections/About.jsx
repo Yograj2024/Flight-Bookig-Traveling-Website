@@ -22,8 +22,8 @@ const About = () => {
                         </div>
                         <div className={``}>
                             {
-                                aboutData.map((data)=>{
-                                    return <div className={`${aboutDiv}`} key={data}>
+                                aboutData.map((data, index )=>{
+                                    return <div className={`${aboutDiv}`} key={ index + data.id }>
                                                 <div className={`${iconCss}`}>
                                                     <img src={data.img} alt="icon" 
                                                             className={`h-full w-full object-cover ${data.rotate ? "rotate-[-20deg] scale-[1.4]" : ""}`}/>

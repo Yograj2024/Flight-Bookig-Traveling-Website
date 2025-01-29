@@ -23,10 +23,10 @@ const ServicePage = () => {
 
                         <div className={`sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[50px]`}>
                             {
-                                serviceData.map( (data) => (
+                                serviceData.map( ( data, index ) => (
                                     <div className={`w-[75%] sm:w-[80%] m-[70px_auto_20px] p-[65px_25px_20px]  
                                     flex flex-col items-center justify-center gap-y-[20px] rounded-[20px] relative 
-                                    shadow-[inset_8px_10px_10px_0px_rgba(0,0,0,0.1)]`}>
+                                    shadow-[inset_8px_10px_10px_0px_rgba(0,0,0,0.1)]`} key={ `service-${index + 1}`}>
                                         <div className={`h-[80px] lg:h-[90px] aspect-square p-[18px] bg-stone-100
                                              rounded-[50%] absolute top-[-2.4rem] lg:border-[0px] border-[#f2f0e]
                                               shadow-[inset_-3px_0px_4px_4px_rgba(0,0,0,0.1)]`}>

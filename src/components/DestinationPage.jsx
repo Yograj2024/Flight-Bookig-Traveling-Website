@@ -18,9 +18,10 @@ const DestinationPage = () => {
                 <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Find the Destination That Inspires You</h1>
                 <div className={`grid gap-y-[50px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-[90%] xl:max-w-[1240px] mx-auto md:gap-x-[20px] lg:gap-x-[20px] mt-[50px] lg:gap-y-[50px]`}>
                     {
-                        destinationPageData.map( (data) => {
+                        destinationPageData.map( (data, index) => {
+
                             return <>
-                                <div className={`w-[90%]  lg:w-full mx-auto md:h-[450px] p-[10px] md:p-[0px] rounded-[30px] transition-transform duration-400 ease-in-out hover:scale-90 bg-slate-200 bg-opacity-50 hover:border hover:border-orange-500 hover:p-[10px_10px_20px]`}>
+                                <div className={`w-[90%]  lg:w-full mx-auto md:h-[450px] p-[10px] md:p-[0px] rounded-[30px] transition-transform duration-400 ease-in-out hover:scale-90 bg-slate-200 bg-opacity-50 hover:border hover:border-orange-500 hover:p-[10px_10px_20px]`} key = {data.id}>
                                     <div className={`h-[300px] md:h-[250px] `}>
                                         <img src={data.imgURL} alt=""  className={`h-full w-full object-cover rounded-[20px]  hover:rounded-[20px]`}/>
                                     </div>
@@ -33,7 +34,7 @@ const DestinationPage = () => {
                                             <p className={`text-black font-semibold mb-[12px] font-systemUI`}> {data.aboutThis} </p>
                                             <div className={`flex justify-between pr-[20px] items-center border-t border-t-slate-800 pt-[10px] border-opacity-40`}>
                                                 <span> ${data.price}/person </span>
-                                                <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`}><i class="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
+                                                <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
                                             </div>
                                         </div>
                                     </div>

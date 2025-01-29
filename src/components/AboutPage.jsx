@@ -18,7 +18,7 @@ const AboutPage = () => {
             <section className={``}>
                 <div className={`md:flex max-w-[1440px] lg:mx-auto md:p-[20px_30px] md:gap-x-[30px]`}>
                     <div className={`md:flex-[50%] text-center px-[20px]`}>
-                        <h1 className={`text-[1.8rem] lg:text-[2.5rem] font-semibold p-[25px_20px]`}>Welcome to <spna className={`text-orange-500`}>Wispydeals.com</spna> </h1>
+                        <h1 className={`text-[1.8rem] lg:text-[2.5rem] font-semibold p-[25px_20px]`}>Welcome to <span className={`text-orange-500`}>Wispydeals.com</span> </h1>
 
                         <p className={`md:text-[1.2rem] `}>We are here to provide you with a smooth traveling experience by offering efficient flight reservations and hassle-free hotel bookings.</p>
                         <br/>
@@ -29,6 +29,7 @@ const AboutPage = () => {
                         bg-cover bg-[0%_65%]`}></div>
                 </div>
             </section>
+            
 
             <About/>
             <Testimonial/>
