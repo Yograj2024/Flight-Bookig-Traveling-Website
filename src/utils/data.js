@@ -353,13 +353,22 @@ export const destinationPageData = [
 export const bestDealsPage2 = [
     {
         id:" deal-1 Vietnam",
-        country_name:" Vietnam.",
+        country_name:" Vietnam",
         rating:4.5,
         title:"BEAUTY OF VIETNAM",
         description:"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
         hoverContent:{
             image_url:"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
             price:156,
+            package:{
+                date:{
+                    totalDays:5,
+                    from:"23 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:true,
+            }
         },
         locations: [
             {
@@ -397,6 +406,15 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://static.toiimg.com/thumb/71598959/jatayu_adventure_centre.jpg?width=636&height=358&resize=4",
             price:123,
+            package:{
+                date:{
+                    totalDays:5,
+                    from:"23 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:false,
+            }
         },
         locations: [
             {
@@ -434,6 +452,16 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
             price:456,
+            package:{
+                date:{
+                    totalDays:5,
+                    from:"23 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:true,
+            }
+            
         },
         locations: [
             {
@@ -471,8 +499,17 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
             price:456,
+            package:{
+                date:{
+                    totalDays:5,
+                    from:"23 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:false,
+            }
         },
-        locations: [
+        locations:[
             {
                 image_url: "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
                 city_name: "Rome",
@@ -508,7 +545,15 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
             price:456,
-             type: "couple"
+            package:{
+                date:{
+                    totalDays:2,
+                    from:"26 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:false,
+            }
         },
         locations: [
             {
@@ -546,6 +591,15 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
             price:678,
+            package:{
+                date:{
+                    totalDays:3,
+                    from:"24 aug",
+                    to:"26 aug",
+                },
+                type:"couple",
+                guide:false,
+            }
         },
         locations: [
             {
@@ -573,8 +627,8 @@ export const bestDealsPage2 = [
                 rating:4.5
             }
         ]
-     },
-     {   
+    },
+    {   
         id:"deal-7",      
         country_name:"Nigeria ",
         rating:4,
@@ -583,7 +637,17 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://images.unsplash.com/photo-1618828665347-d870c38c95c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
             price:456,
-        locations: [
+            package:{
+                date:{
+                    totalDays:4,
+                    from:"24 aug",
+                    to:"27 aug",
+                },
+                type:"couple",
+                guide:false,
+            }
+        },
+        locations : [
             {
                 image_url: "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 city_name: "Lagos",
@@ -609,7 +673,6 @@ export const bestDealsPage2 = [
                 ratin: 4.5
             }
         ]
-    }
     },          
     {
         id:"deal-8",
@@ -620,8 +683,18 @@ export const bestDealsPage2 = [
         hoverContent:{
             image_url:"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",
             price:786,
+            package: {
+                date: {
+                    totalDays: 4,
+                    from : " 2 sep",
+                    to : "26 sep",
+
+                },
+                type: 'Couple',
+                guide: true
+            }
         },
-        locations: [
+        locations : [
             {
                 image_url: "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 city_name: "male",

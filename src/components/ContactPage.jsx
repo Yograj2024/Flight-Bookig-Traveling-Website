@@ -96,11 +96,11 @@ const ContactPage = () => {
           </div>
           <div className={`h-full lg:w-[56%] pt-[70px] pl-[20px] lg:pl-[50px]`}> {/* question and answer */}
               {
-                FAQs.map( ( item ) => {
+                FAQs.map( ( item, index ) => {
                    return (
                       <>
-                        <details className={`my-[20px]`}>
-                          <summary className={`text-[1.2rem] font-semibold`}> { item.questino } </summary>
+                        <details className={`my-[20px]`} key={`question-${index+1}`}>
+                          <summary className={`text-[1.2rem] font-semibold`}> { item.question } </summary>
                           <p className={`mt-[10px] pl-[20px]`}> { item.answer } </p>
                         </details>
                       </>

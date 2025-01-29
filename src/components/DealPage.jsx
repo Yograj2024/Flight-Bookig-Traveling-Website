@@ -32,6 +32,10 @@ const DealPage = () => {
             hoverContent:{
               price,
               image_url:hoverImg,
+              package: {
+                date: { totalDays,from,to },
+                type,guide
+              }
             },
             locations:[
               { image_url:img1, city_name:city1 },
@@ -41,28 +45,32 @@ const DealPage = () => {
             ]
           } = data;
 
-    return { id, country_name, title, description, 
+    return { id, country_name, title, description, type, guide,
              img1, img2, img3, img4, city1, city2, city3, city4,
-             hoverImg}
+             price, hoverImg, totalDays, from, to, rating }
   }
+
 
   const Layout_1 = ( { data } ) => {
 
-    const { id, country_name, title, description,
-            hoverImg,
-            img1, img2, img3, img4,
-            city1, city2, city3, city4 } = getCountryData (data)
+    const { id, country_name, title, description, 
+            img1, img2, img3, img4, rating, 
+            city1, city2, city3, city4, price,
+            hoverImg, totalDays, from, to, type, guide,
+          } = getCountryData (data)
     return (
       <div className={`group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-opacity- before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`}>
-        <div className={`hidden absolute w-full rounded-[25px] group-hover:flex flex-col group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
-          <div>
-              {/* <span> { days }Days </span> */}
-              {/* <span> <i className="fa-solid fa-star"></i> { rating } </span> */}
+        <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-between group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+          <div className={`flex justify-between text-[2rem] text-yellow-500`}>
+              <span> { totalDays } Days </span>
+              <span>
+                <i className="fa-solid fa-star text-[3rem] text-yellow-500"></i>
+                { rating } 
+              </span>
           </div>
-          <div>
-            <h2 className={`text-[2rem] text-white`}> { country_name } </h2>
-            {/* <p> { price } </p> */}
-            {/* <p> { (guide) ? ("we provide gue") : ("") } </p> */}
+          <div className={`bg-slate-300 bg-opacity-50 text-white rounded-[30px] pl-[30px] py-[10px] font-semibold text-[2rem]`}>
+            <span className={` text-[1.2rem] `}> { `${from.toUpperCase()} - ${to.toUpperCase()}` } </span>
+            <h2 className={``}> { country_name } <span> ${ price }/per </span> </h2>
           </div>
         </div>
         <div className={`bg-slate-40 grid grid-cols-2 gap-x-[5px]`} style={{gridTemplateColumns:"43% 56%"}}>
@@ -86,14 +94,23 @@ const DealPage = () => {
 
   const Layout_2 = ( { data } ) => {
 
-    const { id, country_name, title, description,
-            hoverImg,
-            img1, img2, img3, img4,
-            city1, city2, city3, city4 } = getCountryData (data)
+    const { id, country_name, title, description, type, guide,
+      img1, img2, img3, img4, city1, city2, city3, city4,
+      hoverImg, totalDays,from,to, rating, price  } = getCountryData (data)
     return (
-        <div className={`relative group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} onMouseEnter = { () => {  } } >
-          <div className={`hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-end group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
-            <h2  className={`text-[2rem] text-white`}> { country_name } </h2>
+        <div className={`relative group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} key={id} onMouseEnter = { () => {  } } >
+            <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-between group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+            <div className={`flex justify-between text-[2rem] text-yellow-500`}>
+                <span> { totalDays } Days </span>
+                <span>
+                  <i className="fa-solid fa-star text-[3rem] text-yellow-500"></i>
+                  { rating } 
+                </span>
+            </div>
+            <div className={`bg-slate-300 bg-opacity-50 text-white rounded-[30px] pl-[30px] py-[10px] font-semibold text-[2rem]`}>
+              <span className={` text-[1.2rem] `}> { `${from.toUpperCase()} - ${to.toUpperCase()}` } </span>
+              <h2 className={``}> { country_name } <span> ${ price }/per </span> </h2>
+            </div>
           </div>
           <div className='bg-slate-400 rounded-t-[25px] bg-cover bg-center' 
                style={{backgroundImage:`url(${img2})`}}></div>
@@ -123,16 +140,16 @@ const DealPage = () => {
 
   },[]);
 
-  console.log(bestDealsPage2)
   return (
     <>  
-      <section>
+      <section >
         <div className={`relative h-[350px] md:h-[500px] w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/ed19afe9ba5d52cba632ef09/bnnnbn.jpg')] before:bg-cover md:before:bg-[0%_100%] bg-black bg-opacity-10`}></div>
       </section>
 
       <section>
         <div className={`max-w-[1440px] mx-auto my-[30px] md:flex flex-wrap`}>
-         { bestDealsPage2.map( (data,index) => {   /* aagar aapko only index value chahiye to  _,index (data,index) only one parameater byDefault is array's element */
+          {/* aagar aapko only index value chahiye to  _,index (data,index) only one parameater byDefault is array's element */}
+         { bestDealsPage2.map( ( data, index ) => {  
             return (isNumberInSeries(index) == true) ? 
             ( ( deviceSize > 430 ) ? (<Layout_1 data = {data} key = {data.id}/>) : 
             ("you are in mobile device " + deviceSize)) : (<Layout_2 data={data} key={data.id} />)
