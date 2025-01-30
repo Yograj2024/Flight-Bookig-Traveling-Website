@@ -63,24 +63,24 @@ export const packageData=[
    },
    {
         id:6,
+        bgImg:"https://i.pinimg.com/1200x/b3/f5/45/b3f545b960de1bf830bae9dd731f85df.jpg",
+        city:"Ram Mandir",
+        country:"India",
+        price:"190"
+   },
+   {
+        id:7,
         bgImg:"https://ca-times.brightspotcdn.com/dims4/default/b14f5e2/2147483647/strip/false/crop/1643x1080+0+0/resize/1486x977!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F63%2Ff2%2Fd3263df6400d9bdf95423021035a%2Fadobestock-177536059.jpeg",
         city:"Jeju Island",
         country:"Korea",
         price:"190"
    },
    {
-        id:7,
+        id:8,
         bgImg:"https://www.acethehimalaya.com/wp-content/uploads/2024/02/things-to-do-in-pokhara.jpg.webp",
         city:"Pokhra",
         country:"Nepal",
         price:"170"
-   },
-   {
-        id:8,
-        bgImg:"https://assets.traveltriangle.com/blog/wp-content/uploads/2018/03/adlabs.jpg",
-        city:"Ram Mandir",
-        country:"India",
-        price:"190"
    },
    {
         id:9,
@@ -183,7 +183,7 @@ export const destinationData =[
     },
     {
         id:11,
-        bgImg:"https://images.unsplash.com/photo-1546874177-9e664107314e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        bgImg:"https://4kwallpapers.com/images/wallpapers/lotte-tower-seoul-cityscape-bridge-night-city-lights-south-3840x2160-1315.jpg",
         tours:"4",
         country:"South Korea",
         city:"Seoul",
@@ -199,7 +199,7 @@ export const destinationData =[
     },
     {
         id:13,
-        bgImg:"https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        bgImg:"https://media.istockphoto.com/id/509288876/photo/tossa-de-mar-on-the-costa-brava-catalunya-spain.jpg?b=1&s=612x612&w=0&k=20&c=NvMd7DY5xpn7p93DgFw95zPAOzXeynIAhSybbcmgLPI=",
         tours:"4",
         country:"Spain",
         city:"Barcelona",
@@ -216,7 +216,7 @@ export const destinationData =[
     },
     {
         id:15,
-        bgImg:"https://plus.unsplash.com/premium_photo-1697729419396-5e25dc33ffb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hhbmdoYWklMkMlMjBjaGluYXxlbnwwfHwwfHx8MA%3D%3D",
+        bgImg:"https://wallpapercrafter.com/desktop/360309-Man-Made-Shanghai-Phone-Wallpaper.jpg",
         tours:"4",
         country:"China",
         city:"Shanghai",

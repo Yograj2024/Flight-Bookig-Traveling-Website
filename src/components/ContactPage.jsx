@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FAQs } from '../utils/data';
-
+import Slider from './Slider';
 const ContactPage = () => {
   const [ countryCode, setCountryCode ] = useState(91);
   return (
@@ -114,8 +114,12 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+
+      <section>
+        <Slider/>
+      </section>
     </>
-  );
+  )
 };
 
 export default ContactPage;

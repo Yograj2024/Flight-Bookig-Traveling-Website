@@ -13,8 +13,9 @@ const ServicePage = () => {
                          lg:before:bg-[0%_0%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
                          before:bg-[url('https://images.unsplash.com/photo-1527912373-c4602d8ff771?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                          before:bg-no-repeat lg:bg-opacity-25  
-                         before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-center `}>
-                            <h2 className={`text-center text-[1.6rem] lg:text-[2.8rem] text-whie`}>Comprehensive Travel Services <br /> From Flights and Hotels to Tour Packages and More</h2>
+                         before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-start `}>
+                            <h2 className={` text-[1.6rem] lg:text-[3rem] text-white pl-[50px] leading-[3rem]`}>Comprehensive Travel Services  </h2>
+                            <p className={`text-[2rem] text-white pl-[50px] pt-[30px] mb-[100px]`}>From Flights and Hotels <br/> to Tour Packages and More</p>
                     </div>
                     <div className={` text-left mt-[50px]`}>
 

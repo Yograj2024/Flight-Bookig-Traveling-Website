@@ -158,7 +158,7 @@ text-orange-500`;
 
 /* package sectino */
 export const packageDiv=`
-h-[365px] w-[90%] relative m-[30px_auto_0] rounded-[20px] bg-cover
+h-[365px] w-[90%] lg:w-[300px] lg:h-[400px] lg:flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover
 bg-center before:content-[''] before:h-full before:w-full before:absolute 
 before:z-[1] before:rounded-[20px]
 before:bg-black before:bg-opacity-30`;
