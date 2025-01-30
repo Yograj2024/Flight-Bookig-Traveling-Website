@@ -14,12 +14,11 @@ const ServicePage = () => {
                          before:bg-[url('https://images.unsplash.com/photo-1527912373-c4602d8ff771?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                          before:bg-no-repeat lg:bg-opacity-25  
                          before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-center `}>
-                            <h2 className={`text-[2rem] text-white lg:text-[3rem] font-medium mt-[20px]`}>Our Services</h2>
-                            <h4 className={`text-center text-[1.6rem] lg:text-[2.8rem] text-whie`}>Explore the World Anywhere, Anytime</h4>
+                            <h2 className={`text-center text-[1.6rem] lg:text-[2.8rem] text-whie`}>Comprehensive Travel Services <br /> From Flights and Hotels to Tour Packages and More</h2>
                     </div>
                     <div className={` text-left mt-[50px]`}>
 
-                        <h1 className={`lg:text-[2rem] pl-[35px]`}>Find awesome flight, hotel, tour, cars, packages and plane your trip</h1>
+                        <h1 className={`lg:text-[2rem] pl-[35px]`}>Our Exceptional Services: Tailored for Your Needs</h1>
 
                         <div className={`sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[50px]`}>
                             {

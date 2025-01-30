@@ -5,8 +5,12 @@ const ContactPage = () => {
   const [ countryCode, setCountryCode ] = useState(91);
   return (
     <>
-      <section className={``}>
-        <div className = {`h-[300px] lg:h-[550px] w-full relative bg-black bg-opacity-35 lg:max-w-[1400px] lg:m-auto before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning-4.jpg')] before:bg-cover before:bg-[0%_50%] `}></div>
+      <section className={``}> 
+        <div className = {`h-[300px] flex justify-center text-white flex-col gap-y-[10px] lg:h-[550px] w-full relative bg-black bg-opacity-35 lg:max-w-[1400px] lg:m-auto before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning-4.jpg')] before:bg-cover before:bg-[0%_50%]`}>
+          <h2 className={`text-[3rem] pl-[30px]`}>We'd Love to Hear </h2>
+          <h3 className={`text-[2.2rem] pl-[30px]`}>Contact Us for Your Travel Needs and Inquiries</h3>
+          <p className={` pl-[30px] text-[1.2rem]`}>Thank you for choosing our travel and tours services...! <br /> For any inquiries, or personalized travel plans, please reach out to us.</p>
+        </div>
       </section>      
 
       <section className={`bg-[#E0FFFF] p-[50px_20px] md:p-[50px_20px]`}>

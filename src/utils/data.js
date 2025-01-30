@@ -54,6 +54,49 @@ export const packageData=[
         country:"India",
         price:"198"
     },
+   {
+        id:5,
+        bgImg:"https://media.istockphoto.com/id/802893644/photo/aerial-view-of-downtown-miami-florida.jpg?s=612x612&w=0&k=20&c=QwdSYtoeB-9xTvqgbpnM9aCaRf_39rw8bVw7LsszSGg=",
+        city:"Miami",
+        country:"Florida",
+        price:"200"
+   },
+   {
+        id:6,
+        bgImg:"https://ca-times.brightspotcdn.com/dims4/default/b14f5e2/2147483647/strip/false/crop/1643x1080+0+0/resize/1486x977!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F63%2Ff2%2Fd3263df6400d9bdf95423021035a%2Fadobestock-177536059.jpeg",
+        city:"Jeju Island",
+        country:"Korea",
+        price:"190"
+   },
+   {
+        id:7,
+        bgImg:"https://www.acethehimalaya.com/wp-content/uploads/2024/02/things-to-do-in-pokhara.jpg.webp",
+        city:"Pokhra",
+        country:"Nepal",
+        price:"170"
+   },
+   {
+        id:8,
+        bgImg:"https://assets.traveltriangle.com/blog/wp-content/uploads/2018/03/adlabs.jpg",
+        city:"Ram Mandir",
+        country:"India",
+        price:"190"
+   },
+   {
+        id:9,
+        bgImg:"https://i.natgeofe.com/n/8f1866f3-6099-4efc-bcd5-7a1ccda22a9f/Angkor5.jpg",
+        city:"Angkor",
+        country:"Combodia",
+        price:"200"
+   },
+   {
+        id:10,
+        bgImg:"https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        city:"Shibuya",
+        country:"Japan",
+        price:"210"
+   },
+    
 
 ];
 
@@ -121,6 +164,103 @@ export const destinationData =[
         country:"Indonesia",
         city:"Bali",
         mobile:true
+    },
+    {
+        id:9,
+        bgImg:"https://images.unsplash.com/photo-1597074866923-dc0589150358?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"4",
+        country:"India",
+        city:"Shimla",
+        mobile:true
+    },
+    {
+        id:10,
+        bgImg:"https://images.unsplash.com/photo-1508804185872-d7badad00f7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"3",
+        country:"China",
+        city:"Beijing",
+        mobile:false    
+    },
+    {
+        id:11,
+        bgImg:"https://images.unsplash.com/photo-1546874177-9e664107314e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"4",
+        country:"South Korea",
+        city:"Seoul",
+        mobile:true
+    },
+    {
+        id:12,
+        bgImg:"https://images.unsplash.com/photo-1620563092215-0fbc6b55cfc5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"2",
+        country:"Switzerland",
+        city:"Zurich",
+        mobile:false
+    },
+    {
+        id:13,
+        bgImg:"https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"4",
+        country:"Spain",
+        city:"Barcelona",
+        mobile:true
+    },
+    {
+        id:14,
+        bgImg:"https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"3",
+        country:"Australia",
+        city:"Sydney",
+        mobile:false
+
+    },
+    {
+        id:15,
+        bgImg:"https://plus.unsplash.com/premium_photo-1697729419396-5e25dc33ffb4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hhbmdoYWklMkMlMjBjaGluYXxlbnwwfHwwfHx8MA%3D%3D",
+        tours:"4",
+        country:"China",
+        city:"Shanghai",
+        mobile:true,
+    },
+    {
+        id:16,
+        bgImg:"https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"5",
+        country:"United States Of America",
+        city:"New York",
+        mobile:true
+    },
+    {
+        id:17,
+        bgImg:"https://plus.unsplash.com/premium_photo-1661963145672-a2bd28eba0fb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"4",
+        country:"Greece",
+        city:"Santorini",
+        mobile:false
+    },
+    {
+        id:18,
+        bgImg:"https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"3",
+        country:"United States Of America",
+        city:"Hawaii",
+        mobile:true
+    },
+    {
+        id:19,
+        bgImg:"https://plus.unsplash.com/premium_photo-1671734045770-4b9e1a5e53a0?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"3",
+        country:"United Kingdom",
+        city:"London",
+        mobile:true
+    },
+    {
+        id:20,
+        bgImg:"https://images.unsplash.com/photo-1483729558449-99ef09a8c325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        tours:"5",
+        country:"Brazil",
+        city:"Rio De Janeiro",
+        mobile:false
     },
    
 ]
