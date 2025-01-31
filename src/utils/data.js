@@ -180,7 +180,10 @@ export const destinationData =[
         country:"China",
         city:"Beijing",
         mobile:false    
-    },
+    }
+]
+
+export const descriptionData_Row2 = [
     {
         id:11,
         bgImg:"https://4kwallpapers.com/images/wallpapers/lotte-tower-seoul-cityscape-bridge-night-city-lights-south-3840x2160-1315.jpg",
@@ -261,9 +264,8 @@ export const destinationData =[
         country:"Brazil",
         city:"Rio De Janeiro",
         mobile:false
-    },
-   
-]
+    }
+];
 
 export const wispydealsData=[
     {

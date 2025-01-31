@@ -13,6 +13,11 @@ export default {
         PtSans:[ "PT Sans", "serif"],
         systemUI:["system-ui"]
       },
+      fontWeight: {
+        'extra-light': 100,
+        'mid-light': 500,
+        'super-bold': 900,
+      },
       animation:{
         "up-in": "upIn 0.3s ease-in-out forwards", 
         "down-out": "downOut 0.3s ease-in-out forwards", 
@@ -30,9 +35,6 @@ export default {
       }
     },
   },
-  plugins: [
-    // require('@tailwindcss/forms'),
-    // require('tailwindcss-filters')
-  ],
+  plugins: [],
 }
 

@@ -15,7 +15,7 @@ const Slider = () => {
   */
 
   function updateSlide ( isNext ) {
-    setMove ( prevMove => isNext ? prevMove == 3000 ? 0 : prevMove + 100 : prevMove != 0 ? prevMove - 100 : 0  )
+    setMove ( prevMove => isNext ? prevMove == 3000 ? 0 : prevMove + 150 : prevMove != 0 ? prevMove - 150 : 0  )
   }
 
   const slides = [ 
@@ -52,7 +52,7 @@ const Slider = () => {
         {
           slides.map( (item, index) => {
 
-            return <div className={`h-[200px] w-[315px] flex-shrink-0 bg-red-500 m-[80px] translate-x-[-${move}%] transition-all ease duration-[1500ms] flex items-center justify-center text-[3rem] font-bold  `} key = { item.id + index}> { item.id } </div>   
+            return <div className={`h-[200px] w-[315px] flex-shrink-0 bg-red-500 m-[80px] transition-all ease duration-[1500ms] flex items-center justify-center text-[3rem] font-bold  `} key = { item.id + index} style={{transform:`translateX(-${move}%)`}} > { item.id } </div>   
           })
         }
         <button className={`absolute bg-yellow-200 p-[12px] rounded-[20px] right-0`} onClick = { () => updateSlide ( true )  } > aage </button>
