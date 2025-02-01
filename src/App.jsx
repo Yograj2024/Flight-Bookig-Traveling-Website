@@ -1,14 +1,16 @@
 import React from "react";
-import "./index.css";
 import { createRoot } from "react-dom/client";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./components/AboutPage";
 import Body from "./components/Body";
+import ContactPage from "./components/ContactPage";
+import DealPage from "./components/DealPage";
+import DestinationPage from "./components/DestinationPage";
 import Main from "./components/Main";
 import Service from "./components/ServicePage";
-import DestinationPage from "./components/DestinationPage"
-import DealPage from "./components/DealPage";
-import ContactPage from "./components/ContactPage";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
 
 const root=createRoot(document.getElementById("root"));
 
@@ -51,5 +53,10 @@ const Rout=createBrowserRouter([
            }
         ]
     }
-])
-root.render(<RouterProvider router={Rout}/>)
+]);
+
+root.render(
+    <Provider store = { store }>
+        <RouterProvider router={Rout}/>
+    </Provider>
+)

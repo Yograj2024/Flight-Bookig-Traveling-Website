@@ -16,7 +16,7 @@ const DealPage = () => {
 
   return <>  
     <section >
-      <div className={`relative h-[350px] md:h-[500px] flex flex-col justify-center w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/ed19afe9ba5d52cba632ef09/bnnnbn.jpg')] before:bg-cover md:before:bg-[0%_100%] bg-black bg-opacity-10`}>
+      <div className={`relative h-[350px] md:h-[500px] flex flex-col justify-center w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://img.freepik.com/free-photo/full-shot-woman-taking-selfie_23-2149153257.jpg?t=st=1738301650~exp=1738305250~hmac=103fe92adb2262c59974c3c406056c4512a17b90f279e689c646af16d7aaec0a&w=1800')] before:bg-cover md:before:bg-[0%_70%] bg-black bg-opacity-10`}>
       <h2 className={`pl-[50px] text-white text-[3rem]`}>  Ultimate Adventure Awaits</h2>
       <p className={`pl-[50px] text-[1.2rem] text-white`}>Unlock the best travel deals with us, offering unbeatable prices on flights,<br/> hotels, and holiday packages.Explore the world affordably and create unforgettable memories</p>
       </div>

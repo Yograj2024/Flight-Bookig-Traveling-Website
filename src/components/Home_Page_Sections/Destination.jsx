@@ -7,9 +7,8 @@ const Destination = () => {
 
     const updateSlides = useCallback ( ( isNext ) => {
         setMoveSlide( ( prevMoveSlide ) => {
-            console.log("call " + prevMoveSlide);
             return isNext
-                ? prevMoveSlide == 975 ? 0 : prevMoveSlide + 325
+                ? prevMoveSlide == 650 ? 0 : prevMoveSlide + 325
                 : prevMoveSlide != 0 ? prevMoveSlide - 325 : 0;
         });
     }, []);
@@ -30,8 +29,8 @@ const Destination = () => {
                     {
                         destinationData.map((data)=>{
                             return (
-                                <div className={`${packageDiv} ${(data.mobile) ? ("") : ("hidden md:block")} translate-x-[-0%] transition-all ease-in-out duration-[900ms]`}
-                                    style={{backgroundImage:`url(${data.bgImg})`}}
+                                <div className={`${packageDiv} ${(data.mobile) ? ("") : ("hidden md:block")} transition-all ease-in-out duration-[900ms]`}
+                                    style={{backgroundImage:`url(${data.bgImg})`, transform:`translateX(-${moveSlide}%)`}}
                                     key={data.id}>
                                     <div className={`p-[20px] flex flex-col h-full w-full justify-between relative z-[4]`}> 
                                         <div className={`flex items-center justify-end`}>
@@ -54,7 +53,7 @@ const Destination = () => {
                     onClick = { ( e ) => { 
                         e.preventDefault(); 
                         updateSlides ( true )
-                        }}> <i className = " fa-solid fa-chevron-right" /> </button>
+                        }}> <i class="fa-solid fa-arrow-right"></i> </button>
                     <button className = {`${ moveSlide == 0 ? "opacity-0" : "bg-opacity-30 hover:bg-opacity-50"} transition-all ease duration-[900ms] z-[2] h-[170px] w-[30px] absolute top-[42%] rounded-[20px] text-[2rem] bg-slate-800 xl:left-[-38px] text-white`} 
                     onClick = { ( e ) => { 
                         e.preventDefault(); 

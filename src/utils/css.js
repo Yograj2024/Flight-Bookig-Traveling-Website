@@ -1,4 +1,3 @@
-import { contact } from "./data";
 
 export const nav=`
 flex w-full flex-col
@@ -46,8 +45,8 @@ export const heroSection=`
 relative h-[700px] flex m-[0px_0px_0px]
 before:content-[''] flex-col md:w-full
 before:h-full before:w-full 
-before:bg-[url('https://images.unsplash.com/photo-1601225612316-b4733315a717?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
-before:bg-no-repeat before:bg-cover before:bg-[0%_20%]
+before:bg-[url('https://images.unsplash.com/photo-1710330759524-c89e93b4217f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
+before:bg-no-repeat before:bg-cover before:bg-[0%_0%]
 before:absolute before:z-[-1] bg-black bg-opacity-40`;
 
 export const heroSectionH1=`
@@ -158,7 +157,7 @@ text-orange-500`;
 
 /* package sectino */
 export const packageDiv=`
-h-[365px] w-[90%] lg:w-[300px] lg:h-[400px] lg:flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover
+h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover
 bg-center before:content-[''] before:h-full before:w-full before:absolute 
 before:z-[1] before:rounded-[20px]
 before:bg-black before:bg-opacity-30`;

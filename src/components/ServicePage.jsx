@@ -1,16 +1,16 @@
-import { serviceData } from "../utils/data";
+import { serviceData, serviceData_Row2 } from "../utils/data";
 import AirLines from "./Home_Page_Sections/AirLInes";
 
 const ServicePage = () => {
-    return (
+    return ( 
         <>
             <section className={``}>
                 <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full before:bg-[#F5F5F5]
                     relative before:absolute before:z-[-1] `}>
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
                          before:content-[""] before:h-full before:w-full relative before:absolute before:z-[-1] 
-                         md:before:bg-[url('https://ld-wp73.template-help.com/wordpress/prod_18709/v4/wp-content/uploads/2020/06/bg.png')] 
-                         lg:before:bg-[0%_0%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
+                         md:before:bg-[url('http://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
+                         lg:before:bg-[0%_50%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
                          before:bg-[url('https://images.unsplash.com/photo-1527912373-c4602d8ff771?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                          before:bg-no-repeat lg:bg-opacity-25  
                          before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-start `}>
@@ -40,7 +40,32 @@ const ServicePage = () => {
                         </div>
                     </div>
                 </div>
-              
+                <div className={`flex justify-around`}>
+                    {
+                        serviceData_Row2.map( (service) => {
+
+                            const { title, description, iconLink, service} = service;
+
+                            return (
+                                    <div class="h-[400px] w-[300px] bg-yellow-200 flex flex-col items-center ">
+                                        <div class="h-[140px] w-[140px] bg-white rounded-full mt-[30px]">
+                                            <div class="bg-orange-500 h-[40px] w-[40px] rounded-full">
+                                                            0{service}
+                                            </div>
+                                            <div class="h-[70px] w-[70px] bg-yellow-400 ml-[35px]">
+                                                            <img src={iconLink}></img>
+                                            </div>
+                                        </div>
+                                        <div  class="bg-white flex flex-col gap-y-[12px] items-center justify-center mt-[30px] px-[10px]">
+                                            <h1 class="text-2xl font-semibold">{title}</h1>
+                                            <p class="text-center font-semibold ">{description} </p>
+                                        </div>
+                                    </div>
+                            )
+                        } )
+                    }
+                </div>
+
                 <AirLines/>
             </section>
         </>

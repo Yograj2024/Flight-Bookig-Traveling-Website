@@ -10,7 +10,7 @@ export const Package = () => {
         
         setMoveSlide( ( prevMoveSlide ) => {
             return isNext
-                ? prevMoveSlide == 975 ? 0 :  prevMoveSlide + 325
+                ? prevMoveSlide == 650 ? 0 :  prevMoveSlide + 325
                 : prevMoveSlide != 0 ?  prevMoveSlide - 325 : 0;
         });
     }, []);
@@ -24,7 +24,7 @@ export const Package = () => {
                 Unbeatable Deals  <span className={`text-orange-500`}>for Your </span>Perfect Journey 
                 </h1> 
             </div>
-            <div className={`sm:grid sm:grid-cols-2 md:p-[0_20px] md:gap-x-[20px] lg:gap-x-0 lg:flex lg:justify-around  lg:p-0 overflow-hidden lg:max-w-[1280px] lg:m-auto`} >
+            <div className={`w-full pl-[30px] sm:pl-0 md:p-[0_20px] gap-x-[30px] lg:gap-x-0 flex lg:p-0 overflow-hidden lg:max-w-[1280px] lg:m-auto`} >
                 {
                     packageData.map((data)=>{
                         return  <div className={`${packageDiv} transition-all ease duration-[1500ms] lg:mr-[25px]`}
@@ -52,16 +52,19 @@ export const Package = () => {
                             </div>
                     })
                 }
-                <button className = {`${ moveSlide == 650 ? "hidden" : "block bg-opacity-30 hover:bg-opacity-50"} transition-all ease duration-[900ms] z-[2] h-[170px] w-[30px] absolute top-[50%] rounded-[20px] text-[2rem] bg-slate-800 xl:right-[40px] text-white font-extra-light`} 
-                onClick = { ( e ) => { 
-                    e.preventDefault(); 
-                    updateSlides ( true )
-                    }}> <i className = " fa-solid fa-chevron-right" /> </button>
-                <button className = {`${ moveSlide == 0 ? "hidden" : "block bg-opacity-30 hover:bg-opacity-50"} transition-all ease duration-[900ms] z-[2] h-[170px] w-[30px] absolute top-[50%] rounded-[20px] text-[2rem] bg-slate-800 xl:left-[35px] text-white`} 
+            </div>
+            <div className={`w-[90%] m-auto my-[20px] flex items-center justify-end gap-x-[10px]`}> 
+                <button className = {` transition-all ease duration-[900ms] z-[2] h-[30px] w-[50px] rounded-[10px] text-[1.2rem] bg-slate-800 text-white`} 
                 onClick = { ( e ) => { 
                     e.preventDefault(); 
                     updateSlides (false)
-                    }}> <i className = " fa-solid fa-chevron-left " /> </button>
+                }}> <i class="fa-solid fa-arrow-left"></i> </button>
+
+                <button className = {`transition-all ease duration-[900ms] z-[2] h-[30px] w-[50px] rounded-[10px] text-[1.2rem] bg-slate-800 xl:right-[40px] text-white font-extra-light`} 
+                onClick = { ( e ) => { 
+                    e.preventDefault(); 
+                    updateSlides ( true )
+                }}> <i className="fa-solid fa-arrow-right"></i> </button>
             </div>
         </div>
     </section>

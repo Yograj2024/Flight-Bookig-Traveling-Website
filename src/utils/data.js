@@ -393,6 +393,34 @@ export const serviceData = [
     },
 ]
 
+export const serviceData_Row2 = [
+    {
+        "service":1,
+        "iconLink":"https://cdn-icons-png.flaticon.com/512/14379/14379797.png",
+        "title":"Select Service",
+        "description":"To streamline the process and provide you with the best service possible, please enter the required details.",
+    },
+    {
+        "service":2,
+        "iconLink":"   https://cdn-icons-png.flaticon.com/512/1571/1571065.png ",
+        "title":"Pay Service Charges",
+        "description":"To pay for our services follow the instruction below.",
+    },
+    {
+        "service":3,
+        "iconLink":"   https://cdn-icons-png.flaticon.com/512/18010/18010404.png ",
+        "title":"Ready for Tour",
+        "description":"after following previous steps you are good to go",
+    },
+    {
+        "service":3,
+        "iconLink":"   https://cdn-icons-png.flaticon.com/512/18010/18010404.png ",
+        "title":"Ready for Tour",
+        "description":"after following previous steps you are good to go",
+    }
+]
+
+
 export const destinationPageData = [
    {
      id:"img1",
