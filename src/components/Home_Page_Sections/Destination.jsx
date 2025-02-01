@@ -8,8 +8,8 @@ const Destination = () => {
     const updateSlides = useCallback ( ( isNext ) => {
         setMoveSlide( ( prevMoveSlide ) => {
             return isNext
-                ? prevMoveSlide == 650 ? 0 : prevMoveSlide + 325
-                : prevMoveSlide != 0 ? prevMoveSlide - 325 : 0;
+                ? prevMoveSlide == 650 ? 0 : prevMoveSlide + 320
+                : prevMoveSlide != 0 ? prevMoveSlide - 320 : 0;
         });
     }, []);
 

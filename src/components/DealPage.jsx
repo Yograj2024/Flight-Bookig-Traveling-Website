@@ -2,16 +2,22 @@ import React, { useEffect, useState } from 'react';
 import { bestDealsPage2 } from '../utils/data';
 import { Layout_1, Layout_2 } from '../custumHooks/Layouts';
 import isNumberInSeries from '../custumHooks/isNumberInSeries';
+import { useDispatch, useSelector } from 'react-redux';
+import { setScreenSize } from '../store/features/storeDevidce-width/resize';
+
+
 
 const DealPage = () => {
+  const screenSize = useSelector( ( state ) => state.screenSize.screenSize );
+  const dispatch = useDispatch();
 
-  const [deviceSize, setDeviceSize] = useState(window.innerWidth);
-
-  useEffect( ()=>{
-
-    const handleResizeScreen = () => setDeviceSize( window.innerWidth );
-    window.addEventListener( "resize", handleResizeScreen );
+  useEffect( () => {
     
+    const handleResize = () => {
+      dispatch ( setScreenSize ( window.innerWidth))
+    }
+
+    window.addEventListener( 'resize', handleResize)
   }, [] );
 
   return <>  
@@ -34,10 +40,10 @@ const DealPage = () => {
             const isInSeries = isNumberInSeries(index);
   
             if ( isInSeries ) {
-              if ( deviceSize > 430 ) {
+              if ( screenSize > 430 ) {
                 return <Layout_1 data={data} key={data.id} />;
               } else {
-                return `You are in mobile device: ${deviceSize}`;
+                return `You are in mobile device: ${screenSize}`;
               }
             }
             return <Layout_2 data={data} key={data.id} />;

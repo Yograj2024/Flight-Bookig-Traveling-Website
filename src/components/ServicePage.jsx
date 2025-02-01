@@ -39,12 +39,12 @@ const ServicePage = () => {
                             }
                         </div>
                     </div>
-                </div>
+                </div>              
                 <div className={`flex justify-around`}>
                     {
-                        serviceData_Row2.map( (service) => {
+                        serviceData_Row2.map( (services) => {
 
-                            const { title, description, iconLink, service} = service;
+                            const { title, description, iconLink, service} = services;
 
                             return (
                                     <div class="h-[400px] w-[300px] bg-yellow-200 flex flex-col items-center ">

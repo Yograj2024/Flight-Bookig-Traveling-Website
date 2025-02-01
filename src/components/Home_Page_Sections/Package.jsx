@@ -1,19 +1,30 @@
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { packageBtn, packageDiv } from "../../utils/css";
 import { packageData } from "../../utils/data";
+import { useDispatch, useSelector } from "react-redux";
+import { setScreenSize } from "../../store/features/storeDevidce-width/resize";
 
 export const Package = () => {
-
+    
+    const dispatch = useDispatch();
     const [ moveSlide, setMoveSlide ] = useState ( 0 );
+    const screenSize = useSelector ( state => state.screenSize.screenSize );
 
     const updateSlides = useCallback ( ( isNext ) => {
-        
         setMoveSlide( ( prevMoveSlide ) => {
             return isNext
                 ? prevMoveSlide == 650 ? 0 :  prevMoveSlide + 325
                 : prevMoveSlide != 0 ?  prevMoveSlide - 325 : 0;
         });
     }, []);
+
+    useEffect( () => {
+        const handleResize = () => {
+          dispatch ( setScreenSize ( window.innerWidth))
+        }
+
+        window.addEventListener( 'resize', handleResize)
+      }, [] );
 
     return <>
     <section className={`md:mt-[80px]`}>
@@ -24,6 +35,7 @@ export const Package = () => {
                 Unbeatable Deals  <span className={`text-orange-500`}>for Your </span>Perfect Journey 
                 </h1> 
             </div>
+            <h1 className={`text-[3rem]`}> {screenSize} </h1>
             <div className={`w-full pl-[30px] sm:pl-0 md:p-[0_20px] gap-x-[30px] lg:gap-x-0 flex lg:p-0 overflow-hidden lg:max-w-[1280px] lg:m-auto`} >
                 {
                     packageData.map((data)=>{
