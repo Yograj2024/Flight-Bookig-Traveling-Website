@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { bestDealsPage2 } from '../utils/data';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Layout_1, Layout_2 } from '../custumHooks/Layouts';
 import isNumberInSeries from '../custumHooks/isNumberInSeries';
-import { useDispatch, useSelector } from 'react-redux';
 import { setScreenSize } from '../store/features/storeDevidce-width/resize';
-
-
+import { bestDealsPage2 } from '../utils/data';
 
 const DealPage = () => {
   const screenSize = useSelector( ( state ) => state.screenSize.screenSize );

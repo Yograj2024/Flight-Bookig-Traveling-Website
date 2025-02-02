@@ -1,6 +1,17 @@
 import { destinationPageData } from "../utils/data";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const DestinationPage = () => {
+
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
     return (
         <>
             <section className={``}>
@@ -17,31 +28,33 @@ const DestinationPage = () => {
             <section className={`bg-[#F8FAFC] lg:py-[50px]`}>
                 <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Find the Destination That Inspires You</h1>
                 <div className={`grid gap-y-[50px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-[90%] xl:max-w-[1240px] mx-auto md:gap-x-[20px] lg:gap-x-[20px] mt-[50px] lg:gap-y-[50px]`}>
-                    {
-                        destinationPageData.map( (data, index) => {
+                    {/* <Slider {...settings} > */}
+                        {
+                            destinationPageData.map( (data, index) => {
 
-                            return <>
-                                <div className={`w-[90%]  lg:w-full mx-auto md:h-[450px] p-[10px] md:p-[0px] rounded-[30px] transition-transform duration-400 ease-in-out hover:scale-90 bg-slate-200 bg-opacity-50 hover:border hover:border-orange-500 hover:p-[10px_10px_20px]`} key = {data.id}>
-                                    <div className={`h-[300px] md:h-[250px] `}>
-                                        <img src={data.imgURL} alt=""  className={`h-full w-full object-cover rounded-[20px]  hover:rounded-[20px]`}/>
-                                    </div>
-                                    <div className={`p-[30px_20px] flex flex-col gap-y-[8px] justify-start `}>
-                                        <div className={`flex text-slate-800 gap-x-[10px] opacity-40`}>
-                                            <i className={`fa-solid fa-location-dot text-[1.1rem] `}></i>
-                                            <h2 className={`font-bold text-[0.9rem]`}> {data.city}, {data.country} </h2>
+                                return <>
+                                    <div className={`w-[90%]  lg:w-full mx-auto md:h-[450px] p-[10px] md:p-[0px] rounded-[30px] transition-transform duration-400 ease-in-out hover:scale-90 bg-slate-200 bg-opacity-50 hover:border hover:border-orange-500 hover:p-[10px_10px_20px]`} key = {data.id+index}>
+                                        <div className={`h-[300px] md:h-[250px] `}>
+                                            <img src={data.imgURL} alt=""  className={`h-full w-full object-cover rounded-[20px]  hover:rounded-[20px]`}/>
                                         </div>
-                                        <div className={``}>
-                                            <p className={`text-black font-semibold mb-[12px] font-systemUI`}> {data.aboutThis} </p>
-                                            <div className={`flex justify-between pr-[20px] items-center border-t border-t-slate-800 pt-[10px] border-opacity-40`}>
-                                                <span> ${data.price}/person </span>
-                                                <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
+                                        <div className={`p-[30px_20px] flex flex-col gap-y-[8px] justify-start `}>
+                                            <div className={`flex text-slate-800 gap-x-[10px] opacity-40`}>
+                                                <i className={`fa-solid fa-location-dot text-[1.1rem] `}></i>
+                                                <h2 className={`font-bold text-[0.9rem]`}> {data.city}, {data.country} </h2>
+                                            </div>
+                                            <div className={``}>
+                                                <p className={`text-black font-semibold mb-[12px] font-systemUI`}> {data.aboutThis} </p>
+                                                <div className={`flex justify-between pr-[20px] items-center border-t border-t-slate-800 pt-[10px] border-opacity-40`}>
+                                                    <span> ${data.price}/person </span>
+                                                    <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </>
-                        })
-                    }
+                                </>
+                            })
+                        }
+                    {/* </Slider> */}
                 </div>
             </section>
         </>

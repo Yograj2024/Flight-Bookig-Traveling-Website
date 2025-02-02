@@ -464,7 +464,7 @@ export const destinationPageData = [
    },
    {
      id:"img6",
-     imgURL:"https://images.unsplash.com/photo-1584117992567-a84ca619bb99?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     imgURL:"https://.unsplash.com/photo-1584117992567-a84ca619bb99?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
      country:"Japan",
      city:"Tokyo",
      price:93,
@@ -519,6 +519,66 @@ export const destinationPageData = [
      aboutThis:"Serenity of nature inspires peace and tranquility."
    },
 ];
+
+export const reviewsData =[
+    {
+        "review":"Unmatched travel experiences crafted with precision, offering personalized journeys to breathtaking destinations. Trust our expertise to make your adventures truly unforgettable.",
+        "personImg":"https://i.pinimg.com/736x/ed/18/91/ed189191dc22169f0e6786a85f068616.jpg",
+        "name":"Mr.Abhishek shrma",
+        "id":"",
+    
+    },
+    {
+        "review":"Exceptional planning and seamless execution for every trip. Their personalized itineraries and expert guidance made our travels stress-free and unforgettable",
+        "personImg":"https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+        "name":"Mr. sudhanshu sharma",
+        "id":"",
+    
+    },
+    {
+        "review":"Flawless trip planning with outstanding attention to detail. Our customized itinerary perfectly matched our interests, making the entire experience delightful and memorable",
+        "personImg":"https://t3.ftcdn.net/jpg/02/43/12/34/240_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+        "name":"Mr.Vihaan sing ",
+        "id":"",
+    
+    },
+    {
+        "review":"Outstanding service and attention to detail! Every aspect of our trip was meticulously planned, ensuring a stress-free and enjoyable travel experience. Highly recommended",
+        "personImg":"/./data/2020/12/13/281611/preview16.jpg",
+        "name":"saurabh",
+        "id":"",
+    
+    },
+    {
+        "review":"Professional, courteous, and incredibly knowledgeable. Our custom-tailored travel itinerary provided unique experiences we wouldn’t have discovered on our own. Truly exceptional",
+        "personImg":"https://img.freepik.com/free-photo/portrait-handsome-smiling-hipster-lumbersexual-businessman-model-wearing-casual-jeans-shirt-clothes_158538-17403.jpg",
+        "name":"",
+        "id":"",
+    
+    },
+    {
+        "review":"Exceptional travel planning and personalized service. Each detail was thoughtfully arranged, making our trip seamless and enjoyable. We'll definitely book with them again",
+        "personImg":"https://media.istockphoto.com/id/1496613385/photo/smiling-confident-latin-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=rDn837m8OMd_uN8_hduEScGzARZznKFWfn45kQJ2j7A=",
+        "name":"",
+        "id":"",
+    
+    },
+    {
+        "review":"Fantastic experience from start to finish. The team was attentive to our needs, providing personalized recommendations that made our journey truly unique and enjoyable. Highly recommended",
+        "personImg":"https://media.istockphoto.com/id/1313502972/photo/portrait-of-beautiful-woman-having-fun.jpg?s=612x612&w=0&k=20&c=DHGWp3wIoSlpjK9xFdARpgpyo4t-hIzuqOSx5ZyRsHA=",
+        "name":"",
+        "id":"",
+    
+    },
+    {
+        "review":"Remarkable service and flawless execution! The team's dedication to crafting personalized itineraries made our travel experience seamless and incredibly enjoyable. Highly recommend their expertise",
+        "personImg":"",
+        "name":"",
+        "id":"",
+    
+    },
+]
+
 
 export const bestDealsPage2 = [
     {

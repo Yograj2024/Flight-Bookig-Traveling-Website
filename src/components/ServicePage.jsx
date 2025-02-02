@@ -10,7 +10,7 @@ const ServicePage = () => {
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
                          before:content-[""] before:h-full before:w-full relative before:absolute before:z-[-1] 
                          md:before:bg-[url('http://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
-                         lg:before:bg-[0%_50%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
+                         lg:before:bg-[0%_60%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
                          before:bg-[url('https://images.unsplash.com/photo-1527912373-c4602d8ff771?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                          before:bg-no-repeat lg:bg-opacity-25  
                          before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-start `}>
