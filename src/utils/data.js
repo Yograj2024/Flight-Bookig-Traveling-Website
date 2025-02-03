@@ -4,23 +4,23 @@ export const navHeading=["Home","About Us","Services","Best Deals","Destination"
 export const aboutData=[
     {
         img: "https://cdn-icons-png.freepik.com/512/12622/12622172.png?ga=GA1.1.1990711679.1735257416",
-        heading: "Affordable Options",
+        heading: "Economical Choices",
         id:1,
-        content: "Budget-friendly flights and accommodations to suit every traveler’s needs.",
+        content: "Low-cost options for both flights and accommodations to cater to the preferences of all types of travelers",
         rotate:false
     },
     {
         img: "https://cdn-icons-png.flaticon.com/512/12716/12716281.png ",
-        heading: "Reliable Services",
+        heading: "Dependable Services",
         id:2,
-        content: "Trusted solutions for last-minute and advance bookings.",
+        content: "Reputable options for both immediate and planned reservations.",
         rotate:false
     },
     {
         img: "https://cdn-icons-png.flaticon.com/512/9816/9816160.png ",
-        heading: "Personalized Travel",
+        heading: "Tailored Travel Experiences",
         id:3,
-        content: "Experiences designed to match your unique requirements, ensuring every journey is memorable",
+        content: "Customized experiences that cater to your specific needs, ensuring each adventure is unforgettable.",
         rotate:false
     }
 ];
@@ -411,12 +411,6 @@ export const serviceData_Row2 = [
         "iconLink":"   https://cdn-icons-png.flaticon.com/512/18010/18010404.png ",
         "title":"Ready for Tour",
         "description":"after following previous steps you are good to go",
-    },
-    {
-        "service":3,
-        "iconLink":"   https://cdn-icons-png.flaticon.com/512/18010/18010404.png ",
-        "title":"Ready for Tour",
-        "description":"after following previous steps you are good to go",
     }
 ]
 
@@ -524,57 +518,57 @@ export const reviewsData =[
     {
         "review":"Unmatched travel experiences crafted with precision, offering personalized journeys to breathtaking destinations. Trust our expertise to make your adventures truly unforgettable.",
         "personImg":"https://i.pinimg.com/736x/ed/18/91/ed189191dc22169f0e6786a85f068616.jpg",
-        "name":"Mr.Abhishek shrma",
-        "id":"",
+        "name":"Mr.Abhishek sharma",
+        "id":"Rev-1",
     
     },
     {
         "review":"Exceptional planning and seamless execution for every trip. Their personalized itineraries and expert guidance made our travels stress-free and unforgettable",
         "personImg":"https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
         "name":"Mr. sudhanshu sharma",
-        "id":"",
+        "id":"Rev-2",
     
     },
     {
         "review":"Flawless trip planning with outstanding attention to detail. Our customized itinerary perfectly matched our interests, making the entire experience delightful and memorable",
         "personImg":"https://t3.ftcdn.net/jpg/02/43/12/34/240_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
         "name":"Mr.Vihaan sing ",
-        "id":"",
+        "id":"Rev-3",
     
     },
     {
         "review":"Outstanding service and attention to detail! Every aspect of our trip was meticulously planned, ensuring a stress-free and enjoyable travel experience. Highly recommended",
-        "personImg":"/./data/2020/12/13/281611/preview16.jpg",
-        "name":"saurabh",
-        "id":"",
+        "personImg":"https://static.vecteezy.com/system/resources/thumbnails/005/346/410/small_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg",
+        "name":"saurabh sing bist",
+        "id":"Rev-4",
     
     },
     {
         "review":"Professional, courteous, and incredibly knowledgeable. Our custom-tailored travel itinerary provided unique experiences we wouldn’t have discovered on our own. Truly exceptional",
         "personImg":"https://img.freepik.com/free-photo/portrait-handsome-smiling-hipster-lumbersexual-businessman-model-wearing-casual-jeans-shirt-clothes_158538-17403.jpg",
-        "name":"",
-        "id":"",
+        "name":"rishabh paratap sing",
+        "id":"Rev-5",
     
     },
     {
         "review":"Exceptional travel planning and personalized service. Each detail was thoughtfully arranged, making our trip seamless and enjoyable. We'll definitely book with them again",
         "personImg":"https://media.istockphoto.com/id/1496613385/photo/smiling-confident-latin-woman-looking-at-camera.jpg?s=612x612&w=0&k=20&c=rDn837m8OMd_uN8_hduEScGzARZznKFWfn45kQJ2j7A=",
-        "name":"",
-        "id":"",
+        "name":"kamal sing",
+        "id":"Rev-6",
     
     },
     {
         "review":"Fantastic experience from start to finish. The team was attentive to our needs, providing personalized recommendations that made our journey truly unique and enjoyable. Highly recommended",
         "personImg":"https://media.istockphoto.com/id/1313502972/photo/portrait-of-beautiful-woman-having-fun.jpg?s=612x612&w=0&k=20&c=DHGWp3wIoSlpjK9xFdARpgpyo4t-hIzuqOSx5ZyRsHA=",
-        "name":"",
-        "id":"",
+        "name":"Srishti chauhan",
+        "id":"Rev-7",
     
     },
     {
         "review":"Remarkable service and flawless execution! The team's dedication to crafting personalized itineraries made our travel experience seamless and incredibly enjoyable. Highly recommend their expertise",
-        "personImg":"",
-        "name":"",
-        "id":"",
+        "personImg":"https://cdn01.justjared.com/wp-content/uploads/2019/09/miller-deauville/sienna-miller-says-american-women-is-film-she-is-most-proud-of-01.jpg",
+        "name":"Aisha sing",
+        "id":"Rev-8",
     
     },
 ]

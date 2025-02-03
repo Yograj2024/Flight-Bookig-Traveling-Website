@@ -15,13 +15,13 @@ const DestinationPage = () => {
     return (
         <>
             <section className={``}>
-                <div className={`max-w-[1440px] lg:m-auto md:h-[460px] bg-black bg-opacity-25 relative
+                <div className={`max-w-[1440px] lg:m-auto h-[400px] md:h-[460px] bg-black bg-opacity-25 relative
                     before:content-[''] before:h-full before:w-full before:absolute before:z-[-1] flex gap-y-[10px]
                     before:bg-[url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                     before:bg-cover before:bg-[0%_45%] flex-col items-start justify-center text-white`}>
-                        <h4 className={`lg:text-[3rem] font-semibold pl-[50px]`}> Wander the World </h4>
-                        <h5 className={`lg:text-[2.2rem] pl-[50px]`}> Explore the Beauty of the world with us  &nbsp; : ) </h5>
-                        <p className={`text-[1.1rem] pl-[50px]`}>if you like to travel, this is your place! <br/> Here you con travel without hassle and enjoy it</p>
+                        <h4 className={`text-[2rem] lg:text-[3rem] font-semibold pl-[50px]`}> Wander the World </h4>
+                        <h5 className={`text-[1.8rem] lg:text-[2.2rem] pl-[50px]`}> Explore the Beauty of the world with us  &nbsp; : ) </h5>
+                        <p className={`text-[1.1rem] pl-[50px] hidden sm:block`}>if you like to travel, this is your place! <br/> Here you con travel without hassle and enjoy it</p>
                 </div> 
             </section>
 

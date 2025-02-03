@@ -17,19 +17,20 @@
 // h-[32px] w-[32px]
 // lg:hidden`;
 
-// export const mobileListContaner = `
-// w-[90%] m-auto pb-[0px]
-// h-0 opacity-0 visibility-hidden
-// overflow-hidden  transition-all
-// duration-900 ease-in
-// `;
+export const mobileListContaner = `
+w-[90%] m-auto pb-[0px]
+h-0 opacity-0 visibility-hidden
+overflow-hidden  transition-all
+duration-900 ease-in 
+`;
 
-// export const mobileListContaner2 = `
-// w-full m-[5 px_auto] p-[0px_10px]
-// block  opacity-100 bg-white
-// visibility-visible transition-all
-// duration-900 ease-in
-// z-[5] `;
+export const mobileListContaner2 = `
+w-full m-[5 px_auto] p-[0px_10px]
+block  opacity-100 bg-white
+visibility-visible transition-all
+duration-900 ease-in
+z-[5] 
+`;
 
 // export const mobileList=`
 // m-[0px_0px_0px_0px] 

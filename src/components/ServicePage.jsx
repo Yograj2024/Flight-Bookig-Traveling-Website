@@ -6,20 +6,19 @@ const ServicePage = () => {
         <>
             <section className={``}>
                 <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full before:bg-[#F5F5F5]
-                    relative before:absolute before:z-[-1] `}>
+                    relative before:absolute before:z-[-1] pb-[30px]`}>
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
                          before:content-[""] before:h-full before:w-full relative before:absolute before:z-[-1] 
-                         md:before:bg-[url('http://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
-                         lg:before:bg-[0%_60%] before:rounded-[0px] before:bg-cover before:bg-[0%_0%]
-                         before:bg-[url('https://images.unsplash.com/photo-1527912373-c4602d8ff771?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
+                         before:bg-[url('http://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
+                         lg:before:bg-[0%_60%] before:rounded-[0px] before:bg-cover before:bg-[0%_35%]
                          before:bg-no-repeat lg:bg-opacity-25  
                          before:left-1/2 before:-translate-x-1/2 flex flex-col justify-center items-start `}>
-                            <h2 className={` text-[1.6rem] lg:text-[3rem] text-white pl-[50px] leading-[3rem]`}>Comprehensive Travel Services  </h2>
-                            <p className={`text-[2rem] text-white pl-[50px] pt-[30px] mb-[100px]`}>From Flights and Hotels <br/> to Tour Packages and More</p>
+                            <h2 className={` text-[1.8rem] lg:text-[3rem] text-white md:pl-[50px] md:leading-[3rem]`}><span className={`hidden md:inline-block`}>Comprehensive </span>  Travel Services  </h2>
+                            <p className={`text-[1.5rem] md:text-[2rem] text-white md:pl-[50px] pt-[30px] md:mb-[100px]`}>From Flights and Hotels <br/> to Tour Packages and More</p>
                     </div>
                     <div className={` text-left mt-[50px]`}>
 
-                        <h1 className={`lg:text-[2rem] pl-[35px]`}>Our Exceptional Services: Tailored for Your Needs</h1>
+                        <h1 className={`text-[1.8rem] lg:text-[3rem] pl-[35px]`}>Our Exceptional Services, Tailored for Your Needs</h1>
 
                         <div className={`sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[50px]`}>
                             {
@@ -40,27 +39,27 @@ const ServicePage = () => {
                         </div>
                     </div>
                 </div>              
-                <div className={`flex justify-around`}>
+                <div className={`px-[30px] flex flex-wrap sm:flex-row gap-y-[50px] gap-x-[30px] max-w-[1340px] m-auto justify-around md:justify-between items-center mt-[50px] before:content-[' '] before:h-[50%] before:w-[80%] before:m-auto before:absolute before:z-[-1] before:bg-[url('https://img.freeik.com/premium-vector/curved-dashed-line_637394-4459.jpg?semt=ais_hybrid')] before:bg-cover before:bg-[50%_90px] before:bg-no-repeat`}>
                     {
-                        serviceData_Row2.map( (services) => {
+                        serviceData_Row2.map( ( services ) => {
 
                             const { title, description, iconLink, service} = services;
 
                             return (
-                                    <div class="h-[400px] w-[300px] bg-yellow-200 flex flex-col items-center ">
-                                        <div class="h-[140px] w-[140px] bg-white rounded-full mt-[30px]">
-                                            <div class="bg-orange-500 h-[40px] w-[40px] rounded-full">
-                                                            0{service}
-                                            </div>
-                                            <div class="h-[70px] w-[70px] bg-yellow-400 ml-[35px]">
-                                                            <img src={iconLink}></img>
+                                <>
+                                    <div className="h-[280px] w-[220px] bg-yellow-200 flex flex-col items-center ">
+                                        <div className="h-[70px] aspect-square bg-white rounded-full mt-[30px] relative flex items-center justify-center">
+                                            <div className="bg-orange-500 h-[25px] aspect-square rounded-full flex items-center justify-center font-semibold absolute top-[-8px] left-[-6px]"> 0{ service } </div>
+                                            <div className="p-[15px]">
+                                                <img src={iconLink} className={`h-full w-full object-cover`}></img>
                                             </div>
                                         </div>
-                                        <div  class="bg-white flex flex-col gap-y-[12px] items-center justify-center mt-[30px] px-[10px]">
-                                            <h1 class="text-2xl font-semibold">{title}</h1>
-                                            <p class="text-center font-semibold ">{description} </p>
+                                        <div  className="bg-whit flex flex-col text-center gap-y-[12px] items-center justify-center mt-[30px] px-[10px]">
+                                            <h1 className=" text-[1.2rem] font-semibold">{title}</h1>
+                                            <p className=" ">{description} </p>
                                         </div>
                                     </div>
+                                </>  
                             )
                         } )
                     }

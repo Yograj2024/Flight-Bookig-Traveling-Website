@@ -1,7 +1,21 @@
 import React from 'react';
-import { comma, randomPeople } from '../../utils/links';
+import { comma } from '../../utils/links';
+import { reviewsData } from '../../utils/data';
+import Slider from 'react-slick';
 
 const Testimonial = () => {
+
+  let settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaspeed: 1000,
+    cssEase:"linear",
+    arrows:false
+  };
 
   const starLine = () => {
 
@@ -25,63 +39,28 @@ const Testimonial = () => {
               <p className={`m-[30px_auto] text-left`}>Our clients trust us for seamless travel experiences. With personalized service, reliable bookings, and unmatched customer support, we’ve earned the love and loyalty of travelers worldwide.</p>
             </div>
 
-            <div className={`h-[420px] sm:w-[55%] relative overflow-hidden md:h-[410px]`}>
-                
-                <div className={`flex flex-1 flex-col gap-y-[20px] rounded-[15px] p-[25px_0px_30px_20px] md:p-[50px_50px_20px_50px] border-t-4 border-b-4 border-b-red-800 border-t-red-800 md:border-t-0 absolute translate-x-[0%] transition-all duration-900 ease-linear bg-white`}>
-                    <span className={`inline-block h-[40px] w-[40px] `}>
-                      <img src={`${comma}`} alt="" className={`h-full w-full object-cover`}/>
-                    </span>
-                    <span>{ starLine() }</span>
-                    <p>I’ve used several travel agencies, but Last Hour Plan stands out. Their prices are unbeatable, and the booking process was straightforward. The team provided excellent support, and I had an amazing trip. I’ll definitely be booking with them !</p>
-                    <div className={`flex items-center gap-x-[40px]`}>
-                        <div className={`h-[80px] aspect-square rounded-[50%]`}>
-                            <img src={`${randomPeople}`} alt="" className={`h-full w-full object-cover rounded-[50%]`}/>
-                        </div>
-                        <span><b>hello Kumar</b></span>
-                    </div>
-                </div>
-
-                <div className={`flex flex-1 flex-col gap-y-[20px] border-t-4 border-t-red-700 rounded-[15px] p-[50px_0px_20px_20px] border-b-4 border-b-red-800  absolute translate-x-[102%] transition-all duration-900 ease-linear`}>
-                    <span className={`inline-block h-[40px] w-[40px] `}>
-                      <img src={`${comma}`} alt="" className={`h-full w-full object-cover`}/>
-                    </span>
-                    <span>{ starLine() }</span>
-                    <p>I’ve used several travel agencies, but Last Hour Plan stands out. Their prices are unbeatable, and the booking process was straightforward. The team provided excellent support, and I had an amazing trip. I’ll definitely be booking with them !</p>
-                    <div className={`flex items-center gap-x-[40px]`}>
-                        <div className={`h-[80px] aspect-square rounded-[50%]`}>
-                            <img src={`${randomPeople}`} alt="" className={`h-full w-full object-cover rounded-[50%]`}/>
-                        </div>
-                        <span><b>hello Kumar</b></span>
-                    </div>
-                </div>
-
-                <div className={`flex flex-1 flex-col gap-y-[20px] border-t-4 border-t-red-700 rounded-[15px] p-[50px_0px_20px_20px] border-b-4 border-b-red-800  absolute translate-x-[202%] transition-all duration-900 ease-linear`}>
-                    <span className={`inline-block h-[40px] w-[40px] `}>
-                      <img src={`${comma}`} alt="" className={`h-full w-full object-cover`}/>
-                    </span>
-                    <span>{ starLine() }</span>
-                    <p>I’ve used several travel agencies, but Last Hour Plan stands out. Their prices are unbeatable, and the booking process was straightforward. The team provided excellent support, and I had an amazing trip. I’ll definitely be booking with them again!</p>
-                    <div className={`flex items-center gap-x-[40px]`}>
-                        <div className={`h-[80px] aspect-square rounded-[50%]`}>
-                            <img src={`${randomPeople}`} alt="" className={`h-full w-full object-cover rounded-[50%]`}/>
-                        </div>
-                        <span><b>Rahul 3 Kumar</b></span>
-                    </div>
-                </div>
-                
-                <div className={`flex flex-1 flex-col gap-y-[20px] border-t-4 border-t-red-700 rounded-[15px] p-[50px_0px_20px_20px] border-b-4 border-b-red-800  absolute translate-x-[302%] transition-all duration-900 ease-linear`}>
-                    <span className={`inline-block h-[40px] w-[40px] `}>
-                      <img src={`${comma}`} alt="" className={`h-full w-full object-cover`}/>
-                    </span>
-                    <span>{ starLine() }</span>
-                    <p>I’ve used several travel agencies, but Last Hour Plan stands out. Their prices are unbeatable, and the booking process was straightforward. The team provided excellent support, and I had an amazing trip. I’ll definitely be booking with them again!</p>
-                    <div className={`flex items-center gap-x-[40px]`}>
-                        <div className={`h-[80px] aspect-square rounded-[50%]`}>
-                            <img src={`${randomPeople}`} alt="" className={`h-full w-full object-cover rounded-[50%]`}/>
-                        </div>
-                        <span><b>Rahul 4 Kumar</b></span>
-                    </div>
-                </div>
+            <div className={`h-[420px] sm:w-[55%] relative  md:h-[410px]`}>
+              <Slider {...settings}>
+                  {
+                      reviewsData.map((data)=>{
+                          return (
+                              <div key={data.id} className={`rounded-[15px] p-[25px_0px_30px_20px] md:p-[50px_50px_20px_50px] border-t-4 border-b-4 border-b-red-800 border-t-red-800 md:border-t-0  bg-white`}>
+                                  <span className={`inline-block h-[40px] w-[40px] mb-[20px]`}>
+                                    <img src={`${comma}`} alt="" className={`h-full w-full object-cover`}/>
+                                  </span> <br/>
+                                  <span className={`inline-block mb-[20px]`}>{ starLine() }</span>
+                                  <p className={`mb-[30px]`}>{data.review}</p>
+                                  <div className={`flex items-center gap-x-[40px]`}>
+                                      <div className={`h-[80px] aspect-square rounded-[50%]`}>
+                                          <img src={data.personImg} alt="" className={`h-full w-full object-cover rounded-[50%]`}/>
+                                      </div>
+                                      <span><b>{data.name}</b></span>
+                                  </div>
+                              </div>
+                          )
+                      })    
+                    }
+              </Slider>             
             </div>
         </div>
     </section>
