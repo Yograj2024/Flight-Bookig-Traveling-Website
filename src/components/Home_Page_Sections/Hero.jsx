@@ -4,7 +4,7 @@ const Hero = () => (
     <>
         <section className  = {`relative h-[600px] flex m-[0px_0px_0px] before:content-[''] flex-col md:w-full before:h-full before:w-full justify-center before:bg-[url('https://images.unsplash.com/photo-1710330759524-c89e93b4217f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  before:bg-no-repeat before:bg-cover before:bg-[0%_0%] before:absolute before:z-[-1] bg-black bg-opacity-40`} >
             <div className={`w-[90%] lg:max-w-[1440px] m-[0_auto]`}>
-                <h1 className= {`text-center text-[1.5rem] md:text-[2.5rem] mt-[18px] text-transparent bg-clip-text  bg-gradient-to-r from-red-500  via-orange-500 to-pink-500  font-bold tracking-[0.05rem] `}>Start Your Journey Here </h1>
+                <h1 className= {`text-center text-[1.5rem] md:text-[2.5rem] mt-[18px] text-transparent bg-clip-text  bg-gradient-to-r from-red-500  via-orange-500 to-pink-500  font-bold tracking-[0.05rem] `}> Bigen your adventure here  </h1>
 
                 <div className= {`relative before:content-[' '] before:h-full before:w-full before:absolute w-[95%] h-[75%] before:bg-slate-400 before:bg-opacity-25  m-[30px_auto_0px] before:rounded-[20px]  items-center`}>
                     <form action="" className  ={`flex flex-col relative text-[0.9rem] w-full gap-y-[30px] pt-[30px]`}>

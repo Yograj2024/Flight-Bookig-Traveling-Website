@@ -11,6 +11,7 @@ import DestinationPage from "./components/DestinationPage";
 import Main from "./components/Main";
 import Service from "./components/ServicePage";
 import "./index.css";
+import DestinationInfo from "./components/DestinationInfo";
 
 const root=createRoot(document.getElementById("root"));
 
@@ -50,6 +51,10 @@ const Rout=createBrowserRouter([
            { 
                path:"/FAQs",
                element:<ContactPage/>
+           },
+           {
+            path:"/destinationInfo",
+            element:<DestinationInfo/>
            }
         ]
     }

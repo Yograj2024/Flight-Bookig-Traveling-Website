@@ -16,7 +16,7 @@ const About = () => {
                         <div className={`md:pl-[20px] text-center`}>
                             <h6 className={`text-green-600 text-[1.2rem] font-bold bg-gray-100 py-[12px] w-[70%] mx-auto md:mx-0 md:w-[75%] lg:w-[55%] rounded-[12px] mb-[20px]`}>About WispyDeals.com </h6>
                             <h1 className={`text-[1.6rem] md:text-[2rem] font-semibold md:text-left`}> 
-                                Making Travel Effortless, <span className={`text-orange-500`}>Memorable, Affordable</span> 
+                            Effortlessly travel with ease, <span className={`text-orange-500`}>Unforgettable, within your budget.</span> 
                             </h1> 
                         </div>
                         <div className={``}>

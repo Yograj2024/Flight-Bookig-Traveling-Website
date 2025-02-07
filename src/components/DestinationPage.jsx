@@ -26,7 +26,7 @@ const DestinationPage = () => {
             </section>
 
             <section className={`bg-[#F8FAFC] lg:py-[50px]`}>
-                <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Find the Destination That Inspires You</h1>
+                <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Discover the destination that sparks your sense of inspiration.</h1>
                 <div className={`grid gap-y-[50px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-[90%] xl:max-w-[1240px] mx-auto md:gap-x-[20px] lg:gap-x-[20px] mt-[50px] lg:gap-y-[50px]`}>
                     {/* <Slider {...settings} > */}
                         {

@@ -1,4 +1,5 @@
 import { serviceData, serviceData_Row2 } from "../utils/data";
+import AI_UI from "./AI_UI";
 import AirLines from "./Home_Page_Sections/AirLInes";
 
 const ServicePage = () => {
@@ -64,7 +65,7 @@ const ServicePage = () => {
                         } )
                     }
                 </div>
-
+                <AI_UI/>
                 <AirLines/>
             </section>
         </>

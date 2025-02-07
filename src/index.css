@@ -20,11 +20,15 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .slick-next, .slick-prev{
   background-color: black;
-  height:3rem;
-  width: 3rem;
-  border-radius:50%;
+  height:2rem;
+  width: 1rem;
   z-index: 2;
   right: 0;
+  visibility: visible !important;
+
+  &::hover{
+    background-color: red;
+  }
 
   &::before {
       content: "";

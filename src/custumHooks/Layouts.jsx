@@ -14,8 +14,8 @@ export const Layout_1 = ( { data } ) => {
           } = getCountryData (data);
 
     return (
-      <div className={`group h-[648px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-opacity- before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} key={id}>
-        <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-between group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+      <div className={`group h-[648px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[48%] my-[30px] m-auto rounded-[20px] before:content-[""] relative before:absolute before:w-full before:bg-opacity- before:rounded-[25px] before:animate-down-out md:hover:before:animate-up-in before:bottom-0`} key={id}>
+        <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] md:group-hover:flex flex-col justify-between md:group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
           <div className={`flex justify-between items-center text-[2rem] font-semibold text-white`}>
               <span className={`inline-flex text-[1.5rem] bg-slate-100 bg-opacity-20 p-[3px_25px] rounded-[30px]`}> { totalDays } Days </span>
               <span className={`inline-flex items-center text-[1.5rem] bg-slate-100 bg-opacity-20 p-[2px_20px] rounded-[30px] `}>
@@ -58,8 +58,8 @@ export const Layout_1 = ( { data } ) => {
         } = getCountryData (data);
 
     return (
-        <div className={`relative group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} key={id} onMouseEnter = { () => {  } } >
-            <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] group-hover:flex flex-col justify-between group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
+        <div className={`relative group h-[650px] grid grid-rows-2 gap-y-[5px] w-[95%] md:w-[45%] mx-auto my-[30px] rounded-[25px] before:content-[""] before:absolute before:w-full before:bg-blac before:bg-opacity-50 before:rounded-[25px] before:animate-down-out md:hover:before:animate-up-in before:bottom-0`} style={{gridTemplateRows:"40% 59%"}} key={id} onMouseEnter = { () => {  } } >
+            <div className={`px-[30px] pt-[30px] pb-[20px] hidden absolute w-full rounded-[25px] md:group-hover:flex flex-col justify-between md:group-hover:animate-up-in bottom-0 bg-opaciy-50 bg-center bg-cover`} style = { { backgroundImage : `url(${ hoverImg} )`} }>
           <div className={`flex justify-between items-center text-[2rem] font-semibold text-white`}>
               <span className={`inline-flex text-[1.5rem] bg-slate-100 bg-opacity-20 p-[3px_25px] rounded-[30px]`}> { totalDays } Days </span>
               <span className={`inline-flex items-center text-[1.5rem] bg-slate-100 bg-opacity-20 p-[2px_20px] rounded-[30px] `}>

@@ -7,12 +7,39 @@ import { descriptionData_Row2, destinationData } from '../../utils/data';
 const Destination = () => {
 
     let settings = {
-        dots: false,
+        dots: true ,
         infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
+        customPaging: i => (
+            <div
+              style={{
+                width: '10px',
+                height: '10px',
+                borderRadius: '50%',
+                backgroundColor: '#000', // Black dots
+                margin: '0 5px',
+                opacity:0.5
+              }}
+            ></div>
+          ),
+          appendDots: dots => (
+            <div
+              style={{
+                position: 'absolute',
+                bottom: '-30px',  // Dots ko slider ke neeche rakhna
+                display: 'flex',
+                justifyContent: 'center',
+                width: '100%',
+              }}
+            >
+              <ul style={{ display: 'flex', justifyContent: 'center', margin: 0 }}>
+                {dots.slice(0, 3)} {/* Yaha par dots limit kar rahe hain 3 tak */}
+              </ul>
+            </div>
+          ),
         responsive: [
           {
             breakpoint: 1024,
@@ -63,7 +90,7 @@ const Destination = () => {
             </div>
             <div className={`lg:max-w-[1260px] lg:m-auto relative`}>
 
-                <div className={` `}>
+                <div className={`mb-[30px] `}>
                     <Slider {...settings}>
                         {
                             destinationData.map((data)=>{
@@ -106,7 +133,7 @@ const Destination = () => {
                     }
                 </div>
 
-                <div className={``}>
+                <div className={`mt-[50px]`}>
                     <Slider {...settings}>
                         {
                             descriptionData_Row2.map((data)=>{

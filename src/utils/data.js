@@ -1,4 +1,3 @@
-
 export const navHeading=["Home","About Us","Services","Best Deals","Destination","Contact Us"];
 
 export const aboutData=[
@@ -135,7 +134,7 @@ export const destinationData =[
     },
     {
         id:5,
-        bgImg:"https://images.unsplash.com/photo-1558870832-c8db4b5b47d1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        bgImg:"https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         tours:"2",
         country:"Japan",
         city:"Tokiyo",
@@ -143,7 +142,7 @@ export const destinationData =[
     },
     {
         id:6,
-        bgImg:"https://images.unsplash.com/photo-1516483638261-f4dbaf036963?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        bgImg:"https://images.unsplash.com/photo-1498036882173-b41c28a8ba34?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         tours:"2",
         country:"Italy",
         city:"Naples",
@@ -414,7 +413,6 @@ export const serviceData_Row2 = [
     }
 ]
 
-
 export const destinationPageData = [
    {
      id:"img1",
@@ -458,7 +456,7 @@ export const destinationPageData = [
    },
    {
      id:"img6",
-     imgURL:"https://.unsplash.com/photo-1584117992567-a84ca619bb99?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     imgURL:"https://i.insider.com/5da77431695b585e833ca3bb?width=800&format=jpeg&auto=webp",
      country:"Japan",
      city:"Tokyo",
      price:93,
@@ -573,7 +571,6 @@ export const reviewsData =[
     },
 ]
 
-
 export const bestDealsPage2 = [
     {
         id:" deal-1 Vietnam",
@@ -628,7 +625,7 @@ export const bestDealsPage2 = [
         title: "A Journey of India through its splendid Destination",
         description: "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
         hoverContent:{
-            image_url:"https://static.toiimg.com/thumb/71598959/jatayu_adventure_centre.jpg?width=636&height=358&resize=4",
+            image_url:"https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_evening-097.jpg",
             price:123,
             package:{
                 date:{
@@ -854,12 +851,12 @@ export const bestDealsPage2 = [
     },
     {   
         id:"deal-7",      
-        country_name:"Nigeria ",
+        country_name:"Bali ",
         rating:4,
-        title:"Awesome Nigeria, A Land of Rich Culture, Diverse Landscapes, and Vibrant Heritage",
-        description:"Nigeria, rich in culture and diversity, offers vibrant cities, stunning landscapes, ancient traditions, and a dynamic blend of music, art, and cuisine.",
+        title:"Experience Paradise in Bali's Serene Landscapes ",
+        description:"Bali, known as the Island of the Gods, is a tropical paradise with stunning beaches, lush rice terraces, and a vibrant cultural heritage. It's the perfect destination for relaxation and adventure",
         hoverContent:{
-            image_url:"https://images.unsplash.com/photo-1618828665347-d870c38c95c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmlnZXJpYXxlbnwwfHwwfHx8MA%3D%3D",
+            image_url:"https://www.diyphotographystuff.info/wp-content/uploads/2024/04/Best-places-to-photograph-inBali-Indonesia.jpg",
             price:456,
             package:{
                 date:{
@@ -879,19 +876,19 @@ export const bestDealsPage2 = [
                 rating: 5
             },
             {
-                image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Newlea.jpg/250px-Newlea.jpg",
+                image_url: "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit1440960gsm/events/2021/12/23/e03986c2-3689-46fa-b346-0d355472818d-1640249617229-985ec7b0c8b9d720ee4baa6de97d4c12.jpg",
                 city_name: "Abuja",
                 place_name: "millennium",
                 rating: 3.5
             },
             {
-                image_url: "https://images.unsplash.com/photo-1736890729709-4443ac5b6bf0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://images.unsplash.com/photo-1546484475-7f7bd55792da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaSUyMGJlYXV0aWZ1bCUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
                 city_name: "Yankari Game Reserve",
                 place_name: "wikki warm springs",
                 rating:4
             },
             {
-                image_url: "https://media.istockphoto.com/id/1145890295/photo/olumo-rock-abeokuta-nigeria.jpg?s=612x612&w=0&k=20&c=Sz1Nx4WPRfbPhDWDphZBRzTN5BVkt14TENMtrPo2OV0=",
+                image_url: "https://www.holidify.com/images/bgImages/BALI.jpg",
                 city_name: "Olumo Rock",
                 place_name: "oumo rock tourist complex",
                 ratin: 4.5
@@ -938,7 +935,7 @@ export const bestDealsPage2 = [
                 rating: 3.5
             },
             {
-                image_url:"https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url:"https://traveleva-blogs.gumlet.io/wp-content/uploads/2024/03/Places-to-Visit-in-Maldives.jpg?compress=true&quality=80&w=768&dpr=1",
                 city_name: "addu atoll",
                 place_name: "addu nature park",
                 rating: 5
@@ -968,4 +965,56 @@ export const FAQs = [
         "question":"Can I cancel or change my booking...?",
         "answer":"Yes, you can cancel or change your booking through your account dashboard. Fees may apply depending on the airline's policy.",
     },
+]
+
+export const destinationInfo = [
+    {
+        heroSecImg:"https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        title:"The land of vast history ,diversity and culture",
+        location:"India, jaipur",
+        shortDescription:"India, a vast and diverse country in South Asia, is known for its rich cultural heritage, historical landmarks, and vibrant traditions. It's a land where ancient history blends seamlessly with modern advancements",
+        travelAdvice:[
+            {
+                icon:"   https://cdn-icons-png.flaticon.com/512/11948/11948566.png ",
+                title:"best time to visit "
+            },
+            {
+                icon:"   https://cdn-icons-png.flaticon.com/512/11649/11649196.png ",
+                title:"local custom"
+            },
+            {
+                icon:"   https://cdn-icons-png.flaticon.com/512/18103/18103747.png ",
+                title:"tips from pros"
+            },
+        ],
+        gallery:[
+            "https://aanganresortmandawa.com/wp-content/uploads/2021/09/Famous-Sunset-and-Sunrise-Spots-in-Rajasthan.jpg",
+            "https://ramadajaipurjps.com/wp-content/uploads/2022/04/jal-mahal-1024x682.webp",
+            "https://www.jaipurtravel.com/slide4.jpg",
+            "https://chokhidhani.com/wp-content/uploads/2024/08/jaigarh-fort-jaipur-1.jpg",
+            "https://mysimplesojourn.com/wp-content/uploads/2016/10/20-1024x494.jpg"
+        ],
+        topAttraction:[
+            {
+                placeImg:"https://plus.unsplash.com/premium_photo-1697730288821-62c119fb7c5d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                placeName:"Amber Palace",
+                description:"Amber Palace, a majestic hilltop fort with intricate architecture, beautiful gardens, and stunning views"
+            },
+            {
+                placeImg:"https://images.unsplash.com/photo-1688671141790-a17b0c866bb7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGphaXB1ciUyMGFuYW50YXJhJTIwamV3ZWwlMjBiYWdofGVufDB8fDB8fHww",
+                placeName:"Jaisalmer",
+                description:"Jaisalmer, known as the Golden City, boasts magnificent sandstone architecture and captivating desert landscapes"
+            },
+            {
+                placeImg:"https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-jewel-bagh-jaipur-hotel/01_homepage_ok/anantara_jewel_bagh_jaipur_hotel_intro_01_944x510.jpg",
+                placeName:"Anantara Jewel Hotel",
+                description:"Regal luxury in Jaipur with heritage charm and world-class amenities."
+            },
+            {
+                placeImg:"https://ghoomosa.com/wp-content/uploads/2020/10/Rajasthan-9.jpg",
+                placeName:"udaipur",
+                description:"Udaipur, the City of Lakes, enchants with palatial architecture, serene lakes, and rich culture"
+            }
+        ]
+    }
 ]
