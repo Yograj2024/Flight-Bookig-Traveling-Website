@@ -6,9 +6,9 @@ import Package from './Home_Page_Sections/Package';
 import Testimonial from './Home_Page_Sections/Testimonial';
 import Wispydeals from './Home_Page_Sections/Wispydeals';
 
-const Main = () => {
+const Home = () => {
   return (
-    <main>
+    <>
         <Hero/>
         <About/>
         <Package/>
@@ -16,7 +16,7 @@ const Main = () => {
         <Destination/>
         <Testimonial/>
         <AirLines/>
-    </main>
+    </>
 )};
 
-export default Main;
+export default Home;

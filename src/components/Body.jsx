@@ -21,13 +21,14 @@ const Body = () => {
       <Navbar listContainer={listContainer} setListContainer={setListContainer}/>
     </header>
 
-    <Outlet/>
-
+    <main>
+      <Outlet/>
+    </main>
+       
     <footer className={`bg-[#4C585B]  p-[70px_0px_0px]`}>
       <Disclaimer/>
       <Link_Contact/>
     </footer>
-
   </> )
 };
 

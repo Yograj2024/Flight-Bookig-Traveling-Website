@@ -7,14 +7,17 @@ const Navbar = ({listContainer,setListContainer}) => {
 
   return ( <nav className ={`flex w-full m-auto flex-col items-center bg-white justify-between px-[0px] fixed top-0  transition-all duration-900 ease-in ${(listContainer) ? ("h-350px") : ("h-[80px]")}`}>
     <div className={`flex h-[80px] w-full items-center justify-between max-w-[1440px] px-[10px]`}>
-        <div className ={` h-[40px] w-[100px] bg-red-700`} ></div>
+        <div className ={` h-[70px] w-[150px] bg-red-700`} >
+            <img src="../../images/logo.png" alt=""  className={`h-full w-full object-cover`}/>
+        </div>
 
         <ul className ={`hidden lg:flex lg:text-[1.3rem] font-semibold`} >
             {
                 navHeading.map((heading,index)=>{
+                    const formattedUrl = heading.toLowerCase().replace(" ","-");
                     return( 
                     <li key={index} className="m-[0_8px] p-[0_10px]">
-                        <NavLink to={`/${heading}`} 
+                        <NavLink to={formattedUrl == "home" ? "/" : `/${formattedUrl}`} 
                                  className={ ({isActive}) =>`
                                  ${isActive ? 
                                    "text-orange-400" :

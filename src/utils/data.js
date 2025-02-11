@@ -988,10 +988,10 @@ export const destinationInfo = [
             },
         ],
         gallery:[
-            "https://aanganresortmandawa.com/wp-content/uploads/2021/09/Famous-Sunset-and-Sunrise-Spots-in-Rajasthan.jpg",
-            "https://ramadajaipurjps.com/wp-content/uploads/2022/04/jal-mahal-1024x682.webp",
+            "https://images.unsplash.com/photo-1519955266818-0231b63402bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGphaXB1ciUyMHBlb3BsZSUyMGN1bHR1cmV8ZW58MHx8MHx8fDA%3D",
+            "https://images.unsplash.com/photo-1572714840431-c68bba078727?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxqYWlwdXJ8ZW58MHx8MHx8fDA%3D",
+            "https://images.unsplash.com/photo-1689649539122-a2ef8d486b03?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amFpcHVyJTIwY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
             "https://www.jaipurtravel.com/slide4.jpg",
-            "https://chokhidhani.com/wp-content/uploads/2024/08/jaigarh-fort-jaipur-1.jpg",
             "https://mysimplesojourn.com/wp-content/uploads/2016/10/20-1024x494.jpg"
         ],
         topAttraction:[

@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { FAQs } from '../utils/data';
-import DestinationInfo from './DestinationInfo';
 const ContactPage = () => {
   const [ countryCode, setCountryCode ] = useState(91);
   return (
@@ -113,9 +112,6 @@ const ContactPage = () => {
               }
           </div>
         </div>
-      </section>
-      <section>
-        <DestinationInfo/>
       </section>
     </>
   )

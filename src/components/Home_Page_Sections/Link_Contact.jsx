@@ -4,7 +4,7 @@ import contactList from '../../custumHooks/contactList';
 import { contact, qLinks, usefulLinks } from '../../utils/data';
 
 const Link_Contact = () => {
-       
+    
   return <>
             <section className=''>
                 <div className={`p-[70px_20px_0px] md:flex md:flex-col lg:flex-row md:max-w-[1440px] md:m-auto`}>
@@ -17,9 +17,10 @@ const Link_Contact = () => {
                         <div className={`m-[20px_0px] md:flex-[1%] md:p-[0_0_0_20px] lg:pl-[50px]`}>
                             <h5 className={`text-[1.8rem] text-white font-semibold text-center sm:text-left md:text-left mb-[30px]`}>Quick Links</h5>
                             <div className={`grid grid-cols-1 sm:grid-cols-[150px_150px] ex-s:grid-cols-[185px_1fr] md:grid-cols-1`}>
-                                { qLinks.map( (item,index)=> <h6 className={`m-[5px_0px] text-slate-300 `} key={`${index}_${item}`}> 
-                                                    <i className="fa-solid fa-hand-point-right mr-[8px] text-slate-400"></i>  
-                                                    <Link to={`/${item}`}> {item} </Link> </h6> ) }
+                                { qLinks.map( (item,index) => {
+                                    const formattedUrl = item.toLowerCase().replace(" ","-");
+                               return <h6 className={`m-[5px_0px] text-slate-300 `} key={`${index}_${item}`}> <i className="fa-solid fa-hand-point-right mr-[8px] text-slate-400"></i>  <Link to={`/${formattedUrl}`}> {item} </Link> </h6> })
+                                }
                             </div>
                         </div>
 
