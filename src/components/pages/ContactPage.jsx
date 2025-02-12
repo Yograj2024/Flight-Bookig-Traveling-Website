@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FAQs } from '../utils/data';
+import { FAQs } from '../../utils/data';
 const ContactPage = () => {
   const [ countryCode, setCountryCode ] = useState(91);
   return (

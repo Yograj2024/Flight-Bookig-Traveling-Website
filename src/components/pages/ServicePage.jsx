@@ -1,14 +1,12 @@
 import React from "react";
-import { serviceData, serviceData_Row2 } from "../utils/data";
-import AirLines from "./Home_Page_Sections/AirLInes";
-import { addToCart } from "../store/features/cart/cartSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { changeUrl } from "../store/features/url/urlSlice";
+import { addToCart } from "../../store/features/cart/cartSlice";
+import { changeUrl } from "../../store/features/url/urlSlice";
+import { serviceData, serviceData_Row2 } from "../../utils/data";
+import AirLines from "../sections/AirLInes";
 
 const ServicePage =() => {
 
-    const url = useSelector( state => state.url.url);
-    const items = useSelector( state => state.cart.cartItems);
     const dispatch = useDispatch();
     const handleClick = (e) => {
         dispatch(addToCart(e.target.tagName));
@@ -17,11 +15,6 @@ const ServicePage =() => {
     return ( 
         <>
             <section className={``}>
-                <h1>
-                    {
-                        items
-                    }
-                </h1>
                 <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full before:bg-[#F5F5F5]
                     relative before:absolute before:z-[-1] pb-[30px]`}>
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
@@ -50,7 +43,6 @@ const ServicePage =() => {
                                         </div>
                                         <h5 className={`text-[1.2rem] font-semibold`}> {data.heading} </h5>
                                         <p className={`text-center`}> {data.content} </p>
-                                        <p>{items}</p>
                                     </div>
                                 ))
                             }

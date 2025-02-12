@@ -6,10 +6,12 @@ import "slick-carousel/slick/slick.css";
 import handleClick from "../../custumHooks/handalUrl";
 import { setScreenSize } from "../../store/features/storeDevidce-width/resizeSlice";
 import { packageData } from "../../utils/data";
+import { useDispatch } from "react-redux";
 
 const Package = () => {
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   let settings = {
     dots: false,
@@ -49,7 +51,7 @@ const Package = () => {
   
   useEffect( () => {
     const handleResize = () => {
-      dispatch ( setScreenSize ( window.innerWidth))
+      dispatch( setScreenSize ( window.innerWidth))
     }
     window.addEventListener( 'resize', handleResize)
   },[] );

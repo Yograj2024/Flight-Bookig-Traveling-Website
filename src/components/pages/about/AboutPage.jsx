@@ -1,5 +1,5 @@
-import About from "./Home_Page_Sections/About";
-import Testimonial from "./Home_Page_Sections/Testimonial";
+import About from "../../sections/About";
+import Testimonial from "../../sections/Testimonial";
 import OurMission from "./OurMission";
 import OurStory from "./OurStory";
 import WhyUs from "./WhyUs";

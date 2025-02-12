@@ -266,7 +266,7 @@ export const descriptionData_Row2 = [
     }
 ];
 
-export const wispydealsData=[
+export const ExclusiveOffersData=[
     {
         iconImg:"https://cdn-icons-png.flaticon.com/512/14040/14040398.png ",
         heading:"Flight Reservations",

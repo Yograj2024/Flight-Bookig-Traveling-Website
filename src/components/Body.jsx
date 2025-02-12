@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import Disclaimer from './Home_Page_Sections/Disclaimer';
 import Navbar from "./Navbar";
-import Link_Contact from './Home_Page_Sections/Link_Contact';
+import Disclaimer from './sections/Disclaimer';
+import Link_Contact from './sections/Link_Contact';
 
 const Body = () => {
 
@@ -15,7 +15,7 @@ const Body = () => {
 
     if(location.hash){
       const element = document.querySelector(location.hash);
-      element.scrollIntoView({behavior:"smooth"});
+      element ? scrollIntoView({behavior:"smooth"}) : "";
     }else{
       window.scrollTo(0,0);
     }

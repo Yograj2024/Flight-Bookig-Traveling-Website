@@ -1,5 +1,5 @@
 import React from "react";
-import { destinationInfo } from "../utils/data";
+import { destinationInfo } from "../../utils/data";
 
 const DestinationInfo = () => {
 

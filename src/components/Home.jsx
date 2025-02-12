@@ -1,10 +1,10 @@
-import About from './Home_Page_Sections/About';
-import AirLines from './Home_Page_Sections/AirLInes';
-import Destination from './Home_Page_Sections/Destination';
-import Hero from './Home_Page_Sections/Hero';
-import Package from './Home_Page_Sections/Package';
-import Testimonial from './Home_Page_Sections/Testimonial';
-import Wispydeals from './Home_Page_Sections/Wispydeals';
+import About from './sections/About';
+import AirLines from './sections/AirLInes';
+import Destination from './sections/Destination';
+import ExclusiveOffers from './sections/ExclusiveOffers';
+import Hero from './sections/Hero';
+import Package from './sections/Package';
+import Testimonial from './sections/Testimonial';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
         <Hero/>
         <About/>
         <Package/>
-        <Wispydeals/>
+        <ExclusiveOffers/>
         <Destination/>
         <Testimonial/>
         <AirLines/>

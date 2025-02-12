@@ -1,7 +1,7 @@
 import React from 'react';
-import { wispydealsData } from '../../utils/data';
+import { ExclusiveOffersData } from '../../utils/data';
 
-const Wispydeals = () => {
+const ExclusiveOffers = () => {
    return (
     <>
       <section className={`w-full relative before:content-[''] m-[30px_0] before:absolute before:h-full before:w-full before:bg-[url('https://images.unsplash.com/photo-1570420118092-5b96e28ff4cb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  before:bg-cover before:bg-center before:z-[-1]`}>
@@ -18,7 +18,7 @@ const Wispydeals = () => {
 
             <div className={`sm:w-[90%] sm:mx-auto sm:mt-[50px] sm:grid sm:grid-cols-2 sm:gap-x-[50px] md:w-[45%] md:m-0 md:gap-x-[20px]`}>
                 {
-                    wispydealsData.map((data)=>{
+                   ExclusiveOffersData.map((data)=>{
                         return ( 
                             <div key={data.id} 
                                 className = {`h-[170px] sm:h-[190px] w-[60%] sm:w-full m-[30px_auto] sm:mt-0 bg-gray-300 bg-opacity-15 flex flex-col md:m-[10px_auto] items-center justify-center gap-y-[10px]  rounded-[18px]`}>
@@ -37,4 +37,4 @@ const Wispydeals = () => {
     </>)
 };
 
-export default Wispydeals;
+export default ExclusiveOffers;

@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import handleClick from "../custumHooks/handalUrl";
-import { destinationPageData } from "../utils/data";
+import handleClick from "../../custumHooks/handalUrl";
+import { destinationPageData } from "../../utils/data";
 
 const DestinationPage = () => {
 

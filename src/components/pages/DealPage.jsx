@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Layout_1, Layout_2 } from '../custumHooks/Layouts';
-import isNumberInSeries from '../custumHooks/isNumberInSeries';
-import { setScreenSize } from '../store/features/storeDevidce-width/resizeSlice';
-import { bestDealsPage2 } from '../utils/data';
+import { Layout_1, Layout_2 } from '../../custumHooks/Layouts';
+import isNumberInSeries from '../../custumHooks/isNumberInSeries';
+import { setScreenSize } from '../../store/features/storeDevidce-width/resizeSlice';
+import { bestDealsPage2 } from '../../utils/data';
 
 const DealPage = () => {
   const screenSize = useSelector( ( state ) => state.screenSize.screenSize );
@@ -12,7 +12,7 @@ const DealPage = () => {
   useEffect( () => {                            
     
     const handleResize = () => {
-      dispatch ( setScreenSize ( window.innerWidth))
+      dispatch( setScreenSize ( window.innerWidth))
     }
 
     window.addEventListener( 'resize', handleResize)
