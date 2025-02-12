@@ -1,11 +1,27 @@
 import React from "react";
 import { serviceData, serviceData_Row2 } from "../utils/data";
 import AirLines from "./Home_Page_Sections/AirLInes";
+import { addToCart } from "../store/features/cart/cartSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { changeUrl } from "../store/features/url/urlSlice";
 
 const ServicePage =() => {
+
+    const url = useSelector( state => state.url.url);
+    const items = useSelector( state => state.cart.cartItems);
+    const dispatch = useDispatch();
+    const handleClick = (e) => {
+        dispatch(addToCart(e.target.tagName));
+        dispatch(changeUrl("/destination-Info"));
+    };
     return ( 
         <>
             <section className={``}>
+                <h1>
+                    {
+                        items
+                    }
+                </h1>
                 <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full before:bg-[#F5F5F5]
                     relative before:absolute before:z-[-1] pb-[30px]`}>
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
@@ -26,7 +42,7 @@ const ServicePage =() => {
                                 serviceData.map( ( data, index ) => (
                                     <div className={`w-[75%] sm:w-[80%] m-[70px_auto_20px] p-[65px_25px_20px]  
                                     flex flex-col items-center justify-center gap-y-[20px] rounded-[20px] relative 
-                                    shadow-[inset_8px_10px_10px_0px_rgba(0,0,0,0.1)]`} key={ `service-${index + 1}`}>
+                                    shadow-[inset_8px_10px_10px_0px_rgba(0,0,0,0.1)]`} key={ `service-${index + 1}`} onClick={handleClick}>
                                         <div className={`h-[80px] lg:h-[90px] aspect-square p-[18px] bg-stone-100
                                              rounded-[50%] absolute top-[-2.4rem] lg:border-[0px] border-[#f2f0e]
                                               shadow-[inset_-3px_0px_4px_4px_rgba(0,0,0,0.1)]`}>
@@ -34,6 +50,7 @@ const ServicePage =() => {
                                         </div>
                                         <h5 className={`text-[1.2rem] font-semibold`}> {data.heading} </h5>
                                         <p className={`text-center`}> {data.content} </p>
+                                        <p>{items}</p>
                                     </div>
                                 ))
                             }

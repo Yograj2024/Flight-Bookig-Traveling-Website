@@ -14,7 +14,10 @@ import "./index.css";
 import store from "./store/store";
 import Cookies from "./components/Cookies";
 import DisclaimerPolicy from "./components/DisclaimerPolicy";
-
+import TermsAndCondition from "./components/TermsAndCondition";
+import RefundPolicy from "./components/RefundPolicy";
+import DataAndProtection from "./components/DataAndProtection";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 const root=createRoot(document.getElementById("root"));
 
 const Rout=createBrowserRouter([
@@ -60,7 +63,24 @@ const Rout=createBrowserRouter([
             },{
                 path:"/disclaimer-policy",
                 element:<DisclaimerPolicy/>
+            },
+            {
+                path:"/terms-&-conditions",
+                element:<TermsAndCondition/>
+            },
+            {
+                path:"/refund-policy",
+                element:<RefundPolicy/>
+            },
+            {
+                path:"/data-protection-policy",
+                element:<DataAndProtection/>
+            },
+            {
+                path:"/privacy-policy",
+                element:<PrivacyPolicy/>
             }
+
         ]
     }
 ]);

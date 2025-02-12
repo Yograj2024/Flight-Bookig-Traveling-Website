@@ -1,30 +1,16 @@
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import handleClick from "../../custumHooks/handalUrl";
 import { setScreenSize } from "../../store/features/storeDevidce-width/resizeSlice";
 import { packageData } from "../../utils/data";
 
 const Package = () => {
 
-  const [url, setUrl] = useState(""); // state to hold the URL
-  const navigate = useNavigate(); // useNavigate for programmatic navigation
+  const navigate = useNavigate();
 
-  // Handle click event
-  const handleClick = (e) => {
-    // Check if the target is a button
-    if (e.target.tagName === 'BUTTON') {
-      setUrl("/fillForm");
-    } else {
-      setUrl("/destination-Into");
-    }
-  };
-
-  // Navigate when URL changes
-  if (url) {
-    navigate(url); // Navigate to the stored URL
-  }
   let settings = {
     dots: false,
     infinite: true,
@@ -65,9 +51,8 @@ const Package = () => {
     const handleResize = () => {
       dispatch ( setScreenSize ( window.innerWidth))
     }
-
     window.addEventListener( 'resize', handleResize)
-  }, [] );
+  },[] );
 
   return <>
     <section className={`md:mt-[80px]`}>
@@ -80,11 +65,11 @@ const Package = () => {
             </div>
             <div className={``} >
                 <Slider {...settings}>
-                    {
+                    { 
                       packageData.map((data)=>{
-                        return <Link to={url} onClick={handleClick}> 
+                        return <>
                           <div className={`h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
-                            key={`${data.id}`} >
+                            key={`${data.id}`} onClick={ (e) => handleClick(e, navigate)} >
                             <img src={data.bgImg} alt="" className={`h-full w-full object-cover absolute z-[-1] rounded-[20px]`} />
                             <div className={`relative p-[20px] flex flex-col h-full w-full justify-between z-[2]`}> 
                                 <div className={`flex items-center justify-between`}>
@@ -105,7 +90,7 @@ const Package = () => {
                                 </div>
                             </div>
                           </div>
-                        </Link>
+                        </>
                       })}
                 </Slider>
             </div>

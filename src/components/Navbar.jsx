@@ -1,20 +1,25 @@
 import { NavLink } from "react-router-dom";
 import { mobileListContaner, mobileListContaner2 } from "../utils/css";
 import { navHeading } from "../utils/data";
-import { crossIcon, menuIcon } from "../utils/links";
+import { crossIcon, menuIcon, user } from "../utils/links";
+import { useSelector } from "react-redux";
+import { useState } from "react";
 
 const Navbar = ({listContainer,setListContainer}) => {
+   const [isLogin,setisLogin]=useState("Login");
+   const cartItems = useSelector( state => state.cart.cartItems);
 
-  return ( <nav className ={`flex w-full m-auto flex-col items-center bg-white justify-between px-[0px] fixed top-0  transition-all duration-900 ease-in ${(listContainer) ? ("h-350px") : ("h-[80px]")}`}>
+  return ( <nav className ={`flex w-full m-auto flex-col items-center bg-[#4f9d9d] bg-opacity-50 backdrop-blur-sm justify-between px-[0px] fixed top-0  transition-all duration-900 ease-in shadow-lg ${(listContainer) ? ("h-350px") : ("h-[80px]")}`}>
     <div className={`flex h-[80px] w-full items-center justify-between max-w-[1440px] px-[10px]`}>
         <div className ={` h-[70px] w-[150px] bg-red-700`} >
             <img src="../../images/logo.png" alt=""  className={`h-full w-full object-cover`}/>
         </div>
 
-        <ul className ={`hidden lg:flex lg:text-[1.3rem] font-semibold`} >
+        <ul className ={`hidden lg:flex lg:items-center lg:text-[1.3rem] font-semibold`} >
             {
                 navHeading.map((heading,index)=>{
-                    const formattedUrl = heading.toLowerCase().replace(" ","-");
+                    const formattedUrl = heading.toLowerCase().replace(/ /g,"-");
+                    
                     return( 
                     <li key={index} className="m-[0_8px] p-[0_10px]">
                         <NavLink to={formattedUrl == "home" ? "/" : `/${formattedUrl}`} 
@@ -25,6 +30,19 @@ const Navbar = ({listContainer,setListContainer}) => {
                                     hover:text-orange-500 `}> {heading} </NavLink>
                     </li>)})
             }
+            <NavLink to="/cart" className="cart mx-[20px] ">
+                <i className="fa-solid fa-cart-shopping relative">
+                    <span className={`inline-flex items-center justify-center absolute text-[10px] top-[-13px] p-[3px] bg-red-400 h-[18px] right-[-9px] aspect-square rounded-full `}>{cartItems.length}</span>
+                </i>
+            </NavLink>
+
+            <div className="flex items-center rounded-[30px]" 
+            onClick={()=>{ (isLogin=="Login")?(setisLogin("LogOut")):(setisLogin("Login"));}}>
+                <button className="h-full px-2 rounded-[30px] outline-none border-none text-[0.9rem] font-bold tracking-wide flex items-center transition duration-300 ease">{isLogin}</button>
+                <span className="inline-block h-[40px] aspect-square rounded-[50%] ">
+                    <img src={user} className="w-full h-full object-cover"/>
+                </span>
+            </div>
         </ul>
 
         <div className ={`${listContainer ? "scale-[-0.6]" : ""} h-[32px] lg:hidden`}>

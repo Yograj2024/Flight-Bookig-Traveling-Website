@@ -1,5 +1,7 @@
 export const menuIcon="   https://cdn-icons-png.flaticon.com/512/18472/18472616.png ";
 
+export const user="https://cdn-icons-png.flaticon.com/512/5087/5087579.png";
+
 export const crossIcon="https://cdn-icons-png.flaticon.com/128/10337/10337030.png"
 
 export const helo_Section_BGimg="https://images.unsplash.com/photo-1536152470836-b943b246224c?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";

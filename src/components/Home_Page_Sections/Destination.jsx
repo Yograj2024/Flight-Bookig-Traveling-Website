@@ -1,85 +1,78 @@
-import React, { useCallback, useState } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { descriptionData_Row2, destinationData } from '../../utils/data';
+import handleClick from "../../custumHooks/handalUrl";            
+import { useNavigate } from 'react-router-dom';
 
 const Destination = () => {
 
-    let settings = {
-        dots: true ,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        initialSlide: 0,
-        customPaging: i => (
-            <div
-              style={{
-                width: '10px',
-                height: '10px',
-                borderRadius: '50%',
-                backgroundColor: '#000', // Black dots
-                margin: '0 5px',
-                opacity:0.5
-              }}
-            ></div>
-          ),
-          appendDots: dots => (
-            <div
-              style={{
-                position: 'absolute',
-                bottom: '-30px',  // Dots ko slider ke neeche rakhna
-                display: 'flex',
-                justifyContent: 'center',
-                width: '100%',
-              }}
-            >
-              <ul style={{ display: 'flex', justifyContent: 'center', margin: 0 }}>
-                {dots.slice(0, 3)} {/* Yaha par dots limit kar rahe hain 3 tak */}
-              </ul>
-            </div>
-          ),
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              dots:true
-            }
+  const navigate = useNavigate();
+  let settings = {
+      dots: true ,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      customPaging: i => (
+          <div
+            style={{
+              width: '10px',
+              height: '10px',
+              borderRadius: '50%',
+              backgroundColor: '#000', // Black dots
+              margin: '0 5px',
+              opacity:0.5
+            }}
+          ></div>
+        ),
+        appendDots: dots => (
+          <div
+            style={{
+              position: 'absolute',
+              bottom: '-30px',  // Dots ko slider ke neeche rakhna
+              display: 'flex',
+              justifyContent: 'center',
+              width: '100%',
+            }}
+          >
+            <ul style={{ display: 'flex', justifyContent: 'center', margin: 0 }}>
+              {dots.slice(0, 3)} {/* Yaha par dots limit kar rahe hain 3 tak */}
+            </ul>
+          </div>
+        ),
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
           }
-        ]
-      };
-    const [ moveSlide, setMoveSlide ] = useState ( 0 );
-
-    const updateSlides = useCallback ( ( isNext ) => {
-        setMoveSlide( ( prevMoveSlide ) => {
-            return isNext
-                ? prevMoveSlide == 650 ? 0 : prevMoveSlide + 320
-                : prevMoveSlide != 0 ? prevMoveSlide - 320 : 0;
-        });
-    }, []);
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:true
+          }
+        }
+      ]
+  };
 
   return (
-    <>
       <section>
         <div className={`max-w-[1440px] md:m-auto`}>
             <div className={``}> 
@@ -89,14 +82,14 @@ const Destination = () => {
                 </h1> 
             </div>
             <div className={`lg:max-w-[1260px] lg:m-auto relative`}>
-
                 <div className={`mb-[30px] `}>
                     <Slider {...settings}>
                         {
                             destinationData.map((data)=>{
-                                return (
+                                return ( 
+                                  <>
                                     <div className={`h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30 `}
-                                        key={data.id}>
+                                        key={data.id} onClick={ (e) => handleClick(e, navigate)} >
                                             <img src={data.bgImg} alt="" className={`h-full w-full object-cover z-[-1] absolute rounded-[20px]`}/>
                                         <div className={`p-[20px] flex flex-col h-full w-full justify-between relative z-[4]`}> 
                                             <div className={`flex items-center justify-end`}>
@@ -111,26 +104,11 @@ const Destination = () => {
                                             </div>
                                         </div>
                                     </div>
+                                  </>
                                 )
                             })
                         }
                     </Slider>
-
-                    {
-                    /* 
-                    <button className = {`${ moveSlide == 650 ? "opacity-0" : "bg-opacity-30 hover:bg-opacity-50"} transition-all ease duration-[900ms] z-[2] h-[170px] w-[30px] absolute top-[42%] rounded-[20px] text-[2rem] bg-slate-800 xl:right-[-35px] text-white font-extra-light`} 
-                    onClick = { ( e ) => { 
-                        e.preventDefault(); 
-                        updateSlides ( true )
-                        }}> <i class="fa-solid fa-arrow-right"></i> </button>
-                    <button className = {`${ moveSlide == 0 ? "opacity-0" : "bg-opacity-30 hover:bg-opacity-50"} transition-all ease duration-[900ms] z-[2] h-[170px] w-[30px] absolute top-[42%] rounded-[20px] text-[2rem] bg-slate-800 xl:left-[-38px] text-white`} 
-                    onClick = { ( e ) => { 
-                        e.preventDefault(); 
-                        updateSlides (false)
-                        }}> <i className = " fa-solid fa-chevron-left " /> </button> 
-
-                        */
-                    }
                 </div>
 
                 <div className={`mt-[50px]`}>
@@ -139,7 +117,7 @@ const Destination = () => {
                             descriptionData_Row2.map((data)=>{
                                 return (
                                     <div className={`h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
-                                        key={data.id}>
+                                        key={data.id} onClick={ (e) => handleClick(e, navigate)}>
                                             <img src={data.bgImg} alt="" className={`h-full w-full object-cover z-[-1] absolute rounded-[20px]`}/>
 
                                         <div className={`p-[20px] flex flex-col h-full w-full justify-between relative z-[4]`}> 
@@ -162,10 +140,7 @@ const Destination = () => {
                 </div>
             </div>
         </div>
-          
-
       </section>
-    </>
   );
 };
 

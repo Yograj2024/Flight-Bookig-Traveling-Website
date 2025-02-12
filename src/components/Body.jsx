@@ -7,12 +7,18 @@ import Link_Contact from './Home_Page_Sections/Link_Contact';
 const Body = () => {
 
   const [listContainer,setListContainer]=useState(false);
-
   const location = useLocation();
 
   useEffect( () => {
-    (listContainer == true ) ? (setListContainer(false)) : ("")
-    window.scrollTo(0, 0); // Scroll to top
+
+    listContainer == true  ? setListContainer(false) : "";
+
+    if(location.hash){
+      const element = document.querySelector(location.hash);
+      element.scrollIntoView({behavior:"smooth"});
+    }else{
+      window.scrollTo(0,0);
+    }
   }, [location]);
 
   return ( 

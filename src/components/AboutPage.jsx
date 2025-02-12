@@ -1,5 +1,8 @@
 import About from "./Home_Page_Sections/About";
 import Testimonial from "./Home_Page_Sections/Testimonial";
+import OurMission from "./OurMission";
+import OurStory from "./OurStory";
+import WhyUs from "./WhyUs";
 
 const AboutPage = () => {
     return (
@@ -29,10 +32,13 @@ const AboutPage = () => {
                         bg-cover bg-[0%_65%]`}></div>
                 </div>
             </section>
-            
 
             <About/>
+            <OurStory/>
+            <OurMission/>
+            <WhyUs/>
             <Testimonial/>
+            
         </>
     )
 };

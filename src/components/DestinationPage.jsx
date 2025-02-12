@@ -1,17 +1,12 @@
-import { destinationPageData } from "../utils/data";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import { useNavigate } from "react-router-dom";
 import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import handleClick from "../custumHooks/handalUrl";
+import { destinationPageData } from "../utils/data";
 
 const DestinationPage = () => {
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-      };
+    const navigate = useNavigate(); 
     return (
         <>
             <section className={``}>
@@ -28,7 +23,6 @@ const DestinationPage = () => {
             <section className={`bg-[#F8FAFC] lg:py-[50px]`}>
                 <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Discover the destination that sparks your sense of inspiration.</h1>
                 <div className={`grid gap-y-[50px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-[90%] xl:max-w-[1240px] mx-auto md:gap-x-[20px] lg:gap-x-[20px] mt-[50px] lg:gap-y-[50px]`}>
-                    {/* <Slider {...settings} > */}
                         {
                             destinationPageData.map( (data, index) => {
 
@@ -46,7 +40,7 @@ const DestinationPage = () => {
                                                 <p className={`text-black font-semibold mb-[12px] font-systemUI`}> {data.aboutThis} </p>
                                                 <div className={`flex justify-between pr-[20px] items-center border-t border-t-slate-800 pt-[10px] border-opacity-40`}>
                                                     <span> ${data.price}/person </span>
-                                                    <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
+                                                    <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`} onClick={ (e) => handleClick(e,navigate)}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -54,7 +48,6 @@ const DestinationPage = () => {
                                 </>
                             })
                         }
-                    {/* </Slider> */}
                 </div>
             </section>
         </>
