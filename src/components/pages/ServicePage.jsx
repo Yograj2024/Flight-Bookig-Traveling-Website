@@ -15,7 +15,7 @@ const ServicePage =() => {
     return ( 
         <>
             <section className={``}>
-                <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full before:bg-[#F5F5F5]
+                <div className={`w-full max-w-[1440px] lg:mx-auto before:content-[''] before:w-full before:h-full 
                     relative before:absolute before:z-[-1] pb-[30px]`}>
                     <div className={`w-full m-[0px_0_0] h-[300px] lg:h-[530px] px-[20px] rounded-[0px]
                          before:content-[""] before:h-full before:w-full relative before:absolute before:z-[-1] 
@@ -49,7 +49,7 @@ const ServicePage =() => {
                         </div>
                     </div>
                 </div>              
-                <div className={`px-[30px] flex flex-wrap sm:flex-row gap-y-[50px] gap-x-[30px] max-w-[1340px] m-auto justify-around md:justify-between items-center mt-[50px] before:content-[' '] before:h-[50%] before:w-[80%] before:m-auto before:absolute before:z-[-1] before:bg-[url('https://img.freeik.com/premium-vector/curved-dashed-line_637394-4459.jpg?semt=ais_hybrid')] before:bg-cover before:bg-[50%_90px] before:bg-no-repeat`}>
+                <div className={`px-[50px] flex flex-wrap sm:flex-row gap-y-[50px] gap-x-[30px] max-w-[1340px] m-auto justify-around md:justify-between items-center mt-[50px] before:content-[' '] before:h-[50%] before:w-[80%] before:m-auto before:absolute before:z-[-1] before:bg-[url('https://img.freeik.com/premium-vector/curved-dashed-line_637394-4459.jpg?semt=ais_hybrid')] before:bg-cover before:bg-[50%_90px] before:bg-no-repeat`}>
                     {
                         serviceData_Row2.map( ( services ) => {
 
@@ -57,10 +57,10 @@ const ServicePage =() => {
 
                             return (
                                 <>
-                                    <div className="h-[280px] w-[220px] bg-yellow-200 flex flex-col items-center ">
-                                        <div className="h-[70px] aspect-square bg-white rounded-full mt-[30px] relative flex items-center justify-center">
-                                            <div className="bg-orange-500 h-[25px] aspect-square rounded-full flex items-center justify-center font-semibold absolute top-[-8px] left-[-6px]"> 0{ service } </div>
-                                            <div className="p-[15px]">
+                                    <div className="h-[330px] w-[250px] bg-blue-200 bg-opacity-30 flex flex-col items-center rounded-[30px] px-[20px]">
+                                        <div className="h-[80px] aspect-square bg-white rounded-full mt-[30px] relative flex items-center justify-center">
+                                            <div className="bg-orange-300 h-[30px] aspect-square rounded-full flex items-center justify-center font-semibold absolute top-[-8px] left-[-6px] text-[0.9rem]"> 0{ service } </div>
+                                            <div className="p-[18px]">
                                                 <img src={iconLink} className={`h-full w-full object-cover`}></img>
                                             </div>
                                         </div>

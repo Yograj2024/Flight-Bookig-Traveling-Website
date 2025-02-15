@@ -3,6 +3,7 @@ import Testimonial from "../../sections/Testimonial";
 import OurMission from "./OurMission";
 import OurStory from "./OurStory";
 import WhyUs from "./WhyUs";
+import Personal from "./Personal";
 
 const AboutPage = () => {
     return (
@@ -32,13 +33,12 @@ const AboutPage = () => {
                         bg-cover bg-[0%_65%]`}></div>
                 </div>
             </section>
-
             <About/>
+            <Personal/>
             <OurStory/>
             <OurMission/>
             <WhyUs/>
             <Testimonial/>
-            
         </>
     )
 };

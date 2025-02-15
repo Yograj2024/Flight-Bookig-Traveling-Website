@@ -20,6 +20,9 @@ html {
 .slick-prev{
   left:0rem
 }
+.slick-next{
+  right: 16px;
+}
 
 .slick-next, .slick-prev{
   height:2rem;
@@ -38,4 +41,9 @@ html {
     display: block !important;
     background-color: seashell;
   }
+}
+
+ul li::marker{
+  font-size: 0.8rem;
+  font-weight: bold;
 }

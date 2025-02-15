@@ -10,21 +10,14 @@ const Body = () => {
   const location = useLocation();
 
   useEffect( () => {
-
     listContainer == true  ? setListContainer(false) : "";
-
-    if(location.hash){
-      const element = document.querySelector(location.hash);
-      element ? scrollIntoView({behavior:"smooth"}) : "";
-    }else{
-      window.scrollTo(0,0);
-    }
-  }, [location]);
+    window.scrollTo(0,0);
+  },[location]);
 
   return ( 
   <>
-    <header className={`w-full relative z-[5] h-[80px] md:flex md:justify-center bg-white`}>
-      <Navbar listContainer={listContainer} setListContainer={setListContainer}/>
+    <header className = {`w-full relative z-[5] h-[80px] md:flex md:justify-center bg-white`}>
+      <Navbar listContainer = { listContainer } setListContainer = { setListContainer }/>
     </header>
 
     <main>
