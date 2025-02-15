@@ -926,7 +926,7 @@ export const bestDealsPage2 = [
         },
         locations : [
             {
-                image_url: "https://plus.unsplash.com/premium_photo-1681839699305-9fa5bd79cd4f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://t3.ftcdn.net/jpg/01/11/28/88/360_F_111288833_YIh3Br4p3lzSlFjDutcVIjJMj9EkWlKv.jpg",
                 city_name: "male",
                 place_name: "hukuru miskiy(old friday mosque)",
                 rating: 4

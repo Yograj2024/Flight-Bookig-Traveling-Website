@@ -6,7 +6,7 @@ import { contact, qLinks, usefulLinks } from '../../utils/data';
 const LinksSection = ({ title, links, customStyle }) => {
   return (
     <div className={`m-[20px_0px] md:flex-[1%] md:p-[0_0_0_${customStyle.padding}]`}>
-      <h5 className={`text-[1.8rem] text-white font-semibold text-center sm:text-left md:text-left mb-[30px]`}>
+      <h5 className={`text-[1.8rem] text-white font-semibold sm:text-left mb-[20px] mt-[40px]`}>
         {title}
       </h5>
       <div className={`grid grid-cols-1 sm:grid-cols-[150px_150px] ex-s:grid-cols-[185px_1fr] md:grid-cols-1`}>
@@ -37,7 +37,7 @@ const Link_Contact = () => {
   return (
     <>
       <section className="">
-        <div className={`p-[70px_20px_0px] md:flex md:flex-col lg:flex-row md:max-w-[1440px] md:m-auto`}>
+        <div className={`p-[0px_20px_0px] md:pt-[70px] md:flex md:flex-col lg:flex-row md:max-w-[1440px] md:m-auto`}>
           <div className={`m-[50px_0] md:m-0 md:p-[30px_0_0] md:w-ful lg:w-[380px] border-t-2 border-t-slate-700 p-[50px_0px_0px] md:border-none`}>
             <div className={`h-[80px] w-[300px]  m-[0px_0px_30px] bg-red-600`}></div>
             <p className={`text-slate-400`}>
@@ -52,7 +52,7 @@ const Link_Contact = () => {
             <LinksSection title="Useful Links" links={usefulLinks} customStyle={{ padding: "10px" }} />
 
             <div className={`m-[20px_0px] md:flex-[6%]`}>
-              <h5 className={`text-[1.8rem] text-white font-semibold text-center sm:text-left mb-[30px] md:text-left md:pl-[70px]`}>Contact Info</h5>
+              <h5 className={`text-[1.8rem] text-white font-semibold sm:text-left mb-[30px]  md:pl-[70px]`}>Contact Info</h5>
               {
                 contact.map((obj, index) => contactList(Object.keys(obj), Object.values(obj), obj.id || index))
               }

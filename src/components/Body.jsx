@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Outlet, useLocation } from 'react-router-dom';
 import Navbar from "./Navbar";
 import Disclaimer from './sections/Disclaimer';
 import Link_Contact from './sections/Link_Contact';
+import { updateLength } from '../store/features/localStorage/localStorageSlice';
 
 const Body = () => {
 
   const [listContainer,setListContainer]=useState(false);
   const location = useLocation();
-
+  const dispatch = useDispatch();
+  const length = useSelector( state => state.localStorage.length);
+  
   useEffect( () => {
+    length == 0 ? console.log("lenght is 0") : console.log("not empty...")
     listContainer == true  ? setListContainer(false) : "";
     window.scrollTo(0,0);
   },[location]);
