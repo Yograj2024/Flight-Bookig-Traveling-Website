@@ -2642,4 +2642,3 @@
     }
 ]
 
-export default airportInfo;
