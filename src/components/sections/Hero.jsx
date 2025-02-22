@@ -1,31 +1,30 @@
 import { useState } from 'react';
-import airportInfo from '../../utils/airPortInfo';
 import Calendar from '../Calandar';
 
-const SuggestionBox = ({position, amIvisible, setAmIvisible, setInputvar}) => {
-    return <>
-         <div className={`text-black h-[350px] ${ amIvisible ? 'block' : 'hidden' } w-[400px] bg-slate-100 absolute top-[5rem] ${position} z-[2] overflow-y-scroll`} 
-         onClick={(e) => { setInputvar(e.target.closest('.airportCity').dataset.city), setAmIvisible(!amIvisible) }}>
-                {
-                    airportInfo.map( ( item ) => {
-                        return (
-                            <div className={`airportCity flex justify-between mt-[20px] hover:bg-slate-200 px-[20px] py-[8px]`} 
-                            data-city = {item.location.city}>
-                                <div className={`flex items-start gap-x-[20px]`}>
-                                    <i className="fa-solid fa-plane-departure pt-[10px]"></i>
-                                    <div>
-                                    <h2>{item.location.city}</h2>
-                                    <p>{item.airportInfo.name}</p>
-                                    </div>
-                                </div>
-                                <p>{item.airportInfo.iataCode} </p>
-                            </div>
-                        )
-                    })
-                }
-        </div>
-    </>
-}
+// const SuggestionBox = ({position, amIvisible, setAmIvisible, setInputvar}) => {
+//     return <>
+//          <div className={`text-black h-[350px] ${ amIvisible ? 'block' : 'hidden' } w-[400px] bg-slate-100 absolute top-[5rem] ${position} z-[2] overflow-y-scroll`} 
+//          onClick={(e) => { setInputvar(e.target.closest('.airportCity').dataset.city), setAmIvisible(!amIvisible) }}>
+//                 {
+//                     airportInfo.map( ( item ) => {
+//                         return (
+//                             <div className={`airportCity flex justify-between mt-[20px] hover:bg-slate-200 px-[20px] py-[8px]`} 
+//                             data-city = {item.location.city}>
+//                                 <div className={`flex items-start gap-x-[20px]`}>
+//                                     <i className="fa-solid fa-plane-departure pt-[10px]"></i>
+//                                     <div>
+//                                     <h2>{item.location.city}</h2>
+//                                     <p>{item.airportInfo.name}</p>
+//                                     </div>
+//                                 </div>
+//                                 <p>{item.airportInfo.iataCode} </p>
+//                             </div>
+//                         )
+//                     })
+//                 }
+//         </div>
+//     </>
+// }
 
 const Hero = () => {
 
@@ -55,7 +54,7 @@ const Hero = () => {
                                     setAmIvisibleOrigin(!amIvisibleOrigin);
                                     amIvisibleDeparture ? setAmIvisibleDeparture(!amIvisibleDeparture) : ""
                                 }} />
-                                    <SuggestionBox position={'left-[5rem]'} amIvisible={amIvisibleOrigin} setAmIvisible={setAmIvisibleOrigin} inputVal={originInputVal} setInputvar={setOriginInputvar}  />
+                                    {/* <SuggestionBox position={'left-[5rem]'} amIvisible={amIvisibleOrigin} setAmIvisible={setAmIvisibleOrigin} inputVal={originInputVal} setInputvar={setOriginInputvar}  /> */}
                             </div>
 
                             <div className={`w-[80%] m-[0px_auto_10px] relative md:w-[0%] before:content-[''] md:before:bg-white md:before:rounded-[50%] before:bg-[url('https://cdn-icons-png.flaticon.com/512/12221/12221004.png')]  before:bg-center before:bg-cover md:before:border-8  md:before:border-white before:absolute md:before:p-[18px] before:h-[35px] before:w-[35px] before:right-0 md:before:rotate-[90deg] md:before:h-[30px] md:before:w-[30px]`}></div>
@@ -67,7 +66,7 @@ const Hero = () => {
                                     amIvisibleOrigin ? setAmIvisibleOrigin(!amIvisibleOrigin) : ""
                                 }
                                 } />
-                                <SuggestionBox position={'right-[5rem]'} amIvisible={amIvisibleDeparture} setAmIvisible={setAmIvisibleDeparture} setInputvar={setDepartureInputvar}  />
+                                {/* <SuggestionBox position={'right-[5rem]'} amIvisible={amIvisibleDeparture} setAmIvisible={setAmIvisibleDeparture} setInputvar={setDepartureInputvar}  /> */}
                             </div>
                         </div>
 
