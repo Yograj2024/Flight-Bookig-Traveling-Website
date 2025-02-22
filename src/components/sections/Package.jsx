@@ -1,12 +1,12 @@
 import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import handleClick from "../../custumHooks/handalUrl";
+import handelNavigation from "../../custumHooks/handalUrl";
 import { setScreenSize } from "../../store/features/storeDevidce-width/resizeSlice";
 import { packageData } from "../../utils/data";
-import { useDispatch } from "react-redux";
 
 const Package = () => {
 
@@ -20,6 +20,33 @@ const Package = () => {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    customPaging: (i) => (
+      <div
+        style={{
+          width: '10px',
+          height: '10px',
+          borderRadius: '50%',
+          backgroundColor: '#000',
+          margin: '0 5px',
+          opacity: 0.5,
+        }}
+      ></div>
+    ),
+    appendDots: (dots) => (
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '-30px',
+          display: 'flex',
+          justifyContent: 'center',
+          width: '100%',
+        }}
+      >
+        <ul style={{ display: 'flex', justifyContent: 'center', margin: 0 }}>
+          {dots.slice(0, 3)} {/* Limit to 3 dots */}
+        </ul>
+      </div>
+    ),
     responsive: [
       {
         breakpoint: 1024,
@@ -70,9 +97,9 @@ const Package = () => {
                     { 
                       packageData.map((data)=>{
                         return <>
-                          <div className={`h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
-                            key={`${data.id}`} onClick={ (e) => handleClick(e, navigate)} >
-                            <img src={data.bgImg} alt="" className={`h-full w-full object-cover absolute z-[-1] rounded-[20px]`} />
+                          <div className={`element h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
+                            key={`${data.id}`} onClick={ (e) => handelNavigation(e, navigate)} >
+                            <img src={data.bgImg} alt="" className={`h-full w-full object-cover absolute z-[-1] rounded-[20px] hover:scale-110`} />
                             <div className={`relative p-[20px] flex flex-col h-full w-full justify-between z-[2]`}> 
                                 <div className={`flex items-center justify-between`}>
                                     <h6 className={`bg-green-400 rounded-[12px] md:rounded-[8px] px-[18px] md:px-[8px] py-[6px] md:py-[0px] text-red-500 font-semibold tracking-[0.05rem] md:tracking-[0] `}>FEATURED</h6>
@@ -88,7 +115,7 @@ const Package = () => {
                                         <h6 className={`text-[1.18rem] md:text-[1.15rem] font-PtSans`}>{data.country} </h6>
                                         <h6><span className={`text-[1.08rem] md:text-[1rem] font-bold text-orange-500`}>${data.price}</span>/person </h6>
                                     </div>
-                                    <button type="button" className={`text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4  focus:outline-none focus:ring-lime-200 d ark:focus:ring-teal-700 font-medium rounded-[18px] md:rounded-[16px] text-sm px-[18px] md:px-[12px] py-[8px] md:py-[6px] text-center  z-[2]`}>Book now</button>
+                                    <button type="button" id="fillFormBtn" className={`text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4  focus:outline-none focus:ring-lime-200 d ark:focus:ring-teal-700 font-medium rounded-[18px] md:rounded-[16px] text-sm px-[18px] md:px-[12px] py-[8px] md:py-[6px] text-center  z-[2]`}>Book now</button>
                                 </div>
                             </div>
                           </div>

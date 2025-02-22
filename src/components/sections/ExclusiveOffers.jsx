@@ -21,7 +21,7 @@ const ExclusiveOffers = () => {
                    ExclusiveOffersData.map((data)=>{
                         return ( 
                             <div key={data.id} 
-                                className = {`h-[170px] sm:h-[190px] w-[60%] sm:w-full m-[30px_auto] sm:mt-0 bg-gray-300 bg-opacity-15 flex flex-col md:m-[10px_auto] items-center justify-center gap-y-[10px]  rounded-[18px]`}>
+                                className = {`element h-[170px] sm:h-[190px] w-[60%] sm:w-full m-[30px_auto] sm:mt-0 bg-gray-300 bg-opacity-15 flex flex-col md:m-[10px_auto] items-center justify-center gap-y-[10px]  rounded-[18px]`}>
                                 <span className={`h-[60px] aspect-square`}>
                                     <img src={data.iconImg} alt="" className={`h-full w-full object-cover`}/>
                                 </span>

@@ -1,9 +1,9 @@
 const OurMission = () => {
   return (
     <>
-      <section id="our-mission">
-        <div className={`flex flex-col lg:flex-row w-[95%] m-auto max-w-[1440px] gap-x-[30px] justify-between`}>
-          <div className="lg:w-[40%]">
+      <section id="our-mission" className={`scroll-container`}>
+        <div className={`show flex flex-col lg:flex-row w-[95%] m-auto max-w-[1440px] gap-x-[30px] justify-between`}>
+          <div className="lg:w-[40%] mb-[30px]">
               <img
                   src="https://kailastoursandtravels.com/assets/img/about.jpg"
                   alt="Airplane wing view"
@@ -11,7 +11,7 @@ const OurMission = () => {
           </div>
           <div className="lg:w-[55%] text-gray-700 ">
             <h3 className="text-4xl font-bold">Our <span className="text-orange-600">Mission</span> </h3>
-            <p className="font-semibold text-gray-700 text-2xl mt-[20px]">Explore The World With Wispydeals</p>
+            <p className="font-semibold text-gray-700 text-2xl mt-[15px]">Explore The World With Wispydeals</p>
             <p className="mt-6 text-gray-700 text-lg"> Our goal is to ensure a seamless journey for you by providing efficient flight reservations and easy hotel bookings. </p>
             <p className="mt-4 text-lg"> As a branch of Almar International Limited based in Hong Kong, our team is dedicated to providing exceptional services for individuals who travel frequently, for business or leisure purposes. </p>
             <ul className={`mt-[20px] list-disc `}>

@@ -1,9 +1,9 @@
-const handleClick = (e, navigate) => {
-      if (e.target.tagName === 'BUTTON') {
+const handelNavigation = (e, navigate) => {
+      if (e.target.id == 'fillFormBtn' ) {
         navigate("/fillForm")
       } else {
         navigate("/destination-Info");
     }
 }
 
- export default handleClick; 
+ export default handelNavigation; 

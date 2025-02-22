@@ -1,11 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import handleClick from "../../custumHooks/handalUrl";
+import handelNavigation from "../../custumHooks/handalUrl";
 import { destinationPageData } from "../../utils/data";
 
 const DestinationPage = () => {
-
     const navigate = useNavigate(); 
     return (
         <>
@@ -40,7 +39,7 @@ const DestinationPage = () => {
                                                 <p className={`text-black font-semibold mb-[12px] font-systemUI`}> {data.aboutThis} </p>
                                                 <div className={`flex justify-between pr-[20px] items-center border-t border-t-slate-800 pt-[10px] border-opacity-40`}>
                                                     <span> ${data.price}/person </span>
-                                                    <button className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`} onClick={ (e) => handleClick(e,navigate)}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
+                                                    <button  className={`h-[30px] w-[30px] bg-orange-500 flex items-center justify-center rounded-[50%]`} onClick={ (e) => handelNavigation(e,navigate)}><i className="fa-solid fa-arrow-right text-white text-[0.9rem] "></i></button>
                                                 </div>
                                             </div>
                                         </div>

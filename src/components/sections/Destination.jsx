@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import handelNavigation from '../../custumHooks/handalUrl';
 import { descriptionData_Row2, destinationData } from '../../utils/data';
-import { useNavigate } from 'react-router-dom';
-import handleClick from '../../custumHooks/handalUrl';
 
 const Destination = () => {
   const navigate = useNavigate();
+  const [activeSlide, setActiveDot] = useState(0);
+
+  const devieceWidth = useSelector( (state) => state.screenSize.screenSize)
 
   const DestinationCard = ({ data }) => {
-   
-  
     return (
       <div
         className={`h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
-        onClick={(e) => handleClick(e, navigate)}
+        onClick={(e) => handelNavigation(e, navigate)}
       >
         <img
           src={data.bgImg}
@@ -35,7 +37,7 @@ const Destination = () => {
                 <a href="">{data.city}</a>
               </h5>
             </div>
-            <button className={`text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-[18px] text-sm px-[18px] md:px-[14px] py-[8px] md:py-[6px] text-center`}>
+            <button id="fillFormBtn" className={`text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-[18px] text-sm px-[18px] md:px-[14px] py-[8px] md:py-[6px] text-center`} >
               Book Now
             </button>
           </div>
@@ -43,6 +45,7 @@ const Destination = () => {
       </div>
     );
   };
+
   let settings = {
     dots: true,
     infinite: true,
@@ -50,15 +53,27 @@ const Destination = () => {
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
+    beforeChange: ( _, next) => {
+      console.log(devieceWidth)
+      if( devieceWidth < 480){
+        if (next === 0) {
+          setActiveDot(0); 
+        } else if (next > 0 && next < 9) {
+          setActiveDot(1); 
+        } else if (next >= 9) {
+          setActiveDot(2); 
+        }
+      }
+    },
     customPaging: (i) => (
       <div
         style={{
           width: '10px',
           height: '10px',
           borderRadius: '50%',
-          backgroundColor: '#000',
+          backgroundColor: activeSlide === i ? 'orange' : '#000',
           margin: '0 5px',
-          opacity: 0.5,
+          opacity: 1,
         }}
       ></div>
     ),
@@ -66,14 +81,17 @@ const Destination = () => {
       <div
         style={{
           position: 'absolute',
-          bottom: '-30px',
+          bottom: '-50px',
           display: 'flex',
           justifyContent: 'center',
-          width: '100%',
-        }}
-      >
-        <ul style={{ display: 'flex', justifyContent: 'center', margin: 0 }}>
-          {dots.slice(0, 3)} {/* Limit to 3 dots */}
+          width: '100%', }}>
+        <ul 
+          style={{ 
+            display: 'flex', 
+            justifyContent: 'center', 
+            margin:'0',
+          }}>
+          {dots.slice(0, 3)}
         </ul>
       </div>
     ),

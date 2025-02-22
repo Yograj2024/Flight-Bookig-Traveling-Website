@@ -12,5 +12,4 @@ const store = configureStore({
         localStorage : localStorageReducer,
     }
 })
-
 export default store;

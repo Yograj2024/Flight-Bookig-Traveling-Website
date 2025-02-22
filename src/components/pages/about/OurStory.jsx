@@ -1,12 +1,12 @@
 const OurStory = () => {
   return (
     <>
-      <section id="our-story">
-        <div className="p-10 rounded-[20px] w-[95%] m-auto flex flex-col lg:flex-row gap-x-[40px] items-center max-w-[1440px] mt-[100px] mb-[50px]">
+      <section id="our-story" className={`scroll-container`}>
+        <div className="show pl-4 pr-3 pt-5 rounded-[20px] w-[98%] m-auto flex flex-col-reverse gap-y-[30px] lg:flex-row gap-x-[40px] items-center max-w-[1440px] mb-[50px]">
           <div className="h-full lg:w-[53%] ">
             <h3 className="text-[2.5rem] font-bold"> Our <span className="text-orange-600">Story</span> </h3>
             <p className="mt-6 text-gray-700 text-lg"> Our story - Founded in 2005, Wispydeals.com was created with the goal of offering innovative travel solutions to our clients. Since then, we have steadily expanded and become a prominent leader in the travel industry. </p>
-            <p className="mt-4 text-gray-700 text-lg"> Our emphasis lies in providing convenient, budget-friendly, and dependable services that cater to the ever-changing demands of travelers. Whether you're embarking on an impromptu trip or a meticulously planned vacation, our aim is to ensure that every journey is as enjoyable as possible. </p>
+            <p className="mt-4 text-gray-700 text-lg hidden"> Our emphasis lies in providing convenient, budget-friendly, and dependable services that cater to the ever-changing demands of travelers. Whether you're embarking on an impromptu trip or a meticulously planned vacation, our aim is to ensure that every journey is as enjoyable as possible. </p>
             <ul className="list-disc pl-6 text-gray-700 text-lg mt-[20px] hidden md:block">
               <li> Almar International Limited is the name of our company</li>
               <li> The registered address is located at Unit-S, 1/F Mau Lam Commercial Building on Mau Lam Street in Jordan, Kowloon, Hong Kong-999077. </li>

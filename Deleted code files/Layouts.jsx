@@ -1,4 +1,4 @@
-import getCountryData from "./getCountryData";
+import getCountryData from "../src/custumHooks/getCountryData";
 
 export const Layout_1 = ( { data } ) => {
 

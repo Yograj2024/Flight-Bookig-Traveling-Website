@@ -35,7 +35,7 @@ const SignUp = () => {
 
   return(
     <section className="flex items-center justify-center h-screen bg-cover bg-center" 
-    style={{backgroundImage:"url('https://images.unsplash.com/photo-1600073797414-7f200ffdde62?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUyfHx8ZW58MHx8fHx8')"}}>
+    style={{backgroundImage:"url('https://img.freepik.com/premium-vector/purple-blue-background-with-swirly-pattern-number-4_853605-16.jpg')"}}>
 
             <div className="relative flex w-[900px] gap-x-[20px] h-[500px] rounded-xl overflow-hidden ">
                 <div className="w-1/2 bg-cover bg-center relative flex flex-col justify-center p-10 text-white" >

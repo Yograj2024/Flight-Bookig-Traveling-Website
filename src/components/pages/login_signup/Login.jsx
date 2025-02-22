@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
@@ -26,12 +27,12 @@ const Login = () => {
 
   return (
     <section>
-      <div className="flex h-screen bg-blue-500 items-center justify-center">
+      <div className="flex h-screen bg-[url('https://thumbs.dreamstime.com/b/serene-mountain-lake-red-boat-rests-surface-still-surrounded-towering-peaks-clear-blue-sky-reflection-342521193.jpg')] bg-cover bg-center items-center justify-center">
         <div className="bg-white flex rounded-2xl overflow-hidden shadow-lg w-3/4 max-w-4xl">
 
             <div className="w-1/2 relative hidden md:block">
             <img
-                src="https://source.unsplash.com/800x600/?travel"
+                src="https://thumbs.dreamstime.com/b/serene-mountain-lake-red-boat-rests-surface-still-surrounded-towering-peaks-clear-blue-sky-reflection-342521193.jpg"
                 alt="Travel"
                 className="h-full w-full object-cover"/>
             <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30 flex flex-col justify-center items-center text-white">
@@ -48,27 +49,27 @@ const Login = () => {
             
             <form>
                 <div className="mb-4">
-                <label className="block text-gray-600">Email</label>
-                <input
-                    type="email"
-                    value={email}
-                    placeholder="Enter your email"
-                    className="w-full px-4 py-2 mt-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-                    onChange={ (e) => updateState(e, setEmail)}/>
+                    <label className="block text-gray-600">Email</label>
+                    <input
+                        type="email"
+                        value={email}
+                        placeholder="Enter your email"
+                        className="w-full px-4 py-2 mt-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        onChange={ (e) => updateState(e, setEmail)}/>
                 </div>
                 <div className="mb-4">
-                <label className="block text-gray-600">Password</label>
-                <input
-                    type="password"
-                    value={password}
-                    placeholder="Enter your password"
-                    className="w-full px-4 py-2 mt-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" 
-                    onChange={ (e) => updateState(e, setPassword)} />
-                </div>
+                    <label className="block text-gray-600">Password</label>
+                    <input
+                        type="password"
+                        value={password}
+                        placeholder="Enter your password"
+                        className="w-full px-4 py-2 mt-1 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" 
+                        onChange={ (e) => updateState(e, setPassword)} />
+                    </div>
                 <div className="flex justify-end items-center mb-4">
-                <a href="#" className="text-sm text-blue-500 hover:underline">
+                <Link to="" className="text-sm text-blue-500 hover:underline">
                     Forgot your password?
-                </a>
+                </Link>
                 </div>
                 <button className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition" onClick={ (e) => handalLogin(e)}>
                 Login
@@ -77,7 +78,7 @@ const Login = () => {
 
             <div className="text-center mt-4">OR</div>
             <p className="text-center mt-6 text-gray-600">
-                Don't have an account? <a href="#" className="text-blue-500 hover:underline">Register Now</a>
+                Don't have an account? <Link to='/sign-up' href="#" className="text-blue-500 hover:underline">Register Now</Link>
             </p>
             </div>
         </div>

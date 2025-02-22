@@ -1,117 +1,37 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Layout_1, Layout_2 } from "../../custumHooks/Layouts";
-import isNumberInSeries from "../../custumHooks/isNumberInSeries";
 import { setScreenSize } from "../../store/features/storeDevidce-width/resizeSlice";
-import { bestDealsPage2 } from "../../utils/data";
+import Lg_DealsPage from "./dealPage/Lg_DealsPage";
+import Mob_DealPage from "./dealPage/Mob_DealPage";
+import { useNavigate } from "react-router-dom";
 
 const DealPage = () => {
   const screenSize = useSelector((state) => state.screenSize.screenSize);
   const dispatch = useDispatch();
 
+
   useEffect(() => {
     const handleResize = () => {
       dispatch(setScreenSize(window.innerWidth));
     };
-
     window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <>
       <section>
-        <div className={`relative h-[350px] md:h-[500px] flex flex-col justify-center w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://images.unsplash.com/photo-1509825826883-62284c8c7ea5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjB3YXRlcmZhbGx8ZW58MHx8MHx8fDA%3D')] before:bg-cover md:before:bg-[0%_70%] bg-black bg-opacity-10`}>
-          <h2 className={`pl-[50px] text-white text-[2rem] lg:text-[3rem]`}>
-          
-            An unparalleled journey is on the horizon.
-          </h2>
-          <p className={`pl-[50px] text-[1.2rem] text-white`}>
-            Discover unbeatable flight prices and unlock the best travel deals
-            with us ,<br />
-            <span className={`hidden md:block`}>
-              Discover the world without breaking the bank and make lasting
-              memories with affordable options such as hotels and holiday
-              packages
-            </span>
+        <div className={`relative h-[350px] md:h-[500px] flex flex-col justify-center w-full before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://www.visitarizona.com/imager/s3_us-west-1_amazonaws_com/aot-2020/images/Cities/kegn2tadajk36espav78_b2b0b89039603b931027eb2900b66531.jpg')] before:bg-cover md:before:bg-[0%_70%] bg-black bg-opacity-20`}>
+          <h2 className={`pl-[50px] text-slate-100 text-[2rem] lg:text-[3.5rem]`}>  Unparalleled journey  on the horizon.</h2>
+          <p className={`pl-[50px] text-[1.3rem] mt-[2rem] text-white`}>
+            Discover unbeatable flight prices and unlock the best travel deals with us Discover<br/> the world without breaking the bank and make lasting memories with affordable options.
+              
+            
           </p>
         </div>
       </section>
-
-      <section>
-        {/* <div>
-        <h1 className={`text-[2rem] font-semibold pl-[40px] pt-[30px]`}> Uncover the Top Bargains for Enhanced Travel Opportunities </h1>
-      </div>
-      <div className={`max-w-[1440px] mx-auto my-[30px] md:flex flex-wrap`}>
-        {
-          bestDealsPage2.map((data, index) => {
-            
-            const isInSeries = isNumberInSeries(index);
-            
-            if ( isInSeries ) {
-              if ( screenSize > 430 ) {
-                return <Layout_1 data={data} key={data.id} />;
-              } else {
-                return `You are in mobile device: ${screenSize}`;
-              }
-            }
-            return <Layout_2 data={data} key={data.id} />;
-          })
-        }
-      </div> */}
-        {/* aagar aapko only index value chahiye to  _,index (data,index) only one parameater byDefault is array's element */}
-      </section>
-
-      {/* eske baad */}
-
-      <section className="my-10">
-        <div className="w-[95%] max-w-[1440px] m-auto  px-8 py-[20px]">
-          <h1 className="text-2xl font-bold text-red-600 text-center">  Destinations near and far, we do it all </h1>
-
-          {
-            bestDealsPage2.map( ( item ) => { 
-              const {id, country_name,title,description1,description2,locations:[{image_url:img1},{image_url:img2},{image_url:img3},{image_url:img4}]} = item
-                return (
-                  <>
-                    <div className="mt-6  gap-6 flex flex-col bg-gray-100 py-[35px] px-[30px] rounded-[35px]" key={id}>
-                      <div className="flex gap-5 h-[280px]">
-                        <div className={`w-[46%]`}>
-                          <h2 className="text-[1.5rem] text-center font-semibold mb-[20px] mt-[10px]">{country_name}</h2>
-                          <p className="text-center"> {description1} </p>
-                        </div>
-                        <div className={`w-[32%] h-full`}>
-                          <img src= {img1}
-                            alt="Beach with a boat"
-                            className="rounded-[20px] object-cover w-full h-full" />
-                        </div>
-                        <div className={`w-[46%] h-full`}>
-                            <img src = {img2}
-                              alt="Beach with a boat"
-                              className="rounded-[20px] object-cover w-full h-full" />
-                        </div>
-                      </div>
-                      <div className="flex gap-5 h-[280px]">
-                        <div className={`w-[46%] h-full`}>
-                          <img src= {img3}
-                            alt="Beach with a boat"
-                            className="rounded-[20px] object-cover w-full h-full" />
-                        </div>
-                        <div className={`w-[32%] h-full`}>
-                          <img src= {img4}
-                            alt="Beach with a boat"
-                            className="rounded-[20px] object-cover w-full h-full" />
-                        </div>
-                        <p className="w-[46%] px-[10px] mt-[30px] text-center"> {description2}</p>
-                      </div>
-                    <div className="mt-6 text-center">
-                      <button className="bg-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-500 transition"> Explore Destinations </button>
-                    </div>
-                    </div>
-                  </>
-                )
-            })
-          }
-        </div>
-      </section>
+      {
+        screenSize < 1024 ? <Mob_DealPage/> : <Lg_DealsPage/>
+      } 
     </>
   );
 };

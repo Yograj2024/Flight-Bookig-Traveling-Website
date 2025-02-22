@@ -1,18 +1,18 @@
-import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { NavLink, useNavigate } from "react-router-dom";
 import { mobileListContaner, mobileListContaner2 } from "../utils/css";
 import { navHeading } from "../utils/data";
 import { crossIcon, menuIcon, user } from "../utils/links";
-import { useSelector } from "react-redux";
-import { useState } from "react";
 
-const Navbar = ({listContainer,setListContainer}) => {
-   const [isLogin,setisLogin]=useState("Login");
+const Navbar = ({listContainer,setListContainer, isLogin, setisLogin}) => {
+  
    const cartItems = useSelector( state => state.cart.cartItems);
+   const navigate = useNavigate();
 
   return ( <nav className ={`flex w-full m-auto flex-col items-center bg-[#4f9d9d] bg-opacity-50 backdrop-blur-sm justify-between px-[0px] fixed top-0  transition-all duration-900 ease-in shadow-lg ${(listContainer) ? ("h-350px") : ("h-[80px]")}`}>
     <div className={`flex h-[80px] w-full items-center justify-between max-w-[1440px] px-[10px]`}>
-        <div className ={` h-[70px] w-[150px] bg-red-700`} >
-            <img src="../../images/logo.png" alt=""  className={`h-full w-full object-cover`}/>
+        <div className ={` h-[80px] w-[230px] bg-red-70`} >
+            <img src="../../images/logo-10.png" alt=""  className={`h-full w-full object-cover`}/>
         </div>
 
         <ul className ={`hidden lg:flex lg:items-center lg:text-[1.3rem] font-semibold`} >
@@ -37,7 +37,7 @@ const Navbar = ({listContainer,setListContainer}) => {
             </NavLink>
 
             <div className="flex items-center rounded-[30px]" 
-            onClick={()=>{ (isLogin=="Login")?(setisLogin("LogOut")):(setisLogin("Login"));}}>
+            onClick={ () => isLogin == "Login" ? navigate("/log-in") : " "}>
                 <button className="h-full px-2 rounded-[30px] outline-none border-none text-[0.9rem] font-bold tracking-wide flex items-center transition duration-300 ease">{isLogin}</button>
                 <span className="inline-block h-[40px] aspect-square rounded-[50%] ">
                     <img src={user} className="w-full h-full object-cover"/>
@@ -53,50 +53,21 @@ const Navbar = ({listContainer,setListContainer}) => {
     </div>
     <div className ={`${listContainer ? mobileListContaner2 : mobileListContaner}`}>
         <ul> 
-            { navHeading.map( 
-                    (heading,index ) => <li className = {`m-[0px_0px_0px_0px]  p-[8px_0px_8px_18px] text-[1.1rem] font-semibold font-mono tracking-[0.02rem] 
-                    ${(index==navHeading.length-1) ? 
-                    ("border-none") : 
-                    ("border-b border-b-red-400")}`} 
-                    key={"mobileList"+index}><NavLink to={`/${heading}`}>{heading}</NavLink></li>
+            { navHeading.map( (heading,index ) => {
+                const formattedUrl = heading.toLowerCase().replace(/ /g,"-")
+                return (
+                    <li className = {`m-[0px_0px_0px_0px]  p-[8px_0px_8px_18px] text-[1.1rem] font-semibold font-mono tracking-[0.02rem] 
+                        ${(index==navHeading.length-1) ? 
+                        ("border-none") : 
+                        ("border-b border-b-red-400")}`} 
+                        key={"mobileList"+index}>
+                            <NavLink to={`/${formattedUrl}`}>{heading}</NavLink>
+                    </li>
+                )
+            }
             )} 
         </ul>
     </div>
 </nav> ) };
 
-export default Navbar;
-
-// return (
-//     <nav className={`flex w-full flex-col items-center bg-white justify-between px-[0px] fixed top-0 transition-all duration-900 ease-in ${(listContainer) ? ("h-350px") : ("h-[80px]")}`}>
-//       <div className={`flex h-[80px] w-full items-center justify-between max-w-[1440px] px-[10px]`}>
-//         {/* Skeleton for Logo */}
-//         <div className={`h-[40px] w-[100px] bg-gray-300 animate-pulse`} />
-  
-//         {/* Skeleton for Navigation Links */}
-//         <ul className={`hidden lg:flex lg:text-[1.3rem] font-semibold`}>
-//           {Array(navHeading.length).fill().map((_, index) => (
-//             <li key={index} className="m-[0_8px] p-[0_10px]">
-//               <div className="h-[24px] w-[80px] bg-gray-300 animate-pulse" />
-//             </li>
-//           ))}
-//         </ul>
-  
-//         {/* Skeleton for Mobile Menu Icon */}
-//         <div className={`${listContainer ? "scale-[-0.6]" : ""} h-[32px] lg:hidden`}>
-//           <div className="h-full w-full bg-gray-300 animate-pulse" />
-//         </div>
-//       </div>
-  
-//       {/* Skeleton for Mobile Navigation Links */}
-//       <div className={`${listContainer ? mobileListContaner2 : mobileListContaner}`}>
-//         <ul>
-//           {Array(navHeading.length).fill().map((_, index) => (
-//             <li key={"mobileList" + index} className="m-[0px_0px_0px_0px] p-[8px_0px_8px_18px] text-[1.1rem] font-semibold font-mono tracking-[0.02rem] border-b border-b-gray-300">
-//               <div className="h-[24px] w-[80px] bg-gray-300 animate-pulse" />
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-  
+export default Navbar;  

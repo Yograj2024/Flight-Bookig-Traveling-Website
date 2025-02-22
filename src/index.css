@@ -47,3 +47,21 @@ ul li::marker{
   font-size: 0.8rem;
   font-weight: bold;
 }
+
+@keyframes zoom {
+  0% {
+      transform: scale(0);
+      opacity: 0;
+  }
+  100% {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.element {
+  animation-delay: 1s;
+  animation: zoom 2s ease forwards;
+  animation-timeline:view();
+  animation-range:entry 0% cover 30%;
+}

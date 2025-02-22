@@ -580,7 +580,7 @@ export const bestDealsPage2 = [
         description1:"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
 
         
-        description2:"Discover Vietnam’s beauty in Hanoi’s rich history, Ho Chi Minh’s vibrant modernity, and Hoi An’s ancient charm. Embrace culture, heritage, and lively experiences in one unforgettable journey.",
+        description2:"<li><strong> Ho Chi Minh Mausoleum:</strong>Memorial of Vietnam's leader.</li><li><strong>Shopping Hub:</strong>Local goods and souvenirs.</li><strong>UNESCO Site:</strong>Preserved heritage.</li><li><strong>Historical Capital</strong>Former royal city.</li><li><strong>Citadel:</strong>Palaces and temples.</li><li><strong>Core Values:</strong>Environmental and social focus.</li>",
         hoverContent:{
             image_url:"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
             price:156,
@@ -627,7 +627,7 @@ export const bestDealsPage2 = [
         rating:4.8,
         title: "A Journey of India through its splendid Destination",
         description1: "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
-        description2:"Explore Delhi's rich history and vibrant culture, Jaipur's majestic palaces and colorful markets, and Gujarat's diverse landscapes and heritage. Experience the essence of India in these captivating destinations.",
+        description2:"<li><strong>Amber Fort:</strong> A majestic fort known for its artistic Hindu style elements.</li><li><strong>Hawa Mahal:</strong>Also known as the Palace of Winds, famous for its unique </li><li><strong>City Palace: </strong>A beautiful blend of Mughal and Rajput architecture.</li><li><strong>Statue of Unity:</strong>The world's tallest statue, dedicated to Sardar Vallabhbhai Patel.</li><li><strong>Valley of Flowers:</strong>A garden with a variety of flowering plants.</li>",
         hoverContent:{
             image_url:"https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_evening-097.jpg",
             price:123,
@@ -674,7 +674,7 @@ export const bestDealsPage2 = [
         rating:4.7,
         title: "Discover the Enchanting beauty of Switzerland. A Symphony of nature and culture",
         description1: "If you are searching for the greatest beauty of Switzerland, you will find enchanting landscapes in places like the pristine shores of Lake Geneva, the majestic peaks of the Matterhorn, vibrant flower fields in Interlaken, and charming villages like Zermatt. Each locale offers a unique glimpse into Switzerland's breathtaking allure.",
-        description2: "Explore Zurich's vibrant city life, the serene landscapes southeast of Zurich, and the majestic Monte Rosa mountain range. Discover urban charm, tranquil nature, and breathtaking alpine beauty in one unforgettable journey.",
+        description2: "<li><strong>Zurich Oberland:</strong>A picturesque region known for its beautiful lakes, hiking trails, and the highest mountain in the canton, Schnebelhorn.</li><li><strong>Height:</strong>One of the highest peaks in the Alps at 4,478 meters (14,692 feet).</li><li><strong>Nonte Phonte:</strong>A popular Bengali comic-strip created by Narayan Debnath, featuring the adventures of two mischievous boys, Nonte and Phonte.</li><li><strong>Rosa Group:</strong>A real estate company known for its commitment to delivering excellence in construction and customer satisfaction.<li/><li><strong>Lake Zurich:</strong>A stunning body of water stretching southeast from the city, perfect for boat cruises and water sports.</li>",
         hoverContent:{
             image_url:"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
             price:456,
@@ -691,7 +691,7 @@ export const bestDealsPage2 = [
         },
         locations: [
             {
-                image_url: "https://images.unsplash.com/photo-1722269917188-836434d57299?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://lp-cms-production.imgix.net/2019-06/shutterstock_160155083.jpg",
                 city_name: "Zurich",
                 place_name: "Zurich River",
                 rating: 3
@@ -709,7 +709,7 @@ export const bestDealsPage2 = [
                 rating: 4.5
             },
             {
-                image_url: "https://images.unsplash.com/photo-1504218727796-db522606b16f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://holidays.tripfactory.com/blogs/wp-content/uploads/sites/6/2024/06/Lake-Geneva.webp",
                 city_name: "The Alpine region of Switzerland",
                 place_name: "Monte Rosa",
                 rating: 3
@@ -722,7 +722,7 @@ export const bestDealsPage2 = [
         rating:4.4,
         title:"Italy, A Timeless Journey Through Art, History, and Culinary Delights7",
         description1:"Italy is a beautiful country in Europe, known for its rich history, stunning architecture, delicious cuisine, and vibrant culture. If you want to know more about Italy or any other country, just let me know...!",
-        description2: "Discover Rome's timeless history and ancient landmarks, Florence's artistic treasures and Renaissance charm, Venice's enchanting canals and romantic ambiance, and Milan's fashion-forward sophistication and cultural vibrancy. These four iconic Italian cities offer a blend of history, art, beauty, and modernity, inviting you to immerse yourself in their unique atmospheres and experience the essence of Italy in one unforgettable journey.",
+        description2: "<li><strong>Colosseum:</strong>An ancient amphitheater and iconic symbol of Rome.</li><li><strong>Vatican City:</strong>The smallest independent state in the world, home to St. Peter's Basilica and the Vatican Museums.</li><li><strong>Uffizi Gallery:</strong>One of the most famous art museums in the world, housing masterpieces by artists like Michelangelo and Leonardo da Vinci.</li><li><strong>St. Mark's Basilica:</strong>A stunning example of Italo-Byzantine architecture.</li><li><strong>Duomo di Milano:</strong>One of the largest and most intricate Gothic cathedrals in the world.</li>",
         hoverContent:{
             image_url:"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
             price:456,
@@ -738,7 +738,7 @@ export const bestDealsPage2 = [
         },
         locations:[
             {
-                image_url: "https://lh7-us.googleusercontent.com/3nv67EdZzOrw8xXGF_9v1LzcP8GrHkMtf6kgKEHU9yvWeORE9mCF7HYit3QVIEgp38XlfpNRtwhVtlALbVAXwLZ0Na-XwLeD3VogiK08aT14tbeNUqa1BHcIrX2dRfEH-c-c-Ssu3nha",
+                image_url: "https://files.autoblogging.ai/images/italian-culture-art-music-and-festivals(ruws).jpg",
                 city_name: "Rome",
                 place_name: "Colosseum",
                 rating: 3
@@ -756,7 +756,7 @@ export const bestDealsPage2 = [
                 rating: 4
             },
             {
-                image_url: "https://colosseumandvaticantours.com/wp-content/uploads/2024/01/stmark-campanile-venice.jpeg",
+                image_url: "https://media.istockphoto.com/id/1380534040/photo/beautiful-view-of-amalfi-on-the-mediterranean-coast-with-lemons-in-the-foreground-italy.jpg?s=612x612&w=0&k=20&c=4UQak9WJkyvN8aEgkLEwjnV5EW2RiGfC_GZNeQaVJeo=",
                 city_name: "Milan",
                 place_name: "Duomo di Milano (Milan Cathedral)",
                 rating: 4.5
@@ -769,7 +769,7 @@ export const bestDealsPage2 = [
         rating:4.3,
         title:"Explore mexico, A vibrant Tapestry of culture,history and natural beauty",
         description1:"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
-        description2:"cities in 60 words Discover the vibrant beach life of Cancun, the rich cultural heritage of Mexico City, the ancient Mayan ruins of Chichen Itza, and the stunning coastal beauty of Tulum. Experience a blend of history, culture, and natural wonders in these captivating Mexican destinations.",
+        description2:"<li> <strong>	Beaches </strong>: Known for its stunning white-sand beaches and crystal-clear waters.</li> <li> <strong>National Palace </strong>: Houses the offices of the President of Mexico and famous murals by Diego Rivera.</li> <li> <strong>	Cultural Events </strong>: Hosts various cultural events, performances, and political demonstrations.</li> <li> <strong>Sacred Cenote </strong>: A natural sinkhole used for religious ceremonies and sacrifices.</li> <li>	<strong>Tulum Ruins </strong>: A 13th-century Mayan archaeological site perched on a cliff overlooking the Caribbean Sea.</li> <li> <strong> Sian Ka'an Biosphere Reserve <: A UNESCO World Heritage Site with diverse ecosystems and wildlife.</li>",
         hoverContent:{
             image_url:"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
             price:456,
@@ -785,7 +785,7 @@ export const bestDealsPage2 = [
         },
         locations: [
             {
-                image_url: "https://images.unsplash.com/photo-1551297136-cfcc6beff71f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://t3.ftcdn.net/jpg/02/76/62/34/360_F_276623435_VvkNWpOowoZWVrlMcQOwnm3lYSE3vOsH.jpg",
                 city_name: "cancun",
                 place_name: "cancun under water museum (MUSEUM)",
                 rating:3
@@ -797,7 +797,7 @@ export const bestDealsPage2 = [
                 rating: 3.5
             },
             {
-                image_url: "https://plus.unsplash.com/premium_photo-1697730116501-72f5749dffce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUNM2agjJ5Vh8YTOuTJGyJxfLMsM21WnKUdQ&s",
                 city_name: "chichen",
                 place_name: "EI castillo (Temple of kaukulcan)",
                 rating: 4
@@ -816,7 +816,7 @@ export const bestDealsPage2 = [
         rating:4.4,
         title:"Experience the Enchanting Beauty of Brazil, Where Nature, Culture, and Celebration Unite",
         description1:"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
-        description2:"Brazil, a vast South American country, is famous for its Amazon rainforest, vibrant culture, Carnival festival, and iconic Christ the Redeemer statue.",
+        description2:"<li> <strong> Christ the Redeemer</strong> : Iconic statue overlooking the city from Corcovado Mountain.</li> <li> <strong>Sugarloaf Mountain </strong> : Offers panoramic views of the city and coastline.</li> <li> <strong>Municipal Market </strong> : Famous for its food stalls and local delicacies.</li> <li> <strong>Farol da Barra </strong> : Historic lighthouse and popular sunset spot.</li> <li> <strong>Iguazu Falls </strong>: One of the largest and most impressive waterfall systems in the world.</li> ",
         hoverContent:{
             image_url:"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
             price:678,
@@ -838,7 +838,7 @@ export const bestDealsPage2 = [
                 rating: 4.5
             },
             {
-                image_url: "https://images.unsplash.com/photo-1551529489-5c97b567c760?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://cazloyd.com/wp-content/uploads/2023/09/buzios-brazil.jpg.webp",
                 city_name: "sao paulo",
                 place_name: "sao paulo museum of Art (MASP)",
                 rating:4
@@ -863,7 +863,7 @@ export const bestDealsPage2 = [
         rating:4,
         title:"Experience Paradise in Bali's Serene Landscapes ",
         description1:"Bali, known as the Island of the Gods, is a tropical paradise with stunning beaches, lush rice terraces, and a vibrant cultural heritage. It's the perfect destination for relaxation and adventure",
-        description2:"Explore the vibrant city life of Lagos, the political and cultural heart of Nigeria in Abuja, and the natural wonders of Yankari Game Reserve with its wildlife and hot springs. Discover the dynamic urban charm, cultural richness, and breathtaking natural beauty in these captivating Nigerian destinations." ,
+        description2: "<li> <strong>Sanur Beach</strong>: Calm waters, white sand, water sports.</li> <li> <strong>Bajra Sandhi Monument </strong>: Historical and architecturally stunning.</li> <li>Kuta Beach: Stunning sunsets, nightlife, surfing</li> <li> <strong>Waterbom Bali</strong>: Thrilling rides, family-friendly water park</li> <li> <strong>Potato Head Beach Club </strong>: Infinity pool, beachfront lounging, restaurants.</li> <li> <strong>Seminyak Square</strong>: Boutique shops, eateries, entertainment.</li> <li><strong>Sacred Monkey Forest Sanctuary</strong>: Monkeys, ancient temples, nature</li> <li><strong>Tegallalang Rice Terraces</strong>: Beautiful landscapes, traditional irrigation.</li>",
         hoverContent:{
             image_url:"https://www.diyphotographystuff.info/wp-content/uploads/2024/04/Best-places-to-photograph-inBali-Indonesia.jpg",
             price:456,
@@ -879,27 +879,27 @@ export const bestDealsPage2 = [
         },
         locations : [
             {
-                image_url: "https://images.unsplash.com/photo-1577083552792-a0d461cb1dd6?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                city_name: "Lagos",
-                place_name: "nike art gallery ",
+                image_url: "https://img.freepik.com/free-photo/woman-walking-kelingking-beach-nusa-penida-island-bali-indonesia_335224-337.jpg",
+                city_name: "Denpasar",
+                place_name: "sanur beach",
                 rating: 5
             },
             {
-                image_url: "https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit1440960gsm/events/2021/12/23/e03986c2-3689-46fa-b346-0d355472818d-1640249617229-985ec7b0c8b9d720ee4baa6de97d4c12.jpg",
-                city_name: "Abuja",
-                place_name: "millennium",
+                image_url: "https://chalotravellers.com/wp-content/uploads/2022/07/bali_gates_bali.jpg",
+                city_name: "Ubud",
+                place_name: "scared monkey",
                 rating: 3.5
             },
             {
-                image_url: "https://www.holidify.com/images/bgImages/BALI.jpg",
-                city_name: "Yankari Game Reserve",
-                place_name: "wikki warm springs",
+                image_url: "https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revision-2019/all-revision-destination/denpasarH.jpg",
+                city_name: "kuta",
+                place_name: "kuta beach",
                 rating:4
             },
             {
-                image_url: "https://images.unsplash.com/photo-1546484475-7f7bd55792da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaSUyMGJlYXV0aWZ1bCUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D",
-                city_name: "Olumo Rock",
-                place_name: "oumo rock tourist complex",
+                image_url: "https://cdn.tatlerasia.com/tatlerasia/i/2024/08/29151617-418594679-780299797476076-7582018553259587386-n_cover_1600x1061.jpg",
+                city_name: "seminyak",
+                place_name: "potato head beach club",
                 ratin: 4.5
             }
         ]
@@ -910,7 +910,8 @@ export const bestDealsPage2 = [
         rating:4.5,
         title:"Discover the Maldives, A Paradise of Pristine Beaches and Exotic Marine Life",
         description1:"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
-        description2: "Experience the vibrant capital of Male, the stunning marine life of Ari Atoll, and the tranquil beauty of Addu Atoll in the Maldives. Discover the perfect blend of urban charm, underwater wonders, and serene atoll landscapes in these captivating destinations.",
+        description2:"<li><strong>	UNESCO Tentative List </strong>: Added to the UNESCO World Heritage cultural list in 2008.</li> <li> <strong>Activities </strong>: Ideal for sunbathing, swimming, and enjoying the pristine white sandy beaches.</li> <li> <strong> Facilities</strong> : Equipped with amenities like sun loungers, umbrellas, and nearby cafes.</li> <li><strong> Diving Spot</strong>: One of the most renowned dive sites in the Maldives, located in the North Ari Atoll.</li> <li> <strong> Marine Life</strong>: Home to reef sharks, moray eels, turtles, and colorful fish.</li> <li> <strong>Natural Beauty</strong> ong>Biodiversity</strong> : Home to various bird species, mangroves, and marine life.</li>", 
+    
         hoverContent:{
             image_url:"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",
             price:786,
@@ -926,7 +927,7 @@ export const bestDealsPage2 = [
         },
         locations : [
             {
-                image_url: "https://t3.ftcdn.net/jpg/01/11/28/88/360_F_111288833_YIh3Br4p3lzSlFjDutcVIjJMj9EkWlKv.jpg",
+                image_url: "https://images.wanderon.in/blogs/new/2024/07/maldives-in-february.jpg",
                 city_name: "male",
                 place_name: "hukuru miskiy(old friday mosque)",
                 rating: 4
@@ -995,6 +996,10 @@ export const destinationInfo = [
                 icon:"   https://cdn-icons-png.flaticon.com/512/18103/18103747.png ",
                 title:"tips from pros"
             },
+            {
+                icon:" https://cdn-icons-png.flaticon.com/512/12771/12771403.png  ",
+                title:"festivals"
+            },
         ],
         gallery:[
             "https://images.unsplash.com/photo-1519955266818-0231b63402bc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGphaXB1ciUyMHBlb3BsZSUyMGN1bHR1cmV8ZW58MHx8MHx8fDA%3D",
@@ -1012,7 +1017,7 @@ export const destinationInfo = [
             {
                 placeImg:"https://images.unsplash.com/photo-1688671141790-a17b0c866bb7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGphaXB1ciUyMGFuYW50YXJhJTIwamV3ZWwlMjBiYWdofGVufDB8fDB8fHww",
                 placeName:"Jaisalmer",
-                description:"Jaisalmer, known as the Golden City, boasts magnificent sandstone architecture and captivating desert landscapes"
+                description:"It's Golden City, boasts magnificent sandstone architecture and captivating desert landscapes"
             },
             {
                 placeImg:"https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/anantara/images/anantara-jewel-bagh-jaipur-hotel/01_homepage_ok/anantara_jewel_bagh_jaipur_hotel_intro_01_944x510.jpg",
@@ -1033,24 +1038,28 @@ export const personalData = [
         id:"personal-card-",
         icon:"https://cdn-icons-png.flaticon.com/512/18697/18697333.png ",
         number:"5800",
-        heading: "Happy Clients"
+        heading: "Happy Clients",
+        css:"h-[2.8rem] aspect-square"
     },
     {
         id:"personal-card-2",
-        icon:"https://img.freepik.com/free-vector/goals-target-glyph-style_78370-1723.jpg",
+        icon:"https://cdn-icons-png.flaticon.com/512/11649/11649745.png ",
         number:"3200",
-        heading: "Completed Tours"
+        heading: "Completed Tours",
+        css:"h-[3.3rem] aspect-square"
     },
     {
         id:"personal-card-3",
-        icon:"",
+        icon:"https://cdn-icons-png.flaticon.com/512/15560/15560107.png ",
         number:"200",
-        heading: "Professional Guide"
+        heading: "Professional Guide",
+        css:"h-[3.4rem] aspect-square"
     },
     {
         id:"personal-card-3",
         icon:" https://cdn-icons-png.flaticon.com/512/12406/12406431.png ",
         number:"21",
-        heading: "Years"
+        heading: "Years",
+        css:"h-[3rem] aspect-square"
     },
 ]

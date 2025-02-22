@@ -19,6 +19,7 @@ import RefundPolicy from "./components/policies/RefundPolicy";
 import TermsAndCondition from "./components/policies/TermsAndCondition";
 import "./index.css";
 import store from "./store/store";
+import NewCalander from "./NewCalander";
 const root=createRoot(document.getElementById("root"));
 
 
@@ -43,7 +44,8 @@ const Rout=createBrowserRouter([
         ]
     },
     { path:"/sign-up", element:<SignUp/> },
-    { path:"/log-in", element:<Login/>}
+    { path:"/log-in", element:<Login/>},
+    { path:"/calander", element:<NewCalander/>}
 ]);
 
 root.render(
