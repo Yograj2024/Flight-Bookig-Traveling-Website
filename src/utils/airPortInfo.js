@@ -1,8 +1,5 @@
-<<<<<<< HEAD
- [
-=======
 [
->>>>>>> 901cd8a9083984a596ae27f92c157b4deb6e35b5
+
     {   
         "airportInfo": {
             "name": "Indira Gandhi International Airport",
@@ -2646,7 +2643,3 @@
     }
 ]
 
-<<<<<<< HEAD
-// export default "airportInfo";
-=======
->>>>>>> 901cd8a9083984a596ae27f92c157b4deb6e35b5
