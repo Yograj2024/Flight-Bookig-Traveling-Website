@@ -16,7 +16,7 @@
         "facilities": ["Free WiFi", "Duty-Free Shops", "Lounges", "Baggage Services", "Medical Assistance"],
         "location": {
             "country": "India",
-            city: "Delhi",
+            "city": "Delhi",
             "latitude": 28.5562,
             "longitude": 77.1000
         },
@@ -72,7 +72,7 @@
         "facilities": ["Free WiFi", "Duty-Free Shops", "Lounges", "Baggage Services", "Medical Assistance", "Prayer Rooms"],
         "location": {
             "country": "India",
-            city: "Mumbai",
+            "city": "Mumbai",
             "latitude": 19.0887,
             "longitude": 72.8656
         },
@@ -184,7 +184,7 @@
         "facilities": ["Free WiFi", "Duty-Free Shops", "Lounges", "Baggage Services", "Medical Assistance", "Lost & Found"],
         "location": {
             "country": "India",
-            city: "Kolkata",
+            "city": "Kolkata",
             "latitude": 22.6548,
             "longitude": 88.4467
         },
