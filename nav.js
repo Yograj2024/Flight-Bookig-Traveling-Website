@@ -62,6 +62,6 @@
                 "contact": "Airport Express Line (Delhi Metro) - Connects directly to the city."
             }
         ]
-    },
+    }
   ]
   
