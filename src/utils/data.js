@@ -579,11 +579,11 @@ export const bestDealsPage2 = [
         title:"BEAUTY OF VIETNAM",
         description1:"Vietnam is a very captivating country located in south east Aisa, renowed for its culture heritage, vibrant cities,and stuning landscape. This beautiful nation offers a unique blend of ancient traditions and modern developments.",
         
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Ho Chi Minh Mausoleum:</strong> The mausoleum is a place of historical significance, attracting visitors from around the world who come to pay their respects to the leader</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Shopping Hub:</strong> Local goods and souvenirs</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>UNESCO Site:</strong> Recognized for its outstanding cultural and historical value, the site is preserved as part of humanity's shared heritage.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Historical Capital</strong> Former royal city.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Core Values:</strong> Environmental and social focus.</li> `,
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Ho Chi Minh Mausoleum:</strong> The mausoleum is a place of historical significance, attracting visitors from around the world who come to pay their respects to the leader</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Shopping Hub:</strong> Local goods and souvenirs</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>UNESCO Site:</strong> Recognized for its outstanding cultural and historical value, the site is preserved as part of humanity's shared heritage.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Historical Capital</strong> Former royal city.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Core Values:</strong> Environmental and social focus.</li> `,
         hoverContent:{
             image_url:"https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117390.jpg",
             price:156,
@@ -599,19 +599,19 @@ export const bestDealsPage2 = [
         },
         locations: [
             {
-                image_url: "https://images.unsplash.com/photo-1531737212413-667205e1cda7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://images.unsplash.com/photo-1526139334526-f591a54b477c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 city_name: "Hanoi",
                 place_name: "Hoan Kiem Lake",
                 rating: 3
             },
             {
-                image_url: "https://images.unsplash.com/photo-1503539680555-732099a55a56?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+                image_url: "https://pre-webunwto.s3.eu-west-1.amazonaws.com/2024-11/un-tourism-to-host-first-global-conference-on-tourism-for-rural-development-in-vietnam.jpg?VersionId=C3AjOzFFCtPXbizpzzMANIu7sz9pN34h",
                 city_name: "Ho Chi Minh (Saigon)",
                 place_name: "Ben Thanh Market",
                 rating: 4
             },
             {
-                image_url: "https://images.unsplash.com/photo-1526139334526-f591a54b477c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://imgcdn.flamingotravels.co.in/Images/Country/vietnam-best-time-to-visit.jpg",
                 city_name: "Hoi An",
                 place_name: "Hoi An Ancient Town",
                 rating: 4
@@ -630,10 +630,10 @@ export const bestDealsPage2 = [
         rating:4.8,
         title: "A Journey of India through its splendid Destination",
         description1: "Dazzles with the majestic Hawa Mahal and Amber Fort. Varanasi enchants pilgrims as they witness mesmerizing Ganga Aarti along the ghats, embodying spiritual skyline elegance. Mumbai's skyline captivates with a stunning sunset backdrop, while Kolkata's Howrah Bridge stands as a testament to architectural brilliance amidst bustling life.",
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Amber Fort:</strong> Amber Fort is renowned for its intricate architectural design and artistic Hindu style elements. Built in the 16th century</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Hawa Mahal:</strong>Also known as the Palace of Winds, famous for its unique </li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Statue of Unity:</strong> Standing as the world’s tallest statue, the Statue of Unity is a monumental tribute to Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Valley of Flowers:</strong> A garden with a variety of flowering plants.</li>`,
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Amber Fort:</strong> Amber Fort is renowned for its intricate architectural design and artistic Hindu style elements. Built in the 16th century</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Ganga Aarti:</strong> The Ganga Aarti is a spiritual and devotional ritual performed at the banks of the River Ganga. It is an elaborate prayer ceremony that honors the rive</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Statue of Unity:</strong> Standing as the world’s tallest statue, the Statue of Unity is a monumental tribute to Sardar Vallabhbhai Patel, India's first Deputy Prime Minister and Home Minister.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Valley of Flowers:</strong> A garden with a variety of flowering plants.</li>`,
         hoverContent:{
             image_url:"https://akshardham.com/newdelhi/wp-content/uploads/2015/05/akshardham_monument_evening-097.jpg",
             price:123,
@@ -649,13 +649,13 @@ export const bestDealsPage2 = [
         },
         locations: [
             {
-                image_url: "https://images.unsplash.com/photo-1599661046289-e31897846e41?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://www.shutterstock.com/image-photo/amber-fort-jaipur-rajasthan-india-600nw-2280141869.jpg",
                 city_name: "Jaipur",
                 place_name: "Amber Palace",
                 rating: 3.5
             },
             {
-                image_url: "https://plus.unsplash.com/premium_photo-1697730504977-26847b1f1f91?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                image_url: "https://c0.wallpaperflare.com/preview/642/514/329/india-culture-holy-tradition.jpg",
                 city_name: "Hospet",
                 place_name: "Hampi",
                 rating: 4
@@ -680,10 +680,10 @@ export const bestDealsPage2 = [
         rating:4.7,
         title: "Discover the Enchanting beauty of Switzerland. A Symphony of nature and culture",
         description1: "If you are searching for the greatest beauty of Switzerland, you will find enchanting landscapes in places like the pristine shores of Lake Geneva, the majestic peaks of the Matterhorn, vibrant flower fields in Interlaken, and charming villages like Zermatt. Each locale offers a unique glimpse into Switzerland's breathtaking allure.",
-        description2: `<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Zurich Oberland:</strong> A picturesque region known for its beautiful lakes, hiking trails, and the highest mountain in the canton, Schnebelhorn.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Nonte Phonte:</strong> A popular Bengali comic-strip created by Narayan Debnath, featuring the adventures of two mischievous boys, Nonte and Phonte.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Rosa Group:</strong> A real estate company known for its commitment to delivering excellence in construction and customer satisfaction.<li/>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Lake Zurich:</strong> A stunning body of water stretching southeast from the city, perfect for boat cruises and water sports.</li>`,
+        description2: `<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Zurich Oberland:</strong> A picturesque region known for its beautiful lakes, hiking trails, and the highest mountain in the canton, Schnebelhorn.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Nonte Phonte:</strong> A popular Bengali comic-strip created by Narayan Debnath, featuring the adventures of two mischievous boys, Nonte and Phonte.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Rosa Group:</strong> A real estate company known for its commitment to delivering excellence in construction and customer satisfaction.<li/>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Lake Zurich:</strong> A stunning body of water stretching southeast from the city, perfect for boat cruises and water sports.</li>`,
         hoverContent:{
             image_url:"https://media.gettyimages.com/id/1056772376/photo/spiez-castle-by-lake-thun-in-canton-of-bern-switzerland.jpg?s=612x612&w=0&k=20&c=-6xwyxKxIITYifvnZNb2nIUeN0edcv_Jq_MQo4FMltc=",
             price:456,
@@ -731,10 +731,10 @@ export const bestDealsPage2 = [
         rating:4.4,
         title:"Italy, A Timeless Journey Through Art, History, and Culinary Delights7",
         description1:"Italy is a beautiful country in Europe, known for its rich history, stunning architecture, delicious cuisine, and vibrant culture. If you want to know more about Italy or any other country, just let me know...!",
-        description2: `<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Colosseum:</strong> One of the greatest architectural and engineering marvels of ancient Rome, the Colosseum stands as an iconic symbol of the city’s rich history. Built in the 1st century AD.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Vatican City:</strong> The smallest independent state in the world, home to St. Peter's Basilica and the Vatican Museums.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Uffizi Gallery:</strong> One of the most famous art museums in the world, housing masterpieces by artists like Michelangelo and Leonardo da Vinci.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Duomo di Milano:</strong> One of the largest and most intricate Gothic cathedrals in the world.</li>`
+        description2: `<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Colosseum:</strong> One of the greatest architectural and engineering marvels of ancient Rome, the Colosseum stands as an iconic symbol of the city’s rich history. Built in the 1st century AD.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Vatican City:</strong> The smallest independent state in the world, home to St. Peter's Basilica and the Vatican Museums.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Uffizi Gallery:</strong> One of the most famous art museums in the world, housing masterpieces by artists like Michelangelo and Leonardo da Vinci.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Duomo di Milano:</strong> One of the largest and most intricate Gothic cathedrals in the world.</li>`
         ,
         hoverContent:{
             image_url:"https://www.planetware.com/wpimages/2020/02/italy-in-pictures-beautiful-places-to-photograph-amalfi-coast.jpg",
@@ -782,11 +782,11 @@ export const bestDealsPage2 = [
         rating:4.3,
         title:"Explore mexico, A vibrant Tapestry of culture,history and natural beauty",
         description1:"Mexico is a vibrant tapestry of culture, history, and natural beauty, with stunning beaches, ancient ruins, and bustling cities that captivate visitors worldwide.",
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Beaches</strong>: Known for its stunning white-sand beaches and crystal-clear waters.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>National Palace </strong>: Houses the offices of the President of Mexico and famous murals by Diego Rivera.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Cultural Events </strong>: Hosts various cultural events, performances, and political demonstrations.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Tulum Ruins </strong>: A 13th-century Mayan archaeological site perched on a cliff overlooking the Caribbean Sea.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Sian Ka'an Biosphere Reserve</strong>: A UNESCO World Heritage Site with diverse ecosystems and wildlife.</li>`,
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Beaches</strong>: Known for its stunning white-sand beaches and crystal-clear waters.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>National Palace </strong>: Houses the offices of the President of Mexico and famous murals by Diego Rivera.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Cultural Events </strong>: Hosts various cultural events, performances, and political demonstrations.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Tulum Ruins </strong>: A 13th-century Mayan archaeological site perched on a cliff overlooking the Caribbean Sea.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Sian Ka'an Biosphere Reserve</strong>: A UNESCO World Heritage Site with diverse ecosystems and wildlife.</li>`,
         hoverContent:{
             image_url:"https://lp-cms-production.imgix.net/2024-10/629387256.jpg",
             price:456,
@@ -833,11 +833,11 @@ export const bestDealsPage2 = [
         rating:4.4,
         title:"Experience the Enchanting Beauty of Brazil, Where Nature, Culture, and Celebration Unite",
         description1:"Brazil, a vibrant country, is known for its stunning beaches, lively festivals, diverse culture, Amazon rainforest, and iconic landmarks like Christ the Redeemer statue.",
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'> Christ the Redeemer</strong>: Iconic statue overlooking the city from Corcovado Mountain.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Sugarloaf Mountain</strong>: Offers panoramic views of the city and coastline.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Municipal Market</strong>: Famous for its food stalls and local delicacies.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Farol da Barra</strong>: Historic lighthouse and popular sunset spot.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Iguazu Falls</strong>: One of the largest and most impressive waterfall systems in the world.</li>`,
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'> Christ the Redeemer</strong>: Iconic statue overlooking the city from Corcovado Mountain.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Sugarloaf Mountain</strong>: Offers panoramic views of the city and coastline.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Municipal Market</strong>: Famous for its food stalls and local delicacies.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Farol da Barra</strong>: Historic lighthouse and popular sunset spot.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Iguazu Falls</strong>: One of the largest and most impressive waterfall systems in the world.</li>`,
         hoverContent:{
             image_url:"https://media2.thrillophilia.com/images/photos/000/179/851/original/1574065437_rio_de.jpg?w=753&h=450&dpr=1.0",
             price:678,
@@ -884,13 +884,13 @@ export const bestDealsPage2 = [
         rating:4,
         title:"Experience Paradise in Bali's Serene Landscapes ",
         description1:"Bali, known as the Island of the Gods, is a tropical paradise with stunning beaches, lush rice terraces, and a vibrant cultural heritage. It's the perfect destination for relaxation and adventure",
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>Sanur Beach</strong>: Calm waters, white sand, water sports.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Bajra Sandhi Monument </strong>: Historical and architecturally stunning.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Kuta Beach:</strong> Stunning sunsets, nightlife, surfing</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Waterbom Bali</strong>: Thrilling rides, family-friendly water park</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Potato Head Beach Club</strong>: Infinity pool, beachfront lounging, restaurants.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Seminyak Square</strong>: Boutique shops, eateries, entertainment.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Sacred Monkey Forest Sanctuary</strong>: Monkeys, ancient temples, nature</li>`,
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>Sanur Beach</strong>: Calm waters, white sand, water sports.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Bajra Sandhi Monument </strong>: Historical and architecturally stunning.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Kuta Beach:</strong> Stunning sunsets, nightlife, surfing</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Waterbom Bali</strong>: Thrilling rides, family-friendly water park</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Potato Head Beach Club</strong>: Infinity pool, beachfront lounging, restaurants.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Seminyak Square</strong>: Boutique shops, eateries, entertainment.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Sacred Monkey Forest Sanctuary</strong>: Monkeys, ancient temples, nature</li>`,
         hoverContent:{
             image_url:"https://www.diyphotographystuff.info/wp-content/uploads/2024/04/Best-places-to-photograph-inBali-Indonesia.jpg",
             price:456,
@@ -937,11 +937,11 @@ export const bestDealsPage2 = [
         rating:4.5,
         title:"Discover the Maldives, A Paradise of Pristine Beaches and Exotic Marine Life",
         description1:"The Maldives is a tropical paradise in the Indian Ocean, known for its stunning beaches, clear turquoise waters, luxurious resorts, and vibrant marine life. Ideal for relaxation and adventure.",
-        description2:`<li class='text-[0.9rem]'><strong class='text-[0.98rem]'>UNESCO Tentative List</strong>: Added to the UNESCO World Heritage cultural list in 2008.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Activities</strong>: Ideal for sunbathing, swimming, and enjoying the pristine white sandy beaches.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Facilities</strong>: Equipped with amenities like sun loungers, umbrellas, and nearby cafes.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Diving Spot</strong>: One of the most renowned dive sites in the Maldives, located in the North Ari Atoll.</li>
-        <li class='mt-[10px] text-[0.9rem]'><strong class='text-[0.98rem]'>Marine Life</strong>: Home to reef sharks, moray eels, turtles, and colorful fish.</li>`, 
+        description2:`<li class='text-[0.7rem]'><strong class='text-[0.8rem]'>UNESCO Tentative List</strong>: Added to the UNESCO World Heritage cultural list in 2008.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Activities</strong>: Ideal for sunbathing, swimming, and enjoying the pristine white sandy beaches.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Facilities</strong>: Equipped with amenities like sun loungers, umbrellas, and nearby cafes.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Diving Spot</strong>: One of the most renowned dive sites in the Maldives, located in the North Ari Atoll.</li>
+        <li class='mt-[10px] text-[0.7rem]'><strong class='text-[0.8rem]'>Marine Life</strong>: Home to reef sharks, moray eels, turtles, and colorful fish.</li>`, 
     
         hoverContent:{
             image_url:"https://media.cnn.com/api/v1/images/stellar/prod/230516112548-01-crossroads-maldives-aerial.jpg?c=original",

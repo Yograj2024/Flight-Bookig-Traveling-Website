@@ -55,13 +55,14 @@ const Navbar = ({listContainer,setListContainer, isLogin, setisLogin}) => {
         <ul> 
             { navHeading.map( (heading,index ) => {
                 const formattedUrl = heading.toLowerCase().replace(/ /g,"-")
+                console.log(formattedUrl)
                 return (
                     <li className = {`m-[0px_0px_0px_0px]  p-[8px_0px_8px_18px] text-[1.1rem] font-semibold font-mono tracking-[0.02rem] 
                         ${(index==navHeading.length-1) ? 
                         ("border-none") : 
                         ("border-b border-b-red-400")}`} 
                         key={"mobileList"+index}>
-                            <NavLink to={`/${formattedUrl}`}>{heading}</NavLink>
+                            <NavLink to={`/${formattedUrl == 'home' ? '' : formattedUrl}`}>{heading}</NavLink>
                     </li>
                 )
             }
