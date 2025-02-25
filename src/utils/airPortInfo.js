@@ -1,5 +1,4 @@
-[
-
+const airportInfo = [
     {   
         "airportInfo": {
             "name": "Indira Gandhi International Airport",
@@ -2642,3 +2641,5 @@
         ]
     }
 ]
+
+export default airportInfo;

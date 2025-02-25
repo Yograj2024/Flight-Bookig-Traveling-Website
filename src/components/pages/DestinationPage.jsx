@@ -9,18 +9,18 @@ const DestinationPage = () => {
     return (
         <>
             <section className={``}>
-                <div className={`max-w-[1440px] lg:m-auto h-[400px] md:h-[460px] bg-black bg-opacity-25 relative
+                <div className={`max-w-[1440px] lg:m-auto h-[300px] md:h-[460px] bg-black bg-opacity-25 relative
                     before:content-[''] before:h-full before:w-full before:absolute before:z-[-1] flex gap-y-[10px]
                     before:bg-[url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] 
                     before:bg-cover before:bg-[0%_45%] flex-col items-start justify-center text-white`}>
-                        <h4 className={`text-[2rem] lg:text-[3rem] font-semibold pl-[50px]`}> Wander the World </h4>
-                        <h5 className={`text-[1.8rem] lg:text-[2.2rem] pl-[50px]`}> Explore the Beauty of the world with us  &nbsp; : ) </h5>
+                        <h4 className={`text-[2.2rem] lg:text-[3rem] font-semibold pl-[20px] lg:pl-[50px]`}> Wander the World </h4>
+                        <h5 className={`text-[1.3rem] pr-[80px] sm:pr-0 lg:text-[2.2rem] pl-[20px] lg:pl-[50px]`}> Explore the Beauty of the world with us  &nbsp; : ) </h5>
                         <p className={`text-[1.1rem] pl-[50px] hidden sm:block`}>if you like to travel, this is your place! <br/> Here you con travel without hassle and enjoy it</p>
                 </div> 
             </section>
 
-            <section className={`bg-[#F8FAFC] lg:py-[50px]`}>
-                <h1 className={`max-w-[1340px]  lg:pl-[50px] m-auto lg:text-[2rem] font-semibold `}>Discover the destination that sparks your sense of inspiration.</h1>
+            <section className={`bg-[#F8FAFC] mt-[30px] sm:mt-0 lg:py-[50px]`}>
+                <h1 className={`max-w-[1340px] text-center sm:leading-[3.2rem]  text-[1.5rem] px-[10px] sm:px-0 lg:pl-[50px] m-auto lg:text-[2.5rem] font-semibold `}>Discover the destination that <br /> sparks your sense of inspiration.</h1>
                 <div className={`grid gap-y-[50px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:max-w-[90%] xl:max-w-[1240px] mx-auto md:gap-x-[20px] lg:gap-x-[20px] mt-[50px] lg:gap-y-[50px]`}>
                         {
                             destinationPageData.map( (data, index) => {

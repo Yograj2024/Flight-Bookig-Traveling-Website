@@ -4,9 +4,9 @@ import { personalData } from '../../../utils/data';
 const Personal = () => {
   return (
     <>
-      <section className="bg-gray-100 px-[50px] py-[50px] scroll-container">
+      <section className="bg-gray-100 px-[20px] lg:px-[50px] py-[50px] scroll-container">
         <h2 className="font-semibold text-center text-4xl mb-[3.8rem]"> Our Experience and Expertise</h2>
-        <div className= "show gap-y-[30px] flex-col grid grid-cols-2 lg:flex lg:justify-between lg:flex-row  lg:items-center max-w-[1440px] m-auto">
+        <div className= "show gap-y-[20px] gap-x-[20px] flex-col grid grid-cols-2 lg:flex lg:justify-between lg:flex-row  lg:items-center max-w-[1440px] m-auto">
             {
               personalData.map((data) => {
                   const {id,number,heading,icon,css} = data 

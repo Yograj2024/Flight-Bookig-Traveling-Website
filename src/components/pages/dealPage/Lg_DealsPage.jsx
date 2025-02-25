@@ -43,8 +43,10 @@ const Lg_DealsPage = () => {
                             alt="Beach with a boat"
                             className="rounded-[20px] object-cover w-full h-full" />
                         </div>
-                        <div className="w-[46%] px-[10px] mt-[10px] text-left"> <ul className={`text-slate-800 font-medium`}
-                        dangerouslySetInnerHTML={{ __html: description2 }} /></div>
+                        <div className="w-[46%] px-[10px] mt-[10px] text-left"> 
+                          <ul className={`text-slate-800 font-medium`}
+                            dangerouslySetInnerHTML={{ __html: description2 }} />
+                        </div>
                       </div>
                     <div className="mt-6 text-center">
                       <button id='destinationInfoBtn' className="bg-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-500 transition" onClick={ (e) => handelNavigation(e,navigate)}> Explore Destinations </button>

@@ -7,7 +7,7 @@ const ContactPage = () => {
       <section className={``}> 
         <div className = {`h-[300px] flex justify-center text-white flex-col gap-y-[10px] lg:h-[550px] w-full relative bg-black bg-opacity-35 lg:max-w-[1400px] lg:m-auto before:content-[' '] before:h-full before:w-full before:absolute before:z-[-1] before:bg-[url('https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning-4.jpg')] before:bg-cover before:bg-[0%_50%]`}>
           <h2 className={`text-[2rem] lg:text-[3rem] pl-[30px] `}>We'd Love to Hear </h2>
-          <h3 className={`lg:text-[2.2rem] pl-[30px]`}>Contact Us for Your Travel Needs and Inquiries</h3>
+          <h3 className={`lg:text-[2.2rem] pl-[30px] hidden sm:block`}>Contact Us for Your Travel Needs and Inquiries</h3>
           <p className={`pl-[30px] pr-[10px]`}>For any inquiries, or personalized travel plans, please reach out to us</p>
         </div>
       </section>      
@@ -19,7 +19,7 @@ const ContactPage = () => {
               <div className={` lg:h-[42%] w-full lg:flex lg:flex-col gap-y-[15px]`}>
                 <h2 className={`text-[2rem] lg:text-[3rem] font-semibold`}>Contact Us</h2>
                 <p>Email, call, or complete the form to learn how <br />Snappy can solve your messaging problem</p>
-                <strong>xyx@gmail.com</strong>
+                <strong>xyx@gmail.com</strong> 
                 <p>+91 6349854470</p>
                 <b>Thansk for visit our site</b>
               </div>

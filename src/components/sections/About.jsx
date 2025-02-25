@@ -3,7 +3,7 @@ import { aboutData } from "../../utils/data";
 const About = () => {
     
     return (
-        <>
+        <> 
             <section id="about" className={`element w-[98%] m-[50px_auto] flex relative flex-col items-end justify-end rounded-[18px]`}>
                 <div className={`md:w-full md:h-full md:max-w-[1440px] md:m-auto md:flex md:justify-end md:gap-x-[20px]`}>
                     <div className={`relative hidden md:block md:w-[43%] lg:w-[40%] before:content-[''] before:h-full before:w-full before:bg-[url('https://plus.unsplash.com/premium_photo-1661935781384-b27f5faa9197?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] before:bg-center before:bg-cover before:absolute before:z-[-1]`}>

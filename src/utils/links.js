@@ -4,11 +4,14 @@ export const user="https://cdn-icons-png.flaticon.com/512/5087/5087579.png";
 
 export const crossIcon="https://cdn-icons-png.flaticon.com/128/10337/10337030.png"
 
+export const swapIcon="https://cdn-icons-png.flaticon.com/512/9870/9870518.png"
+
+export const rightArrow="   https://cdn-icons-png.flaticon.com/512/7191/7191571.png"
+
 export const helo_Section_BGimg="https://images.unsplash.com/photo-1536152470836-b943b246224c?q=80&w=1038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 export const flightIcon="https://cdn-icons-png.flaticon.com/512/4070/4070251.png "
-// 7371/73711633, 1774
-// 8425/8425669 ,3125/3125713 -> 791  , 4070/4070251
+
 export const upANDdownArrow="https://cdn-icons-png.flaticon.com/512/12221/12221004.png"
 
 export const experienceImg="https://images.unsplash.com/photo-1601225612316-b4733315a717?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";

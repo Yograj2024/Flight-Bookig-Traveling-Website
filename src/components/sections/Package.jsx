@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import handelNavigation from "../../custumHooks/handalUrl";
+import { addToCart } from "../../store/features/cart/cartSlice";
 import { setScreenSize } from "../../store/features/storeDevidce-width/resizeSlice";
 import { packageData } from "../../utils/data";
 
@@ -76,6 +77,13 @@ const Package = () => {
     ]
   };
   
+  const handleItems = (e, cardItem) => {
+    console.log(e);
+    
+    // Dispatch an action
+    dispatch( addToCart(cardItem))
+  }
+
   useEffect( () => {
     const handleResize = () => {
       dispatch( setScreenSize ( window.innerWidth))
@@ -98,13 +106,13 @@ const Package = () => {
                       packageData.map((data)=>{
                         return <>
                           <div className={`element h-[365px] w-[92%] sm:w-[300px] lg:w-[300px] lg:h-[400px] flex-shrink-0 relative m-[30px_auto_0] rounded-[20px] bg-cover bg-center before:content-[''] before:h-full before:w-full before:absolute  before:z-[1] before:rounded-[20px] before:bg-black before:bg-opacity-30`}
-                            key={`${data.id}`} onClick={ (e) => handelNavigation(e, navigate)} >
+                            key={`${data.id}`}  onClick={ (e) => e.target.id == 'heart' ? handleItems(e, data) : handelNavigation(e, navigate)} >
                             <img src={data.bgImg} alt="" className={`h-full w-full object-cover absolute z-[-1] rounded-[20px] hover:scale-110`} />
                             <div className={`relative p-[20px] flex flex-col h-full w-full justify-between z-[2]`}> 
                                 <div className={`flex items-center justify-between`}>
                                     <h6 className={`bg-green-400 rounded-[12px] md:rounded-[8px] px-[18px] md:px-[8px] py-[6px] md:py-[0px] text-red-500 font-semibold tracking-[0.05rem] md:tracking-[0] `}>FEATURED</h6>
                                     <span className={`inline-block h-[35px] md:h-[30px] aspect-square`}>
-                                        <img src="https://cdn-icons-png.flaticon.com/512/15883/15883620.png " 
+                                        <img id="heart"  src="https://cdn-icons-png.flaticon.com/512/15883/15883620.png " 
                                             alt="hearticon" 
                                             className={`h-full w-full object-cover m-auto`}/>
                                     </span>

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Outlet, useLocation } from 'react-router-dom';
+import FetchData from '../custumHooks/FetchData';
 import Navbar from "./Navbar";
 import Disclaimer from './sections/Disclaimer';
 import Link_Contact from './sections/Link_Contact';
-import Calender from './Calandar';
-import ApiFetchData from './ApiFetchData';
 
 const Body = () => {
   const [listContainer,setListContainer]=useState(false);
@@ -13,6 +12,7 @@ const Body = () => {
   const location = useLocation();
   const length = useSelector( state => state.localStorage.length);
 
+  FetchData();
   useEffect( () => {
     length == 0 ? setisLogin("Login") : setisLogin("")
     listContainer == true  ? setListContainer(false) : "";
@@ -46,7 +46,6 @@ const Body = () => {
       <Link_Contact/>
     </footer>
 
-    <ApiFetchData/>
   </> )
 };
 

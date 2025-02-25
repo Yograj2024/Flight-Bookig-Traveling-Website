@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Body from "./components/Body";
+import BookingForm from './components/BookingForm';
 import Home from "./components/Home";
 import AboutPage from "./components/pages/about/AboutPage";
 import ContactPage from "./components/pages/ContactPage";
@@ -18,10 +19,10 @@ import PrivacyPolicy from "./components/policies/PrivacyPolicy";
 import RefundPolicy from "./components/policies/RefundPolicy";
 import TermsAndCondition from "./components/policies/TermsAndCondition";
 import "./index.css";
-import store from "./store/store";
 import NewCalander from "./NewCalander";
-const root=createRoot(document.getElementById("root"));
+import store from "./store/store";
 
+const root=createRoot(document.getElementById("root"));
 
 const Rout=createBrowserRouter([
     {
@@ -45,7 +46,8 @@ const Rout=createBrowserRouter([
     },
     { path:"/sign-up", element:<SignUp/> },
     { path:"/log-in", element:<Login/>},
-    { path:"/calander", element:<NewCalander/>}
+    { path:"/calander", element:<NewCalander/>},
+    { path:"/form", element:<BookingForm/>}
 ]);
 
 root.render(
