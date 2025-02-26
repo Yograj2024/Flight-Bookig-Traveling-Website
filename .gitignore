@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 src/custumHooks/FetchData.js
 Deleted code files/
+src/components/policies
 
 node_modules
 dist
