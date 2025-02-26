@@ -15,7 +15,7 @@ const Navbar = ({listContainer,setListContainer, isLogin, setisLogin}) => {
             <img src="../../images/logo-10.png" alt=""  className={`h-full w-full object-cover`}/>
         </div>
 
-        <ul className ={`hidden lg:flex lg:items-center lg:text-[1.3rem] font-semibold`} >
+        <ul className ={`hidden lg:flex lg:flex-wrap lg:items-center lg:text-[1.3rem] font-semibold`} >
             {
                 navHeading.map((heading,index)=>{
                     const formattedUrl = heading.toLowerCase().replace(/ /g,"-");
